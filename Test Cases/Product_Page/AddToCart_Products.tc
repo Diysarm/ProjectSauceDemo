@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AddToCart_Products</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e59817ef-c50d-402a-b0da-701e2be3b7b6</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0ec49a29-9b6c-4935-a40e-698b47b129b5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description></description>
+      <id>0ec49a29-9b6c-4935-a40e-698b47b129b5</id>
+      <masked>false</masked>
+      <name>productsName</name>
+   </variable>
+</TestCaseEntity>

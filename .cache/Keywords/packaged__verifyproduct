@@ -1,0 +1,15 @@
+{
+  "keywordFileContentHash": "9D560D2CA701DE940A0636EBB42A10FD",
+  "keywordClasses": [
+    {
+      "name": "packaged.verifyproduct",
+      "keywordMethods": [
+        {
+          "name": "verifyProductName",
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}
