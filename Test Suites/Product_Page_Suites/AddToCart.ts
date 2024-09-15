@@ -43,7 +43,7 @@
       <guid>9d27ff21-7ae0-4b0d-8b23-5338260c1764</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Product_Page/AddToCart_Products</testCaseId>
+      <testCaseId>Test Cases/Product_Page/Positive_Case/AddToCart_Products</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>40712739-e2a7-4209-94d9-0e2328b17caa</id>

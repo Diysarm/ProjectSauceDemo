@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Checkout_Product</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e641731f-2211-4096-b3ee-3711f644dcf3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7b0664fb-6eda-4ab9-aea3-8244ac8d85e1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description></description>
+      <id>7b0664fb-6eda-4ab9-aea3-8244ac8d85e1</id>
+      <masked>false</masked>
+      <name>productPrice</name>
+   </variable>
+</TestCaseEntity>

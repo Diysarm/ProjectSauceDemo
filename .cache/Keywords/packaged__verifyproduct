@@ -1,15 +1,26 @@
 {
-  "keywordFileContentHash": "9D560D2CA701DE940A0636EBB42A10FD",
+  "keywordFileContentHash": "FC6CEF0E96CFA7BC791010BFD7AF32A1",
   "keywordClasses": [
     {
       "name": "packaged.verifyproduct",
       "keywordMethods": [
         {
           "name": "verifyProductName",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "verifyProductCountCart",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "verifyProductPrice",
+          "parameters": [],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

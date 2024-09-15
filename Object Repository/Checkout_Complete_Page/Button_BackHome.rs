@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Label_LoginTitle</name>
+   <name>Button_BackHome</name>
    <tag></tag>
-   <elementGuidId>2b22bc1b-ee04-4266-a64a-a293480f9db4</elementGuidId>
+   <elementGuidId>f3a12da6-e4af-49e0-ba3e-8f7273521e3e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[contains(text(),'Swag Labs')]</value>
+         <value>//button[@id=&quot;back-to-products&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

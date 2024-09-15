@@ -39,4 +39,39 @@
          <variableId>9782d047-30fa-49f6-8e5e-c9de18c1ece8</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>b07bc913-7d2d-4df5-9b3d-7a19d52efcb0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login_Page/Negative_Case/Login_LockedOutUser</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>52f89201-185b-4a2d-ad67-74f3fca34394</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>2</value>
+         </iterationEntity>
+         <testDataId>Data Files/dataUser</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>52f89201-185b-4a2d-ad67-74f3fca34394</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>userName</value>
+         <variableId>d5364af9-9adf-489d-ac9e-3abfec869b3b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>52f89201-185b-4a2d-ad67-74f3fca34394</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>9782d047-30fa-49f6-8e5e-c9de18c1ece8</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>07c2abc3-73b4-4765-b121-c93ff0f63543</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login_Page/Negative_Case/Login_InvalidAccount</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>
