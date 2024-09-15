@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Button_Remove_Sauce Labs Bolt T-Shirt</name>
+   <name>Label_ProductInCart</name>
    <tag></tag>
-   <elementGuidId>5906dba5-fe41-40b8-a311-001f8e57ac74</elementGuidId>
+   <elementGuidId>83f5f073-7e6b-4ab3-871a-a49825573139</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id=&quot;remove-sauce-labs-bolt-t-shirt&quot;]</value>
+         <value>(//div [@data-test='inventory-item-name'])[${productInCart}]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

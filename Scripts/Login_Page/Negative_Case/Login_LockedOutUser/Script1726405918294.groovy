@@ -62,9 +62,14 @@ WebUI.verifyElementClickable(findTestObject('Login_Page/Button_Login'))
 'Klik button Login'
 WebUI.click(findTestObject('Login_Page/Button_Login'))
 
-'Verifikasi title product pada product page tampil'
-WebUI.verifyElementVisible(findTestObject('Product_Page/Label_TitleProducts'))
+'Verifikasi element error message terlihat'
+WebUI.verifyElementVisible(findTestObject('Login_Page/Label_ErrorMessage'))
 
-'Mengambil screenshot pada window'
-WebUI.takeScreenshot()
+'Ambil Teks dan store teks tersebut ke variabel'
+String errorMessageLocked = WebUI.getText(findTestObject('Login_Page/Label_ErrorMessage'))
+
+'Verifikasi error message untuk locked user sudah sesuai'
+if(errorMessageLocked.equals("Epic sadface: Sorry, this user has been locked out.")) {
+	println("Error Message sudah sesuai: "+ errorMessageLocked)
+} else ("Error Message belum sesuai" + errorMessageLocked)
 

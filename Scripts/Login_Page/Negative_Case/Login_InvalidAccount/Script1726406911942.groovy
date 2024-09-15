@@ -39,7 +39,7 @@ WebUI.verifyElementVisible(findTestObject('Login_Page/Button_Login'))
 WebUI.takeScreenshot()
 
 'Input username pada field'
-WebUI.setText(findTestObject('Login_Page/TextArea_Username'), userName)
+WebUI.setText(findTestObject('Login_Page/TextArea_Username'), 'Invalidusername')
 
 'Get attribute value yang sudah diinput pada field'
 String username = WebUI.getAttribute(findTestObject('Login_Page/TextArea_Username'), 'value')
@@ -48,7 +48,7 @@ String username = WebUI.getAttribute(findTestObject('Login_Page/TextArea_Usernam
 WebUI.takeScreenshot()
 
 'Input password pada field'
-String pass = WebUI.setText(findTestObject('Login_Page/TextArea_Password'), password)
+String pass = WebUI.setText(findTestObject('Login_Page/TextArea_Password'), 'Invalidpassword')
 
 'Get attribute value yang sudah diinput pada field'
 WebUI.getAttribute(findTestObject('Login_Page/TextArea_Password'), 'value')
@@ -62,9 +62,14 @@ WebUI.verifyElementClickable(findTestObject('Login_Page/Button_Login'))
 'Klik button Login'
 WebUI.click(findTestObject('Login_Page/Button_Login'))
 
-'Verifikasi title product pada product page tampil'
-WebUI.verifyElementVisible(findTestObject('Product_Page/Label_TitleProducts'))
+'Verifikasi element error message terlihat'
+WebUI.verifyElementVisible(findTestObject('Login_Page/Label_ErrorMessage'))
 
-'Mengambil screenshot pada window'
-WebUI.takeScreenshot()
+'Ambil Teks dan store teks tersebut ke variabel'
+String invalidAccount = WebUI.getText(findTestObject('Login_Page/Label_ErrorMessage'))
+
+'Verifikasi error message untuk invalid account sudah sesuai'
+if(invalidAccount.equals("Epic sadface: Username and password do not match any user in this service")) {
+	println("Error Message sudah sesuai: "+ invalidAccount)
+} else ("Error Message belum sesuai" + invalidAccount)
 
