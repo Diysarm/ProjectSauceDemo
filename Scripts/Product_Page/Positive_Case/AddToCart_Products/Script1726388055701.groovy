@@ -33,7 +33,7 @@ WebUI.verifyElementVisible(findTestObject('Global_Header/Button_BurgerMenu'))
 WebUI.verifyElementClickable(findTestObject('Global_Header/Button_BurgerMenu'))
 
 'Verifikasi apakah nama product sesuai dengan product data di Excel'
-CustomKeywords.'packaged.verifyproduct.verifyProductName'()
+CustomKeywords.'product.verifyproduct.verifyProductName'()
 
 'Mengambil screenshot pada window'
 WebUI.takeScreenshot()

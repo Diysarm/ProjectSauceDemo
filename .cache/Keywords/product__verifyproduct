@@ -1,0 +1,26 @@
+{
+  "keywordFileContentHash": "EAFC27B653B51EE49965385498F103E0",
+  "keywordClasses": [
+    {
+      "name": "product.verifyproduct",
+      "keywordMethods": [
+        {
+          "name": "verifyProductName",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "verifyProductCountCart",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "verifyProductPrice",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -39,10 +39,10 @@ WebUI.verifyElementVisible(findTestObject('Checkout_Overview_Page/Label_Checkout
 WebUI.takeScreenshot()
 
 'Verifikasi harga produk dengan harga total + tax sudah sesuai'
-CustomKeywords.'packaged.verifyproduct.verifyProductPrice'()
+CustomKeywords.'product.verifyproduct.verifyProductPrice'()
 
 'Verifikasi quantity barang yang dicheckout sudah sesuai'
-CustomKeywords.'packaged.verifyproduct.verifyProductCountCart'()
+CustomKeywords.'product.verifyproduct.verifyProductCountCart'()
 
 'Scroll window ke element Item Total'
 WebUI.scrollToElement(findTestObject('Checkout_Overview_Page/Label_SubTotalProductPrice'), 0)
