@@ -69,7 +69,11 @@ WebUI.verifyElementVisible(findTestObject('Login_Page/Label_ErrorMessage'))
 String invalidAccount = WebUI.getText(findTestObject('Login_Page/Label_ErrorMessage'))
 
 'Verifikasi error message untuk invalid account sudah sesuai'
-if(invalidAccount.equals("Epic sadface: Username and password do not match any user in this service")) {
-	println("Error Message sudah sesuai: "+ invalidAccount)
-} else ("Error Message belum sesuai" + invalidAccount)
+if (invalidAccount.equals('Epic sadface: Username and password do not match any user in this service')) {
+    println('Error Message sudah sesuai: ' + invalidAccount)
+} else {
+    'Error Message belum sesuai' + invalidAccount
+}
 
+'Mengambil screenshot pada window'
+WebUI.takeScreenshot()
