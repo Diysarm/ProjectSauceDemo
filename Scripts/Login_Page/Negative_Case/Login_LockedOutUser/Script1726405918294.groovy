@@ -16,6 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.util.KeywordUtil
 
 'Buka browser dan navigasi ke URL'
 WebUI.openBrowser(GlobalVariable.loginUrl)
@@ -71,5 +72,6 @@ String errorMessageLocked = WebUI.getText(findTestObject('Login_Page/Label_Error
 'Verifikasi error message untuk locked user sudah sesuai'
 if(errorMessageLocked.equals("Epic sadface: Sorry, this user has been locked out.")) {
 	println("Error Message sudah sesuai: "+ errorMessageLocked)
-} else ("Error Message belum sesuai" + errorMessageLocked)
+} else 
+	KeywordUtil.markFailed("Error Message belum sesuai" + errorMessageLocked)
 

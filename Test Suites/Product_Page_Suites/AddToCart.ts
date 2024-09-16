@@ -44,20 +44,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Product_Page/Positive_Case/AddToCart_Products</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>40712739-e2a7-4209-94d9-0e2328b17caa</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/productData (1)</testDataId>
-      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>40712739-e2a7-4209-94d9-0e2328b17caa</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>productsName</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>0ec49a29-9b6c-4935-a40e-698b47b129b5</variableId>
       </variableLink>
    </testCaseLink>
