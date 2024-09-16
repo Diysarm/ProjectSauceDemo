@@ -45,7 +45,7 @@ WebUI.click(findTestObject('Global_Header/Button_Cart'))
 WebUI.takeScreenshot()
 
 'Verifikasi bahwa product count dengan product yang ada di cart sudah sesuai'
-CustomKeywords.'packaged.verifyproduct.verifyProductCountCart'()
+CustomKeywords.'product.verifyproduct.verifyProductCountCart'()
 
 'Verifikasi button checkout terlihat'
 WebUI.verifyElementVisible(findTestObject('Cart_Page/Button_Checkout'))
