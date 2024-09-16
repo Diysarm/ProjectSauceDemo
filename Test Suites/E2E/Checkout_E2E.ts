@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Checkout</name>
+   <name>Checkout_E2E</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -74,8 +74,8 @@
          <combinationType>ONE</combinationType>
          <id>f23a47a8-7870-4d48-8e8a-4e97872c7008</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1</value>
          </iterationEntity>
          <testDataId>Data Files/buyerInfo</testDataId>
       </testDataLink>
