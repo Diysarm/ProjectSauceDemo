@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AddToCart" time="40.938" tests="2" failures="0" errors="1">
+   <testsuite name="AddToCart" tests="2" failures="0" errors="1" time="40.938" skipped="0" timestamp="2024-09-16 23:52:37" hostname="muhra - MRasyid" id="Test Suites/Product_Page_Suites/AddToCart">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\muhra\\git\\ProjectSauceDemo\\Reports\\20240916_235216\\Product_Page_Suites\\AddToCart\\20240916_235216"/>
+         <property name="logFiles" value="C:\\Users\\muhra\\git\\ProjectSauceDemo\\Reports\\20240916_235216\\Product_Page_Suites\\AddToCart\\20240916_235216\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\muhra\\git\\ProjectSauceDemo\\Reports\\20240916_235216\\Product_Page_Suites\\AddToCart\\20240916_235216\\1726505569864.png, C:\\Users\\muhra\\git\\ProjectSauceDemo\\Reports\\20240916_235216\\Product_Page_Suites\\AddToCart\\20240916_235216\\1726505571685.png, C:\\Users\\muhra\\git\\ProjectSauceDemo\\Reports\\20240916_235216\\Product_Page_Suites\\AddToCart\\20240916_235216\\1726505573354.png, C:\\Users\\muhra\\git\\ProjectSauceDemo\\Reports\\20240916_235216\\Product_Page_Suites\\AddToCart\\20240916_235216\\1726505575880.png, C:\\Users\\muhra\\git\\ProjectSauceDemo\\Reports\\20240916_235216\\Product_Page_Suites\\AddToCart\\20240916_235216\\1726505587400.png, C:\\Users\\muhra\\git\\ProjectSauceDemo\\Reports\\20240916_235216\\Product_Page_Suites\\AddToCart\\20240916_235216\\1726505590180.png, C:\\Users\\muhra\\git\\ProjectSauceDemo\\Reports\\20240916_235216\\Product_Page_Suites\\AddToCart\\20240916_235216\\1726505593096.png, C:\\Users\\muhra\\git\\ProjectSauceDemo\\Reports\\20240916_235216\\Product_Page_Suites\\AddToCart\\20240916_235216\\1726505595998.png"/>
+         <property name="hostName" value="muhra - MRasyid"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Chrome 127.0.0.0"/>
+         <property name="hostAddress" value="192.168.68.110"/>
+         <property name="sessionId" value="1b4d0fc48166ee2d653ee3670be2f19d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login_Page/Positive_Case/Login" time="20.401" classname="Test Cases/Login_Page/Positive_Case/Login" status="PASSED">
+         <system-out><![CDATA[2024-09-16 23:52:37 - [TEST_CASE][PASSED] - Test Cases/Login_Page/Positive_Case/Login: Test Cases/Login_Page/Positive_Case/Login
+
+2024-09-16 23:52:38 - [TEST_STEP][PASSED] - openBrowser(loginUrl): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2024-09-16 23:52:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-09-16 23:52:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-09-16 23:52:46 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2024-09-16 23:52:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-09-16 23:52:46 - [MESSAGE][PASSED] - Current window maximized
+
+2024-09-16 23:52:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Label_Title")): Object 'Object Repository/Global_Header/Label_Title' is visible
+
+2024-09-16 23:52:48 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Label_Title' is visible
+
+2024-09-16 23:52:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Login_Page/TextArea_Username")): Object 'Object Repository/Login_Page/TextArea_Username' is visible
+
+2024-09-16 23:52:48 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/TextArea_Username' is visible
+
+2024-09-16 23:52:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Login_Page/TextArea_Password")): Object 'Object Repository/Login_Page/TextArea_Password' is visible
+
+2024-09-16 23:52:49 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/TextArea_Password' is visible
+
+2024-09-16 23:52:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Login_Page/Button_Login")): Object 'Object Repository/Login_Page/Button_Login' is visible
+
+2024-09-16 23:52:49 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/Button_Login' is visible
+
+2024-09-16 23:52:49 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-16 23:52:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\muhra\\git\\ProjectSauceDemo\\Reports\\20240916_235216\\Product_Page_Suites\\AddToCart\\20240916_235216\\1726505569864.png]]
+
+2024-09-16 23:52:50 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page/TextArea_Username"), userName): Text 'standard_user' is set on object 'Object Repository/Login_Page/TextArea_Username'
+
+2024-09-16 23:52:50 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login_Page/TextArea_Username'
+
+2024-09-16 23:52:50 - [TEST_STEP][PASSED] - username = getAttribute(findTestObject("Login_Page/TextArea_Username"), "value"): Attribute 'value' of object 'Object Repository/Login_Page/TextArea_Username' is: 'standard_user'
+
+2024-09-16 23:52:51 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Login_Page/TextArea_Username' is: 'standard_user'
+
+2024-09-16 23:52:51 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-16 23:52:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\muhra\\git\\ProjectSauceDemo\\Reports\\20240916_235216\\Product_Page_Suites\\AddToCart\\20240916_235216\\1726505571685.png]]
+
+2024-09-16 23:52:51 - [TEST_STEP][PASSED] - pass = setText(findTestObject("Login_Page/TextArea_Password"), password): Text 'secret_sauce' is set on object 'Object Repository/Login_Page/TextArea_Password'
+
+2024-09-16 23:52:52 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Login_Page/TextArea_Password'
+
+2024-09-16 23:52:52 - [TEST_STEP][PASSED] - getAttribute(findTestObject("Login_Page/TextArea_Password"), "value"): Attribute 'value' of object 'Object Repository/Login_Page/TextArea_Password' is: 'secret_sauce'
+
+2024-09-16 23:52:53 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Login_Page/TextArea_Password' is: 'secret_sauce'
+
+2024-09-16 23:52:53 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-16 23:52:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\muhra\\git\\ProjectSauceDemo\\Reports\\20240916_235216\\Product_Page_Suites\\AddToCart\\20240916_235216\\1726505573354.png]]
+
+2024-09-16 23:52:53 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Login_Page/Button_Login")): Object 'Object Repository/Login_Page/Button_Login' is clickable
+
+2024-09-16 23:52:53 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/Button_Login' is clickable
+
+2024-09-16 23:52:54 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page/Button_Login")): Object: 'Object Repository/Login_Page/Button_Login' is clicked on
+
+2024-09-16 23:52:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/Button_Login' is clicked on
+
+2024-09-16 23:52:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Product_Page/Label_TitleProducts")): Object 'Object Repository/Product_Page/Label_TitleProducts' is visible
+
+2024-09-16 23:52:55 - [MESSAGE][PASSED] - Object 'Object Repository/Product_Page/Label_TitleProducts' is visible
+
+2024-09-16 23:52:55 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-16 23:52:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\muhra\\git\\ProjectSauceDemo\\Reports\\20240916_235216\\Product_Page_Suites\\AddToCart\\20240916_235216\\1726505575880.png]]
+
+2024-09-16 23:52:58 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Login_Page/Positive_Case/Login' .
+
+2024-09-16 23:52:58 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Login_Page/Positive_Case/Login' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Product_Page/Positive_Case/AddToCart_Products" time="20.039" classname="Test Cases/Product_Page/Positive_Case/AddToCart_Products" status="ERROR">
+         <error type="ERROR" message="Test Cases/Product_Page/Positive_Case/AddToCart_Products FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Product name NOT match: com.kms.katalon.core.testdata.reader.SheetPOI@43982337found: Sauce Labs Backpack
+	at com.kms.katalon.core.util.KeywordUtil.markError(KeywordUtil.java:67)
+	at com.kms.katalon.core.util.KeywordUtil$markError.call(Unknown Source)
+	at product.verifyproduct.verifyProductName(verifyproduct.groovy:45)
+	at product.verifyproduct.invokeMethod(verifyproduct.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at AddToCart_Products.run(AddToCart_Products:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726505536537.run(TempTestSuite1726505536537.groovy:36)
+"/>
+         <system-out><![CDATA[2024-09-16 23:52:58 - [TEST_CASE][ERROR] - Test Cases/Product_Page/Positive_Case/AddToCart_Products: Test Cases/Product_Page/Positive_Case/AddToCart_Products FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Product name NOT match: com.kms.katalon.core.testdata.reader.SheetPOI@43982337found: Sauce Labs Backpack
+	at com.kms.katalon.core.util.KeywordUtil.markError(KeywordUtil.java:67)
+	at com.kms.katalon.core.util.KeywordUtil$markError.call(Unknown Source)
+	at product.verifyproduct.verifyProductName(verifyproduct.groovy:45)
+	at product.verifyproduct.invokeMethod(verifyproduct.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at AddToCart_Products.run(AddToCart_Products:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726505536537.run(TempTestSuite1726505536537.groovy:36)
+
+
+2024-09-16 23:52:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Label_Title")): Object 'Object Repository/Global_Header/Label_Title' is visible
+
+2024-09-16 23:53:00 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Label_Title' is visible
+
+2024-09-16 23:53:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Button_Cart")): Object 'Object Repository/Global_Header/Button_Cart' is visible
+
+2024-09-16 23:53:00 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_Cart' is visible
+
+2024-09-16 23:53:00 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Global_Header/Button_Cart")): Object 'Object Repository/Global_Header/Button_Cart' is clickable
+
+2024-09-16 23:53:00 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_Cart' is clickable
+
+2024-09-16 23:53:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Button_BurgerMenu")): Object 'Object Repository/Global_Header/Button_BurgerMenu' is visible
+
+2024-09-16 23:53:01 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_BurgerMenu' is visible
+
+2024-09-16 23:53:01 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Global_Header/Button_BurgerMenu")): Object 'Object Repository/Global_Header/Button_BurgerMenu' is clickable
+
+2024-09-16 23:53:01 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_BurgerMenu' is clickable
+
+2024-09-16 23:53:01 - [TEST_STEP][ERROR] - product.verifyproduct.verifyProductName(): com.kms.katalon.core.exception.StepErrorException: Product name NOT match: com.kms.katalon.core.testdata.reader.SheetPOI@43982337found: Sauce Labs Backpack
+
+2024-09-16 23:53:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/Product_Page/Label_ProductsName' is: 'Sauce Labs Backpack'
+
+2024-09-16 23:53:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/Product_Page/Label_ProductsName' is: 'Sauce Labs Bike Light'
+
+2024-09-16 23:53:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/Product_Page/Label_ProductsName' is: 'Sauce Labs Bolt T-Shirt'
+
+2024-09-16 23:53:06 - [MESSAGE][PASSED] - Text of object 'Object Repository/Product_Page/Label_ProductsName' is: 'Sauce Labs Fleece Jacket'
+
+2024-09-16 23:53:06 - [MESSAGE][PASSED] - Text of object 'Object Repository/Product_Page/Label_ProductsName' is: 'Sauce Labs Onesie'
+
+2024-09-16 23:53:07 - [MESSAGE][PASSED] - Text of object 'Object Repository/Product_Page/Label_ProductsName' is: 'Test.allTheThings() T-Shirt (Red)'
+
+2024-09-16 23:53:07 - [MESSAGE][ERROR] - com.kms.katalon.core.exception.StepErrorException: Product name NOT match: com.kms.katalon.core.testdata.reader.SheetPOI@43982337found: Sauce Labs Backpack
+
+2024-09-16 23:53:07 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-16 23:53:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\muhra\\git\\ProjectSauceDemo\\Reports\\20240916_235216\\Product_Page_Suites\\AddToCart\\20240916_235216\\1726505587400.png]]
+
+2024-09-16 23:53:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Product_Page/Button_AddToCart_Sauce Labs Backpack")): Object 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Backpack' is visible
+
+2024-09-16 23:53:08 - [MESSAGE][PASSED] - Object 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Backpack' is visible
+
+2024-09-16 23:53:08 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Product_Page/Button_AddToCart_Sauce Labs Backpack")): Object 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Backpack' is clickable
+
+2024-09-16 23:53:08 - [MESSAGE][PASSED] - Object 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Backpack' is clickable
+
+2024-09-16 23:53:08 - [TEST_STEP][PASSED] - click(findTestObject("Product_Page/Button_AddToCart_Sauce Labs Backpack")): Object: 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Backpack' is clicked on
+
+2024-09-16 23:53:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Backpack' is clicked on
+
+2024-09-16 23:53:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Product_Page/Button_Remove_Sauce Labs Backpack")): Object 'Object Repository/Product_Page/Button_Remove_Sauce Labs Backpack' is visible
+
+2024-09-16 23:53:09 - [MESSAGE][PASSED] - Object 'Object Repository/Product_Page/Button_Remove_Sauce Labs Backpack' is visible
+
+2024-09-16 23:53:09 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Product_Page/Button_Remove_Sauce Labs Backpack")): Object 'Object Repository/Product_Page/Button_Remove_Sauce Labs Backpack' is clickable
+
+2024-09-16 23:53:09 - [MESSAGE][PASSED] - Object 'Object Repository/Product_Page/Button_Remove_Sauce Labs Backpack' is clickable
+
+2024-09-16 23:53:09 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-16 23:53:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\muhra\\git\\ProjectSauceDemo\\Reports\\20240916_235216\\Product_Page_Suites\\AddToCart\\20240916_235216\\1726505590180.png]]
+
+2024-09-16 23:53:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Product_Page/Button_AddToCart_Sauce Labs Bike Light")): Object 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Bike Light' is visible
+
+2024-09-16 23:53:10 - [MESSAGE][PASSED] - Object 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Bike Light' is visible
+
+2024-09-16 23:53:10 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Product_Page/Button_AddToCart_Sauce Labs Bike Light")): Object 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Bike Light' is clickable
+
+2024-09-16 23:53:11 - [MESSAGE][PASSED] - Object 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Bike Light' is clickable
+
+2024-09-16 23:53:11 - [TEST_STEP][PASSED] - click(findTestObject("Product_Page/Button_AddToCart_Sauce Labs Bike Light")): Object: 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Bike Light' is clicked on
+
+2024-09-16 23:53:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Bike Light' is clicked on
+
+2024-09-16 23:53:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Product_Page/Button_Remove_Sauce Labs Bike Light")): Object 'Object Repository/Product_Page/Button_Remove_Sauce Labs Bike Light' is visible
+
+2024-09-16 23:53:12 - [MESSAGE][PASSED] - Object 'Object Repository/Product_Page/Button_Remove_Sauce Labs Bike Light' is visible
+
+2024-09-16 23:53:12 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Product_Page/Button_Remove_Sauce Labs Bike Light")): Object 'Object Repository/Product_Page/Button_Remove_Sauce Labs Bike Light' is clickable
+
+2024-09-16 23:53:12 - [MESSAGE][PASSED] - Object 'Object Repository/Product_Page/Button_Remove_Sauce Labs Bike Light' is clickable
+
+2024-09-16 23:53:12 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-16 23:53:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\muhra\\git\\ProjectSauceDemo\\Reports\\20240916_235216\\Product_Page_Suites\\AddToCart\\20240916_235216\\1726505593096.png]]
+
+2024-09-16 23:53:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Product_Page/Button_AddToCart_Sauce Labs Bolt T-Shirt")): Object 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Bolt T-Shirt' is visible
+
+2024-09-16 23:53:13 - [MESSAGE][PASSED] - Object 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Bolt T-Shirt' is visible
+
+2024-09-16 23:53:13 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Product_Page/Button_AddToCart_Sauce Labs Bolt T-Shirt")): Object 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Bolt T-Shirt' is clickable
+
+2024-09-16 23:53:14 - [MESSAGE][PASSED] - Object 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Bolt T-Shirt' is clickable
+
+2024-09-16 23:53:14 - [TEST_STEP][PASSED] - click(findTestObject("Product_Page/Button_AddToCart_Sauce Labs Bolt T-Shirt")): Object: 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Bolt T-Shirt' is clicked on
+
+2024-09-16 23:53:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Bolt T-Shirt' is clicked on
+
+2024-09-16 23:53:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Product_Page/Button_Remove_Sauce Labs Bolt T-Shirt")): Object 'Object Repository/Product_Page/Button_Remove_Sauce Labs Bolt T-Shirt' is visible
+
+2024-09-16 23:53:15 - [MESSAGE][PASSED] - Object 'Object Repository/Product_Page/Button_Remove_Sauce Labs Bolt T-Shirt' is visible
+
+2024-09-16 23:53:15 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Product_Page/Button_Remove_Sauce Labs Bolt T-Shirt")): Object 'Object Repository/Product_Page/Button_Remove_Sauce Labs Bolt T-Shirt' is clickable
+
+2024-09-16 23:53:15 - [MESSAGE][PASSED] - Object 'Object Repository/Product_Page/Button_Remove_Sauce Labs Bolt T-Shirt' is clickable
+
+2024-09-16 23:53:15 - [TEST_STEP][ERROR] - takeScreenshot(): Test Cases/Product_Page/Positive_Case/AddToCart_Products FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Product name NOT match: com.kms.katalon.core.testdata.reader.SheetPOI@43982337found: Test.allTheThings() T-Shirt (Red)
+	at com.kms.katalon.core.util.KeywordUtil.markError(KeywordUtil.java:67)
+	at com.kms.katalon.core.util.KeywordUtil$markError.call(Unknown Source)
+	at product.verifyproduct.verifyProductName(verifyproduct.groovy:45)
+	at product.verifyproduct.invokeMethod(verifyproduct.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at AddToCart_Products.run(AddToCart_Products:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726505536537.run(TempTestSuite1726505536537.groovy:36)
+
+
+2024-09-16 23:53:16 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\muhra\\git\\ProjectSauceDemo\\Reports\\20240916_235216\\Product_Page_Suites\\AddToCart\\20240916_235216\\1726505595998.png]]
+
+2024-09-16 23:53:16 - [MESSAGE][ERROR] - Test Cases/Product_Page/Positive_Case/AddToCart_Products FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Product name NOT match: com.kms.katalon.core.testdata.reader.SheetPOI@43982337found: Test.allTheThings() T-Shirt (Red)
+	at com.kms.katalon.core.util.KeywordUtil.markError(KeywordUtil.java:67)
+	at com.kms.katalon.core.util.KeywordUtil$markError.call(Unknown Source)
+	at product.verifyproduct.verifyProductName(verifyproduct.groovy:45)
+	at product.verifyproduct.invokeMethod(verifyproduct.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at AddToCart_Products.run(AddToCart_Products:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726505536537.run(TempTestSuite1726505536537.groovy:36)
+
+
+2024-09-16 23:53:18 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Product_Page/Positive_Case/AddToCart_Products' .
+
+2024-09-16 23:53:18 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Product_Page/Positive_Case/AddToCart_Products' .]]></system-out>
+         <system-err><![CDATA[2024-09-16 23:52:58 - [TEST_CASE][ERROR] - Test Cases/Product_Page/Positive_Case/AddToCart_Products: Test Cases/Product_Page/Positive_Case/AddToCart_Products FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Product name NOT match: com.kms.katalon.core.testdata.reader.SheetPOI@43982337found: Sauce Labs Backpack
+	at com.kms.katalon.core.util.KeywordUtil.markError(KeywordUtil.java:67)
+	at com.kms.katalon.core.util.KeywordUtil$markError.call(Unknown Source)
+	at product.verifyproduct.verifyProductName(verifyproduct.groovy:45)
+	at product.verifyproduct.invokeMethod(verifyproduct.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at AddToCart_Products.run(AddToCart_Products:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726505536537.run(TempTestSuite1726505536537.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-09-16 23:52:37 - [TEST_SUITE][ERROR] - AddToCart: Test Cases/Product_Page/Positive_Case/AddToCart_Products FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Product name NOT match: com.kms.katalon.core.testdata.reader.SheetPOI@43982337found: Sauce Labs Backpack
+	at com.kms.katalon.core.util.KeywordUtil.markError(KeywordUtil.java:67)
+	at com.kms.katalon.core.util.KeywordUtil$markError.call(Unknown Source)
+	at product.verifyproduct.verifyProductName(verifyproduct.groovy:45)
+	at product.verifyproduct.invokeMethod(verifyproduct.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at AddToCart_Products.run(AddToCart_Products:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726505536537.run(TempTestSuite1726505536537.groovy:36)]]></system-out>
+      <system-err><![CDATA[2024-09-16 23:52:37 - [TEST_SUITE][ERROR] - AddToCart: Test Cases/Product_Page/Positive_Case/AddToCart_Products FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Product name NOT match: com.kms.katalon.core.testdata.reader.SheetPOI@43982337found: Sauce Labs Backpack
+	at com.kms.katalon.core.util.KeywordUtil.markError(KeywordUtil.java:67)
+	at com.kms.katalon.core.util.KeywordUtil$markError.call(Unknown Source)
+	at product.verifyproduct.verifyProductName(verifyproduct.groovy:45)
+	at product.verifyproduct.invokeMethod(verifyproduct.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at AddToCart_Products.run(AddToCart_Products:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726505536537.run(TempTestSuite1726505536537.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

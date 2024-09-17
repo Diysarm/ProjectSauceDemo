@@ -1,0 +1,52 @@
+1
+00:00:00,246 --> 00:00:00,568
+3. Verifikasi element Title Swag Labs terlihat
+
+2
+00:00:00,569 --> 00:00:00,880
+9. Verifikasi Element button Cart Terlihat
+
+3
+00:00:00,881 --> 00:00:01,176
+15. Verifikasi button Cart dapat diklik
+
+4
+00:00:01,176 --> 00:00:01,501
+21. Verifikasi Button Burger terlihat
+
+5
+00:00:01,501 --> 00:00:01,804
+27. Verifikasi Button Burger dapat diklik
+
+6
+00:00:01,805 --> 00:00:02,127
+33. Verifikasi button Cart terlihat
+
+7
+00:00:02,127 --> 00:00:02,422
+39. Verifikasi button Cart dapat diklik
+
+8
+00:00:02,422 --> 00:00:02,763
+45. Klik button Cart
+
+9
+00:00:02,764 --> 00:00:03,315
+51. Mengambil screenshot pada window
+
+10
+00:00:03,317 --> 00:00:04,604
+57. Verifikasi bahwa product count dengan product yang ada di cart sudah sesuai
+
+11
+00:00:04,604 --> 00:00:04,920
+63. Verifikasi button checkout terlihat
+
+12
+00:00:04,921 --> 00:00:05,234
+69. Verifikasi button checkout dapat diklik
+
+13
+00:00:05,235 --> 00:00:05,593
+75. Klik button checkout
+

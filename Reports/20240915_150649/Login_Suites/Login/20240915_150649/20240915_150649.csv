@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Chrome 128.0.0.0,,,2024-09-15 15:06:58,2024-09-15 15:07:09,10.625s,PASSED
+,,,,,,,
+Test Cases/Login_Page/Positive_Case/Login,Chrome 128.0.0.0,,,2024-09-15 15:06:58,2024-09-15 15:07:09,10.314s,PASSED
+openBrowser(loginUrl),Chrome 128.0.0.0,Buka browser dan navigasi ke URL,,2024-09-15 15:06:59,2024-09-15 15:07:02,3.637s,PASSED
+maximizeWindow(),Chrome 128.0.0.0,Maximize window browser,,2024-09-15 15:07:02,2024-09-15 15:07:02,0.070s,PASSED
+"verifyElementVisible(findTestObject(""Login_Page/Label_LoginTitle""))",Chrome 128.0.0.0,Verifikasi Title Login terlihat,,2024-09-15 15:07:02,2024-09-15 15:07:04,1.569s,PASSED
+"verifyElementVisible(findTestObject(""Login_Page/TextArea_Username""))",Chrome 128.0.0.0,Verifikasi Text Field username terlihat,,2024-09-15 15:07:04,2024-09-15 15:07:04,0.324s,PASSED
+"verifyElementVisible(findTestObject(""Login_Page/TextArea_Password""))",Chrome 128.0.0.0,Verifikasi Text Field password terlihat,,2024-09-15 15:07:04,2024-09-15 15:07:04,0.326s,PASSED
+"verifyElementVisible(findTestObject(""Login_Page/Button_Login""))",Chrome 128.0.0.0,Verifikasi Button login terlihat,,2024-09-15 15:07:04,2024-09-15 15:07:05,0.325s,PASSED
+takeScreenshot(),Chrome 128.0.0.0,Mengambil screenshot pada window,,2024-09-15 15:07:05,2024-09-15 15:07:05,0.379s,PASSED
+"setText(findTestObject(""Login_Page/TextArea_Username""), userName)",Chrome 128.0.0.0,Input username pada field,,2024-09-15 15:07:05,2024-09-15 15:07:06,0.686s,PASSED
+"getAttribute(findTestObject(""Login_Page/TextArea_Username""), ""value"")",Chrome 128.0.0.0,Get attribute value yang sudah diinput pada field,,2024-09-15 15:07:06,2024-09-15 15:07:06,0.320s,PASSED
+takeScreenshot(),Chrome 128.0.0.0,Mengambil screenshot pada window,,2024-09-15 15:07:06,2024-09-15 15:07:07,0.324s,PASSED
+"setText(findTestObject(""Login_Page/TextArea_Password""), password)",Chrome 128.0.0.0,Input password pada field,,2024-09-15 15:07:07,2024-09-15 15:07:07,0.659s,PASSED
+"getAttribute(findTestObject(""Login_Page/TextArea_Password""), ""value"")",Chrome 128.0.0.0,Get attribute value yang sudah diinput pada field,,2024-09-15 15:07:07,2024-09-15 15:07:07,0.329s,PASSED
+takeScreenshot(),Chrome 128.0.0.0,Mengambil screenshot pada window,,2024-09-15 15:07:07,2024-09-15 15:07:08,0.326s,PASSED
+"verifyElementClickable(findTestObject(""Login_Page/Button_Login""))",Chrome 128.0.0.0,Verifikasi button Login dapat diklik,,2024-09-15 15:07:08,2024-09-15 15:07:08,0.316s,PASSED
+"click(findTestObject(""Login_Page/Button_Login""))",Chrome 128.0.0.0,Klik button Login,,2024-09-15 15:07:08,2024-09-15 15:07:09,0.390s,PASSED

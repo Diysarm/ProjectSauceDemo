@@ -1,0 +1,41 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Chrome 128.0.0.0,,,2024-09-15 20:20:38,2024-09-15 20:21:35,57.098s,PASSED
+,,,,,,,
+Test Cases/Login_Page/Positive_Case/Login,Chrome 128.0.0.0,,,2024-09-15 20:20:38,2024-09-15 20:20:52,13.800s,PASSED
+openBrowser(loginUrl),Chrome 128.0.0.0,Buka browser dan navigasi ke URL,,2024-09-15 20:20:38,2024-09-15 20:20:42,3.792s,PASSED
+maximizeWindow(),Chrome 128.0.0.0,Maximize window browser,,2024-09-15 20:20:42,2024-09-15 20:20:42,0.071s,PASSED
+"verifyElementVisible(findTestObject(""Global_Header/Label_Title""))",Chrome 128.0.0.0,Verifikasi Title Login terlihat,,2024-09-15 20:20:42,2024-09-15 20:20:44,1.572s,PASSED
+"verifyElementVisible(findTestObject(""Login_Page/TextArea_Username""))",Chrome 128.0.0.0,Verifikasi Text Field username terlihat,,2024-09-15 20:20:44,2024-09-15 20:20:44,0.339s,PASSED
+"verifyElementVisible(findTestObject(""Login_Page/TextArea_Password""))",Chrome 128.0.0.0,Verifikasi Text Field password terlihat,,2024-09-15 20:20:44,2024-09-15 20:20:45,0.334s,PASSED
+"verifyElementVisible(findTestObject(""Login_Page/Button_Login""))",Chrome 128.0.0.0,Verifikasi Button login terlihat,,2024-09-15 20:20:45,2024-09-15 20:20:45,0.331s,PASSED
+takeScreenshot(),Chrome 128.0.0.0,Mengambil screenshot pada window,,2024-09-15 20:20:45,2024-09-15 20:20:45,0.373s,PASSED
+"setText(findTestObject(""Login_Page/TextArea_Username""), userName)",Chrome 128.0.0.0,Input username pada field,,2024-09-15 20:20:45,2024-09-15 20:20:46,0.675s,PASSED
+"username = getAttribute(findTestObject(""Login_Page/TextArea_Username""), ""value"")",Chrome 128.0.0.0,Get attribute value yang sudah diinput pada field,,2024-09-15 20:20:46,2024-09-15 20:20:46,0.337s,PASSED
+takeScreenshot(),Chrome 128.0.0.0,Mengambil screenshot pada window,,2024-09-15 20:20:46,2024-09-15 20:20:47,0.328s,PASSED
+"pass = setText(findTestObject(""Login_Page/TextArea_Password""), password)",Chrome 128.0.0.0,Input password pada field,,2024-09-15 20:20:47,2024-09-15 20:20:47,0.666s,PASSED
+"getAttribute(findTestObject(""Login_Page/TextArea_Password""), ""value"")",Chrome 128.0.0.0,Get attribute value yang sudah diinput pada field,,2024-09-15 20:20:47,2024-09-15 20:20:48,0.326s,PASSED
+takeScreenshot(),Chrome 128.0.0.0,Mengambil screenshot pada window,,2024-09-15 20:20:48,2024-09-15 20:20:48,0.323s,PASSED
+"verifyElementClickable(findTestObject(""Login_Page/Button_Login""))",Chrome 128.0.0.0,Verifikasi button Login dapat diklik,,2024-09-15 20:20:48,2024-09-15 20:20:48,0.315s,PASSED
+"click(findTestObject(""Login_Page/Button_Login""))",Chrome 128.0.0.0,Klik button Login,,2024-09-15 20:20:48,2024-09-15 20:20:49,0.386s,PASSED
+"verifyElementVisible(findTestObject(""Product_Page/Label_TitleProducts""))",Chrome 128.0.0.0,Verifikasi title product pada product page tampil,,2024-09-15 20:20:49,2024-09-15 20:20:49,0.434s,PASSED
+takeScreenshot(),Chrome 128.0.0.0,Mengambil screenshot pada window,,2024-09-15 20:20:49,2024-09-15 20:20:50,0.581s,PASSED
+,,,,,,,
+Test Cases/Login_Page/Negative_Case/Login_LockedOutUser,Chrome 128.0.0.0,,,2024-09-15 20:20:52,2024-09-15 20:21:35,42.923s,PASSED
+openBrowser(loginUrl),Chrome 128.0.0.0,Buka browser dan navigasi ke URL,,2024-09-15 20:20:52,2024-09-15 20:20:55,3.229s,PASSED
+maximizeWindow(),Chrome 128.0.0.0,Maximize window browser,,2024-09-15 20:20:55,2024-09-15 20:20:55,0.068s,PASSED
+"verifyElementVisible(findTestObject(""Global_Header/Label_Title""))",Chrome 128.0.0.0,Verifikasi Title Login terlihat,,2024-09-15 20:20:55,2024-09-15 20:20:58,2.504s,PASSED
+"verifyElementVisible(findTestObject(""Login_Page/TextArea_Username""))",Chrome 128.0.0.0,Verifikasi Text Field username terlihat,,2024-09-15 20:20:58,2024-09-15 20:20:58,0.340s,PASSED
+"verifyElementVisible(findTestObject(""Login_Page/TextArea_Password""))",Chrome 128.0.0.0,Verifikasi Text Field password terlihat,,2024-09-15 20:20:58,2024-09-15 20:20:59,0.324s,PASSED
+"verifyElementVisible(findTestObject(""Login_Page/Button_Login""))",Chrome 128.0.0.0,Verifikasi Button login terlihat,,2024-09-15 20:20:59,2024-09-15 20:20:59,0.328s,PASSED
+takeScreenshot(),Chrome 128.0.0.0,Mengambil screenshot pada window,,2024-09-15 20:20:59,2024-09-15 20:20:59,0.323s,PASSED
+"setText(findTestObject(""Login_Page/TextArea_Username""), userName)",Chrome 128.0.0.0,Input username pada field,,2024-09-15 20:20:59,2024-09-15 20:21:00,0.663s,PASSED
+"username = getAttribute(findTestObject(""Login_Page/TextArea_Username""), ""value"")",Chrome 128.0.0.0,Get attribute value yang sudah diinput pada field,,2024-09-15 20:21:00,2024-09-15 20:21:00,0.320s,PASSED
+takeScreenshot(),Chrome 128.0.0.0,Mengambil screenshot pada window,,2024-09-15 20:21:00,2024-09-15 20:21:01,0.338s,PASSED
+"pass = setText(findTestObject(""Login_Page/TextArea_Password""), password)",Chrome 128.0.0.0,Input password pada field,,2024-09-15 20:21:01,2024-09-15 20:21:01,0.665s,PASSED
+"getAttribute(findTestObject(""Login_Page/TextArea_Password""), ""value"")",Chrome 128.0.0.0,Get attribute value yang sudah diinput pada field,,2024-09-15 20:21:01,2024-09-15 20:21:02,0.330s,PASSED
+takeScreenshot(),Chrome 128.0.0.0,Mengambil screenshot pada window,,2024-09-15 20:21:02,2024-09-15 20:21:02,0.323s,PASSED
+"verifyElementClickable(findTestObject(""Login_Page/Button_Login""))",Chrome 128.0.0.0,Verifikasi button Login dapat diklik,,2024-09-15 20:21:02,2024-09-15 20:21:02,0.322s,PASSED
+"click(findTestObject(""Login_Page/Button_Login""))",Chrome 128.0.0.0,Klik button Login,,2024-09-15 20:21:02,2024-09-15 20:21:03,0.355s,PASSED
+"errorMessageLocked = verifyElementVisible(findTestObject(""Login_Page/Label_ErrorMessage""))",Chrome 128.0.0.0,Verifikasi element error message terlihat,,2024-09-15 20:21:03,2024-09-15 20:21:33,30.113s,PASSED
+"if (errorMessageLocked.equals(""Epic sadface: Sorry, this user has been locked out.""))",Chrome 128.0.0.0,,,2024-09-15 20:21:33,2024-09-15 20:21:33,0.001s,PASSED
+else,Chrome 128.0.0.0,,,2024-09-15 20:21:33,2024-09-15 20:21:33,0.001s,PASSED

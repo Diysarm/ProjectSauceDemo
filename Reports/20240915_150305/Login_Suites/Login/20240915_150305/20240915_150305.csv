@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Chrome 128.0.0.0,,,2024-09-15 15:03:16,2024-09-15 15:03:24,8.215s,PASSED
+,,,,,,,
+Test Cases/Login_Page/Positive_Case/Login,Chrome 128.0.0.0,,,2024-09-15 15:03:16,2024-09-15 15:03:24,7.926s,PASSED
+openBrowser(loginUrl),Chrome 128.0.0.0,Buka browser dan navigasi ke URL,,2024-09-15 15:03:16,2024-09-15 15:03:20,3.553s,PASSED
+maximizeWindow(),Chrome 128.0.0.0,Maximize window browser,,2024-09-15 15:03:20,2024-09-15 15:03:20,0.064s,PASSED
+"verifyElementVisible(findTestObject(""Login_Page/Label_LoginTitle""))",Chrome 128.0.0.0,Verifikasi Title Login terlihat,,2024-09-15 15:03:20,2024-09-15 15:03:21,1.565s,PASSED
+"verifyElementVisible(findTestObject(""Login_Page/TextArea_Username""))",Chrome 128.0.0.0,Verifikasi Text Field username terlihat,,2024-09-15 15:03:21,2024-09-15 15:03:22,0.363s,PASSED
+"verifyElementVisible(findTestObject(""Login_Page/TextArea_Password""))",Chrome 128.0.0.0,Verifikasi Text Field password terlihat,,2024-09-15 15:03:22,2024-09-15 15:03:22,0.318s,PASSED
+"verifyElementVisible(findTestObject(""Login_Page/Button_Login""))",Chrome 128.0.0.0,Verifikasi Button login terlihat,,2024-09-15 15:03:22,2024-09-15 15:03:23,0.376s,PASSED
+"setText(findTestObject(""Login_Page/TextArea_Username""), userName)",Chrome 128.0.0.0,Input username pada field,,2024-09-15 15:03:23,2024-09-15 15:03:23,0.700s,PASSED
+"setText(findTestObject(""Login_Page/TextArea_Username""), password)",Chrome 128.0.0.0,Input password pada field,,2024-09-15 15:03:23,2024-09-15 15:03:24,0.653s,PASSED

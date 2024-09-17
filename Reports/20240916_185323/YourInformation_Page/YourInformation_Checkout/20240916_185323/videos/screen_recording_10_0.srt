@@ -1,0 +1,104 @@
+1
+00:00:00,221 --> 00:00:00,535
+3. Verifikasi element Title Swag Labs terlihat
+
+2
+00:00:00,535 --> 00:00:00,847
+9. Verifikasi Element button Cart Terlihat
+
+3
+00:00:00,847 --> 00:00:01,146
+15. Verifikasi button Cart dapat diklik
+
+4
+00:00:01,146 --> 00:00:01,463
+21. Verifikasi Button Burger terlihat
+
+5
+00:00:01,463 --> 00:00:01,773
+27. Verifikasi Button Burger dapat diklik
+
+6
+00:00:01,774 --> 00:00:02,078
+33. Verifikasi label checkout: Your Information terlihat
+
+7
+00:00:02,078 --> 00:00:02,392
+39. Verifikasi element FirstName Terlihat
+
+8
+00:00:02,392 --> 00:00:03,027
+45. Input text firstName
+
+9
+00:00:03,039 --> 00:00:03,461
+51. ambil atribut value firstName yang telah diinput
+
+10
+00:00:03,461 --> 00:00:03,461
+57. print value firstName yang telah diinput
+
+11
+00:00:03,462 --> 00:00:03,773
+63. Verifikasi element LastName Terlihat
+
+12
+00:00:03,774 --> 00:00:04,100
+69. Clear text yang ada pada text field FirstName
+
+13
+00:00:04,100 --> 00:00:04,446
+75. Clear text yang ada pada text field LastName
+
+14
+00:00:04,447 --> 00:00:04,791
+81. Clear text yang ada pada text field PostalCode
+
+15
+00:00:04,792 --> 00:00:05,445
+87. Input text lastName
+
+16
+00:00:05,445 --> 00:00:05,758
+93. ambil atribut value lastName yang telah diinput
+
+17
+00:00:05,758 --> 00:00:05,759
+99. print value lastName yang telah diinput
+
+18
+00:00:05,759 --> 00:00:06,094
+105. mengambil Screenshot pada window
+
+19
+00:00:06,094 --> 00:00:06,412
+111. Verifikasi element postalCode Terlihat
+
+20
+00:00:06,413 --> 00:00:07,072
+117. Input text PostalCode
+
+21
+00:00:07,073 --> 00:00:07,506
+123. ambil atribut value postalcode yang telah diinput
+
+22
+00:00:07,506 --> 00:00:07,507
+129. print value postalCode
+
+23
+00:00:07,507 --> 00:00:07,834
+135. mengambil screenshot pada window
+
+24
+00:00:07,834 --> 00:00:08,141
+141. Verifikasi element button continue Terlihat
+
+25
+00:00:08,142 --> 00:00:08,455
+147. Verifikasi element button continue dapat diklik
+
+26
+00:00:08,455 --> 00:00:08,799
+153. klik button Continue
+

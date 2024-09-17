@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="10.625" tests="1" failures="0" errors="0">
+   <testsuite name="Login" tests="1" failures="0" errors="0" time="10.625" skipped="0" timestamp="2024-09-15 15:06:58" hostname="rasyid - DESKTOP-R622UHT" id="Test Suites/Login_Suites/Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240915_150649\\Login_Suites\\Login\\20240915_150649"/>
+         <property name="logFiles" value="C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240915_150649\\Login_Suites\\Login\\20240915_150649\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240915_150649\\Login_Suites\\Login\\20240915_150649\\1726387625573.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240915_150649\\Login_Suites\\Login\\20240915_150649\\1726387626928.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240915_150649\\Login_Suites\\Login\\20240915_150649\\1726387628237.png"/>
+         <property name="hostName" value="rasyid - DESKTOP-R622UHT"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.9.208"/>
+         <property name="browser" value="Chrome 128.0.0.0"/>
+         <property name="hostAddress" value="26.103.121.102"/>
+         <property name="sessionId" value="1100d6fa4305cacdab922533eb381f0c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login_Page/Positive_Case/Login" time="10.314" classname="Test Cases/Login_Page/Positive_Case/Login" status="PASSED">
+         <system-out><![CDATA[2024-09-15 15:06:58 - [TEST_CASE][PASSED] - Test Cases/Login_Page/Positive_Case/Login: Test Cases/Login_Page/Positive_Case/Login
+
+2024-09-15 15:06:59 - [TEST_STEP][PASSED] - openBrowser(loginUrl): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2024-09-15 15:06:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-09-15 15:06:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-09-15 15:07:02 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2024-09-15 15:07:02 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-09-15 15:07:02 - [MESSAGE][PASSED] - Current window maximized
+
+2024-09-15 15:07:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Login_Page/Label_LoginTitle")): Object 'Object Repository/Login_Page/Label_LoginTitle' is visible
+
+2024-09-15 15:07:04 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/Label_LoginTitle' is visible
+
+2024-09-15 15:07:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Login_Page/TextArea_Username")): Object 'Object Repository/Login_Page/TextArea_Username' is visible
+
+2024-09-15 15:07:04 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/TextArea_Username' is visible
+
+2024-09-15 15:07:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Login_Page/TextArea_Password")): Object 'Object Repository/Login_Page/TextArea_Password' is visible
+
+2024-09-15 15:07:04 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/TextArea_Password' is visible
+
+2024-09-15 15:07:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Login_Page/Button_Login")): Object 'Object Repository/Login_Page/Button_Login' is visible
+
+2024-09-15 15:07:05 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/Button_Login' is visible
+
+2024-09-15 15:07:05 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-15 15:07:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240915_150649\\Login_Suites\\Login\\20240915_150649\\1726387625573.png]]
+
+2024-09-15 15:07:05 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page/TextArea_Username"), userName): Text 'standard_user' is set on object 'Object Repository/Login_Page/TextArea_Username'
+
+2024-09-15 15:07:06 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login_Page/TextArea_Username'
+
+2024-09-15 15:07:06 - [TEST_STEP][PASSED] - getAttribute(findTestObject("Login_Page/TextArea_Username"), "value"): Attribute 'value' of object 'Object Repository/Login_Page/TextArea_Username' is: 'standard_user'
+
+2024-09-15 15:07:06 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Login_Page/TextArea_Username' is: 'standard_user'
+
+2024-09-15 15:07:06 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-15 15:07:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240915_150649\\Login_Suites\\Login\\20240915_150649\\1726387626928.png]]
+
+2024-09-15 15:07:07 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page/TextArea_Password"), password): Text 'secret_sauce' is set on object 'Object Repository/Login_Page/TextArea_Password'
+
+2024-09-15 15:07:07 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Login_Page/TextArea_Password'
+
+2024-09-15 15:07:07 - [TEST_STEP][PASSED] - getAttribute(findTestObject("Login_Page/TextArea_Password"), "value"): Attribute 'value' of object 'Object Repository/Login_Page/TextArea_Password' is: 'secret_sauce'
+
+2024-09-15 15:07:07 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Login_Page/TextArea_Password' is: 'secret_sauce'
+
+2024-09-15 15:07:07 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-15 15:07:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240915_150649\\Login_Suites\\Login\\20240915_150649\\1726387628237.png]]
+
+2024-09-15 15:07:08 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Login_Page/Button_Login")): Object 'Object Repository/Login_Page/Button_Login' is clickable
+
+2024-09-15 15:07:08 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/Button_Login' is clickable
+
+2024-09-15 15:07:08 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page/Button_Login")): Object: 'Object Repository/Login_Page/Button_Login' is clicked on
+
+2024-09-15 15:07:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/Button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-09-15 15:06:58 - [TEST_SUITE][PASSED] - Login: Test Cases/Login_Page/Positive_Case/Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,100 @@
+1
+00:00:00,720 --> 00:00:02,112
+3. Verifikasi element Title Swag Labs terlihat
+
+2
+00:00:02,114 --> 00:00:02,696
+9. Verifikasi Element button Cart Terlihat
+
+3
+00:00:02,698 --> 00:00:03,107
+15. Verifikasi button Cart dapat diklik
+
+4
+00:00:03,108 --> 00:00:03,538
+21. Verifikasi Button Burger terlihat
+
+5
+00:00:03,539 --> 00:00:03,946
+27. Verifikasi Button Burger dapat diklik
+
+6
+00:00:03,947 --> 00:00:08,071
+33. Verifikasi apakah nama product sesuai dengan product data di Excel
+
+7
+00:00:08,072 --> 00:00:08,545
+39. Mengambil screenshot pada window
+
+8
+00:00:08,546 --> 00:00:09,094
+45. Verifikasi button add to cart terlihat
+
+9
+00:00:09,095 --> 00:00:09,476
+51. Verifikasi button add to cart dapat diklik
+
+10
+00:00:09,476 --> 00:00:09,893
+57. Klik button add to cart
+
+11
+00:00:09,894 --> 00:00:10,420
+63. Verifikasi button remove terlihat
+
+12
+00:00:10,421 --> 00:00:10,794
+69. Verifikasi button remove dapat diklik
+
+13
+00:00:10,795 --> 00:00:11,274
+75. Mengambil screenshot pada window
+
+14
+00:00:11,275 --> 00:00:11,673
+81. Verifikasi button add to cart terlihat
+
+15
+00:00:11,674 --> 00:00:12,117
+87. Verifikasi button add to cart dapat diklik
+
+16
+00:00:12,118 --> 00:00:12,508
+93. Klik button add to cart
+
+17
+00:00:12,509 --> 00:00:13,053
+99. Verifikasi button remove terlihat
+
+18
+00:00:13,054 --> 00:00:13,422
+105. Verifikasi button remove dapat diklik
+
+19
+00:00:13,423 --> 00:00:13,938
+111. Mengambil screenshot pada window
+
+20
+00:00:13,939 --> 00:00:14,372
+117. Verifikasi button add to cart terlihat
+
+21
+00:00:14,373 --> 00:00:14,745
+123. Verifikasi button add to cart dapat diklik
+
+22
+00:00:14,746 --> 00:00:15,169
+129. Klik button add to cart
+
+23
+00:00:15,170 --> 00:00:15,627
+135. Verifikasi button remove terlihat
+
+24
+00:00:15,628 --> 00:00:16,097
+141. Verifikasi button remove dapat diklik
+
+25
+00:00:16,098 --> 00:00:16,610
+147. Mengambil screenshot pada window
+

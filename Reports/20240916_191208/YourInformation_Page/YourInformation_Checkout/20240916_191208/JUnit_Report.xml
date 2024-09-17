@@ -1,0 +1,1079 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="YourInformation_Checkout" time="138.752" tests="7" failures="2" errors="0">
+   <testsuite name="YourInformation_Checkout" tests="7" failures="2" errors="0" time="138.752" skipped="0" timestamp="2024-09-16 19:12:17" hostname="rasyid - DESKTOP-R622UHT" id="Test Suites/YourInformation_Page/YourInformation_Checkout">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_191208\\YourInformation_Page\\YourInformation_Checkout\\20240916_191208"/>
+         <property name="logFiles" value="C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_191208\\YourInformation_Page\\YourInformation_Checkout\\20240916_191208\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_191208\\YourInformation_Page\\YourInformation_Checkout\\20240916_191208\\1726488745455.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_191208\\YourInformation_Page\\YourInformation_Checkout\\20240916_191208\\1726488746809.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_191208\\YourInformation_Page\\YourInformation_Checkout\\20240916_191208\\1726488748115.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_191208\\YourInformation_Page\\YourInformation_Checkout\\20240916_191208\\1726488749950.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_191208\\YourInformation_Page\\YourInformation_Checkout\\20240916_191208\\1726488758464.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_191208\\YourInformation_Page\\YourInformation_Checkout\\20240916_191208\\1726488760664.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_191208\\YourInformation_Page\\YourInformation_Checkout\\20240916_191208\\1726488762886.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_191208\\YourInformation_Page\\YourInformation_Checkout\\20240916_191208\\1726488764988.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_191208\\YourInformation_Page\\YourInformation_Checkout\\20240916_191208\\1726488770440.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_191208\\YourInformation_Page\\YourInformation_Checkout\\20240916_191208\\1726488780069.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_191208\\YourInformation_Page\\YourInformation_Checkout\\20240916_191208\\1726488781899.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_191208\\YourInformation_Page\\YourInformation_Checkout\\20240916_191208\\1726488783711.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_191208\\YourInformation_Page\\YourInformation_Checkout\\20240916_191208\\1726488793101.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_191208\\YourInformation_Page\\YourInformation_Checkout\\20240916_191208\\1726488794904.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_191208\\YourInformation_Page\\YourInformation_Checkout\\20240916_191208\\1726488804920.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_191208\\YourInformation_Page\\YourInformation_Checkout\\20240916_191208\\1726488806757.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_191208\\YourInformation_Page\\YourInformation_Checkout\\20240916_191208\\1726488839070.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_191208\\YourInformation_Page\\YourInformation_Checkout\\20240916_191208\\1726488839203.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_191208\\YourInformation_Page\\YourInformation_Checkout\\20240916_191208\\1726488874372.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_191208\\YourInformation_Page\\YourInformation_Checkout\\20240916_191208\\1726488874477.png"/>
+         <property name="hostName" value="rasyid - DESKTOP-R622UHT"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.9.208"/>
+         <property name="browser" value="Chrome 128.0.0.0"/>
+         <property name="hostAddress" value="26.103.121.102"/>
+         <property name="sessionId" value="7440a5456baa8dba66d1251b71a559a4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login_Page/Positive_Case/Login" time="13.919" classname="Test Cases/Login_Page/Positive_Case/Login" status="PASSED">
+         <system-out><![CDATA[2024-09-16 19:12:18 - [TEST_CASE][PASSED] - Test Cases/Login_Page/Positive_Case/Login: Test Cases/Login_Page/Positive_Case/Login
+
+2024-09-16 19:12:18 - [TEST_STEP][PASSED] - openBrowser(loginUrl): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2024-09-16 19:12:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-09-16 19:12:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-09-16 19:12:22 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2024-09-16 19:12:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-09-16 19:12:22 - [MESSAGE][PASSED] - Current window maximized
+
+2024-09-16 19:12:22 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Label_Title")): Object 'Object Repository/Global_Header/Label_Title' is visible
+
+2024-09-16 19:12:24 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Label_Title' is visible
+
+2024-09-16 19:12:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Login_Page/TextArea_Username")): Object 'Object Repository/Login_Page/TextArea_Username' is visible
+
+2024-09-16 19:12:24 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/TextArea_Username' is visible
+
+2024-09-16 19:12:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Login_Page/TextArea_Password")): Object 'Object Repository/Login_Page/TextArea_Password' is visible
+
+2024-09-16 19:12:24 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/TextArea_Password' is visible
+
+2024-09-16 19:12:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Login_Page/Button_Login")): Object 'Object Repository/Login_Page/Button_Login' is visible
+
+2024-09-16 19:12:25 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/Button_Login' is visible
+
+2024-09-16 19:12:25 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-16 19:12:25 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_191208\\YourInformation_Page\\YourInformation_Checkout\\20240916_191208\\1726488745455.png]]
+
+2024-09-16 19:12:25 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page/TextArea_Username"), userName): Text 'standard_user' is set on object 'Object Repository/Login_Page/TextArea_Username'
+
+2024-09-16 19:12:26 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login_Page/TextArea_Username'
+
+2024-09-16 19:12:26 - [TEST_STEP][PASSED] - username = getAttribute(findTestObject("Login_Page/TextArea_Username"), "value"): Attribute 'value' of object 'Object Repository/Login_Page/TextArea_Username' is: 'standard_user'
+
+2024-09-16 19:12:26 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Login_Page/TextArea_Username' is: 'standard_user'
+
+2024-09-16 19:12:26 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-16 19:12:26 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_191208\\YourInformation_Page\\YourInformation_Checkout\\20240916_191208\\1726488746809.png]]
+
+2024-09-16 19:12:26 - [TEST_STEP][PASSED] - pass = setText(findTestObject("Login_Page/TextArea_Password"), password): Text 'secret_sauce' is set on object 'Object Repository/Login_Page/TextArea_Password'
+
+2024-09-16 19:12:27 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Login_Page/TextArea_Password'
+
+2024-09-16 19:12:27 - [TEST_STEP][PASSED] - getAttribute(findTestObject("Login_Page/TextArea_Password"), "value"): Attribute 'value' of object 'Object Repository/Login_Page/TextArea_Password' is: 'secret_sauce'
+
+2024-09-16 19:12:27 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Login_Page/TextArea_Password' is: 'secret_sauce'
+
+2024-09-16 19:12:27 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-16 19:12:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_191208\\YourInformation_Page\\YourInformation_Checkout\\20240916_191208\\1726488748115.png]]
+
+2024-09-16 19:12:28 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Login_Page/Button_Login")): Object 'Object Repository/Login_Page/Button_Login' is clickable
+
+2024-09-16 19:12:28 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/Button_Login' is clickable
+
+2024-09-16 19:12:28 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page/Button_Login")): Object: 'Object Repository/Login_Page/Button_Login' is clicked on
+
+2024-09-16 19:12:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/Button_Login' is clicked on
+
+2024-09-16 19:12:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Product_Page/Label_TitleProducts")): Object 'Object Repository/Product_Page/Label_TitleProducts' is visible
+
+2024-09-16 19:12:29 - [MESSAGE][PASSED] - Object 'Object Repository/Product_Page/Label_TitleProducts' is visible
+
+2024-09-16 19:12:29 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-16 19:12:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_191208\\YourInformation_Page\\YourInformation_Checkout\\20240916_191208\\1726488749950.png]]
+
+2024-09-16 19:12:32 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Login_Page/Positive_Case/Login' .
+
+2024-09-16 19:12:32 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Login_Page/Positive_Case/Login' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Product_Page/Positive_Case/AddToCart_Products" time="15.062" classname="Test Cases/Product_Page/Positive_Case/AddToCart_Products" status="PASSED">
+         <system-out><![CDATA[2024-09-16 19:12:32 - [TEST_CASE][PASSED] - Test Cases/Product_Page/Positive_Case/AddToCart_Products: Test Cases/Product_Page/Positive_Case/AddToCart_Products
+
+2024-09-16 19:12:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Label_Title")): Object 'Object Repository/Global_Header/Label_Title' is visible
+
+2024-09-16 19:12:32 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Label_Title' is visible
+
+2024-09-16 19:12:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Button_Cart")): Object 'Object Repository/Global_Header/Button_Cart' is visible
+
+2024-09-16 19:12:33 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_Cart' is visible
+
+2024-09-16 19:12:33 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Global_Header/Button_Cart")): Object 'Object Repository/Global_Header/Button_Cart' is clickable
+
+2024-09-16 19:12:33 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_Cart' is clickable
+
+2024-09-16 19:12:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Button_BurgerMenu")): Object 'Object Repository/Global_Header/Button_BurgerMenu' is visible
+
+2024-09-16 19:12:33 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_BurgerMenu' is visible
+
+2024-09-16 19:12:33 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Global_Header/Button_BurgerMenu")): Object 'Object Repository/Global_Header/Button_BurgerMenu' is clickable
+
+2024-09-16 19:12:35 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_BurgerMenu' is clickable
+
+2024-09-16 19:12:35 - [TEST_STEP][PASSED] - packaged.verifyproduct.verifyProductName(): packaged.verifyproduct.verifyProductName is PASSED
+
+2024-09-16 19:12:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/Product_Page/Label_ProductsName' is: 'Sauce Labs Backpack'
+
+2024-09-16 19:12:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/Product_Page/Label_ProductsName' is: 'Sauce Labs Bike Light'
+
+2024-09-16 19:12:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/Product_Page/Label_ProductsName' is: 'Sauce Labs Bolt T-Shirt'
+
+2024-09-16 19:12:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/Product_Page/Label_ProductsName' is: 'Sauce Labs Fleece Jacket'
+
+2024-09-16 19:12:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/Product_Page/Label_ProductsName' is: 'Sauce Labs Onesie'
+
+2024-09-16 19:12:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/Product_Page/Label_ProductsName' is: 'Test.allTheThings() T-Shirt (Red)'
+
+2024-09-16 19:12:38 - [MESSAGE][PASSED] - packaged.verifyproduct.verifyProductName is PASSED
+
+2024-09-16 19:12:38 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-16 19:12:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_191208\\YourInformation_Page\\YourInformation_Checkout\\20240916_191208\\1726488758464.png]]
+
+2024-09-16 19:12:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Product_Page/Button_AddToCart_Sauce Labs Backpack")): Object 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Backpack' is visible
+
+2024-09-16 19:12:38 - [MESSAGE][PASSED] - Object 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Backpack' is visible
+
+2024-09-16 19:12:38 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Product_Page/Button_AddToCart_Sauce Labs Backpack")): Object 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Backpack' is clickable
+
+2024-09-16 19:12:39 - [MESSAGE][PASSED] - Object 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Backpack' is clickable
+
+2024-09-16 19:12:39 - [TEST_STEP][PASSED] - click(findTestObject("Product_Page/Button_AddToCart_Sauce Labs Backpack")): Object: 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Backpack' is clicked on
+
+2024-09-16 19:12:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Backpack' is clicked on
+
+2024-09-16 19:12:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Product_Page/Button_Remove_Sauce Labs Backpack")): Object 'Object Repository/Product_Page/Button_Remove_Sauce Labs Backpack' is visible
+
+2024-09-16 19:12:40 - [MESSAGE][PASSED] - Object 'Object Repository/Product_Page/Button_Remove_Sauce Labs Backpack' is visible
+
+2024-09-16 19:12:40 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Product_Page/Button_Remove_Sauce Labs Backpack")): Object 'Object Repository/Product_Page/Button_Remove_Sauce Labs Backpack' is clickable
+
+2024-09-16 19:12:40 - [MESSAGE][PASSED] - Object 'Object Repository/Product_Page/Button_Remove_Sauce Labs Backpack' is clickable
+
+2024-09-16 19:12:40 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-16 19:12:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_191208\\YourInformation_Page\\YourInformation_Checkout\\20240916_191208\\1726488760664.png]]
+
+2024-09-16 19:12:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Product_Page/Button_AddToCart_Sauce Labs Bike Light")): Object 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Bike Light' is visible
+
+2024-09-16 19:12:41 - [MESSAGE][PASSED] - Object 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Bike Light' is visible
+
+2024-09-16 19:12:41 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Product_Page/Button_AddToCart_Sauce Labs Bike Light")): Object 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Bike Light' is clickable
+
+2024-09-16 19:12:41 - [MESSAGE][PASSED] - Object 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Bike Light' is clickable
+
+2024-09-16 19:12:41 - [TEST_STEP][PASSED] - click(findTestObject("Product_Page/Button_AddToCart_Sauce Labs Bike Light")): Object: 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Bike Light' is clicked on
+
+2024-09-16 19:12:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Bike Light' is clicked on
+
+2024-09-16 19:12:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Product_Page/Button_Remove_Sauce Labs Bike Light")): Object 'Object Repository/Product_Page/Button_Remove_Sauce Labs Bike Light' is visible
+
+2024-09-16 19:12:42 - [MESSAGE][PASSED] - Object 'Object Repository/Product_Page/Button_Remove_Sauce Labs Bike Light' is visible
+
+2024-09-16 19:12:42 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Product_Page/Button_Remove_Sauce Labs Bike Light")): Object 'Object Repository/Product_Page/Button_Remove_Sauce Labs Bike Light' is clickable
+
+2024-09-16 19:12:42 - [MESSAGE][PASSED] - Object 'Object Repository/Product_Page/Button_Remove_Sauce Labs Bike Light' is clickable
+
+2024-09-16 19:12:42 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-16 19:12:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_191208\\YourInformation_Page\\YourInformation_Checkout\\20240916_191208\\1726488762886.png]]
+
+2024-09-16 19:12:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Product_Page/Button_AddToCart_Sauce Labs Bolt T-Shirt")): Object 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Bolt T-Shirt' is visible
+
+2024-09-16 19:12:43 - [MESSAGE][PASSED] - Object 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Bolt T-Shirt' is visible
+
+2024-09-16 19:12:43 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Product_Page/Button_AddToCart_Sauce Labs Bolt T-Shirt")): Object 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Bolt T-Shirt' is clickable
+
+2024-09-16 19:12:43 - [MESSAGE][PASSED] - Object 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Bolt T-Shirt' is clickable
+
+2024-09-16 19:12:43 - [TEST_STEP][PASSED] - click(findTestObject("Product_Page/Button_AddToCart_Sauce Labs Bolt T-Shirt")): Object: 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Bolt T-Shirt' is clicked on
+
+2024-09-16 19:12:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Bolt T-Shirt' is clicked on
+
+2024-09-16 19:12:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Product_Page/Button_Remove_Sauce Labs Bolt T-Shirt")): Object 'Object Repository/Product_Page/Button_Remove_Sauce Labs Bolt T-Shirt' is visible
+
+2024-09-16 19:12:44 - [MESSAGE][PASSED] - Object 'Object Repository/Product_Page/Button_Remove_Sauce Labs Bolt T-Shirt' is visible
+
+2024-09-16 19:12:44 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Product_Page/Button_Remove_Sauce Labs Bolt T-Shirt")): Object 'Object Repository/Product_Page/Button_Remove_Sauce Labs Bolt T-Shirt' is clickable
+
+2024-09-16 19:12:44 - [MESSAGE][PASSED] - Object 'Object Repository/Product_Page/Button_Remove_Sauce Labs Bolt T-Shirt' is clickable
+
+2024-09-16 19:12:44 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-16 19:12:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_191208\\YourInformation_Page\\YourInformation_Checkout\\20240916_191208\\1726488764988.png]]
+
+2024-09-16 19:12:47 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Product_Page/Positive_Case/AddToCart_Products' .
+
+2024-09-16 19:12:47 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Product_Page/Positive_Case/AddToCart_Products' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Cart_Page/Positive_Case/ProductCart" time="7.662" classname="Test Cases/Cart_Page/Positive_Case/ProductCart" status="PASSED">
+         <system-out><![CDATA[2024-09-16 19:12:47 - [TEST_CASE][PASSED] - Test Cases/Cart_Page/Positive_Case/ProductCart: Test Cases/Cart_Page/Positive_Case/ProductCart
+
+2024-09-16 19:12:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Label_Title")): Object 'Object Repository/Global_Header/Label_Title' is visible
+
+2024-09-16 19:12:47 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Label_Title' is visible
+
+2024-09-16 19:12:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Button_Cart")): Object 'Object Repository/Global_Header/Button_Cart' is visible
+
+2024-09-16 19:12:48 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_Cart' is visible
+
+2024-09-16 19:12:48 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Global_Header/Button_Cart")): Object 'Object Repository/Global_Header/Button_Cart' is clickable
+
+2024-09-16 19:12:48 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_Cart' is clickable
+
+2024-09-16 19:12:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Button_BurgerMenu")): Object 'Object Repository/Global_Header/Button_BurgerMenu' is visible
+
+2024-09-16 19:12:48 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_BurgerMenu' is visible
+
+2024-09-16 19:12:48 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Global_Header/Button_BurgerMenu")): Object 'Object Repository/Global_Header/Button_BurgerMenu' is clickable
+
+2024-09-16 19:12:49 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_BurgerMenu' is clickable
+
+2024-09-16 19:12:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Button_Cart")): Object 'Object Repository/Global_Header/Button_Cart' is visible
+
+2024-09-16 19:12:49 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_Cart' is visible
+
+2024-09-16 19:12:49 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Global_Header/Button_Cart")): Object 'Object Repository/Global_Header/Button_Cart' is clickable
+
+2024-09-16 19:12:49 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_Cart' is clickable
+
+2024-09-16 19:12:49 - [TEST_STEP][PASSED] - click(findTestObject("Global_Header/Button_Cart")): Object: 'Object Repository/Global_Header/Button_Cart' is clicked on
+
+2024-09-16 19:12:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Global_Header/Button_Cart' is clicked on
+
+2024-09-16 19:12:49 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-16 19:12:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_191208\\YourInformation_Page\\YourInformation_Checkout\\20240916_191208\\1726488770440.png]]
+
+2024-09-16 19:12:50 - [TEST_STEP][PASSED] - packaged.verifyproduct.verifyProductCountCart(): packaged.verifyproduct.verifyProductCountCart is PASSED
+
+2024-09-16 19:12:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/Global_Header/Label_ProductCountCART' is: '3'
+
+2024-09-16 19:12:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/Cart_Page/Label_ProductInCart' is: 'Sauce Labs Backpack'
+
+2024-09-16 19:12:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/Cart_Page/Label_ProductInCart' is: 'Sauce Labs Bike Light'
+
+2024-09-16 19:12:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/Cart_Page/Label_ProductInCart' is: 'Sauce Labs Bolt T-Shirt'
+
+2024-09-16 19:12:51 - [MESSAGE][PASSED] - packaged.verifyproduct.verifyProductCountCart is PASSED
+
+2024-09-16 19:12:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Cart_Page/Button_Checkout")): Object 'Object Repository/Cart_Page/Button_Checkout' is visible
+
+2024-09-16 19:12:52 - [MESSAGE][PASSED] - Object 'Object Repository/Cart_Page/Button_Checkout' is visible
+
+2024-09-16 19:12:52 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Cart_Page/Button_Checkout")): Object 'Object Repository/Cart_Page/Button_Checkout' is clickable
+
+2024-09-16 19:12:52 - [MESSAGE][PASSED] - Object 'Object Repository/Cart_Page/Button_Checkout' is clickable
+
+2024-09-16 19:12:52 - [TEST_STEP][PASSED] - click(findTestObject("Cart_Page/Button_Checkout")): Object: 'Object Repository/Cart_Page/Button_Checkout' is clicked on
+
+2024-09-16 19:12:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Cart_Page/Button_Checkout' is clicked on
+
+2024-09-16 19:12:54 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Cart_Page/Positive_Case/ProductCart' .
+
+2024-09-16 19:12:54 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Cart_Page/Positive_Case/ProductCart' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/YourInformation_Page/Negative_Case/InputData_YourInformation_Back" time="11.991" classname="Test Cases/YourInformation_Page/Negative_Case/InputData_YourInformation_Back" status="PASSED">
+         <system-out><![CDATA[2024-09-16 19:12:54 - [TEST_CASE][PASSED] - Test Cases/YourInformation_Page/Negative_Case/InputData_YourInformation_Back: Test Cases/YourInformation_Page/Negative_Case/InputData_YourInformation_Back
+
+2024-09-16 19:12:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Label_Title")): Object 'Object Repository/Global_Header/Label_Title' is visible
+
+2024-09-16 19:12:55 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Label_Title' is visible
+
+2024-09-16 19:12:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Button_Cart")): Object 'Object Repository/Global_Header/Button_Cart' is visible
+
+2024-09-16 19:12:57 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_Cart' is visible
+
+2024-09-16 19:12:57 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Global_Header/Button_Cart")): Object 'Object Repository/Global_Header/Button_Cart' is clickable
+
+2024-09-16 19:12:57 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_Cart' is clickable
+
+2024-09-16 19:12:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Button_BurgerMenu")): Object 'Object Repository/Global_Header/Button_BurgerMenu' is visible
+
+2024-09-16 19:12:57 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_BurgerMenu' is visible
+
+2024-09-16 19:12:57 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Global_Header/Button_BurgerMenu")): Object 'Object Repository/Global_Header/Button_BurgerMenu' is clickable
+
+2024-09-16 19:12:57 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_BurgerMenu' is clickable
+
+2024-09-16 19:12:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/Label_Checkout Your Information")): Object 'Object Repository/YourInformation_Page/Label_Checkout Your Information' is visible
+
+2024-09-16 19:12:58 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/Label_Checkout Your Information' is visible
+
+2024-09-16 19:12:58 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/TextArea_FirstName")): Object 'Object Repository/YourInformation_Page/TextArea_FirstName' is visible
+
+2024-09-16 19:12:58 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/TextArea_FirstName' is visible
+
+2024-09-16 19:12:58 - [TEST_STEP][PASSED] - setText(findTestObject("YourInformation_Page/TextArea_FirstName"), firstName): Text 'Muhammad' is set on object 'Object Repository/YourInformation_Page/TextArea_FirstName'
+
+2024-09-16 19:12:59 - [MESSAGE][PASSED] - Text 'Muhammad' is set on object 'Object Repository/YourInformation_Page/TextArea_FirstName'
+
+2024-09-16 19:12:59 - [TEST_STEP][PASSED] - namapertama = getAttribute(findTestObject("YourInformation_Page/TextArea_FirstName"), "value"): Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_FirstName' is: 'Muhammad'
+
+2024-09-16 19:12:59 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_FirstName' is: 'Muhammad'
+
+2024-09-16 19:12:59 - [TEST_STEP][PASSED] - println(namapertama): null
+
+2024-09-16 19:12:59 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-16 19:13:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_191208\\YourInformation_Page\\YourInformation_Checkout\\20240916_191208\\1726488780069.png]]
+
+2024-09-16 19:13:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/TextArea_LastName")): Object 'Object Repository/YourInformation_Page/TextArea_LastName' is visible
+
+2024-09-16 19:13:00 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/TextArea_LastName' is visible
+
+2024-09-16 19:13:00 - [TEST_STEP][PASSED] - setText(findTestObject("YourInformation_Page/TextArea_LastName"), lastName): Text 'Rasyid' is set on object 'Object Repository/YourInformation_Page/TextArea_LastName'
+
+2024-09-16 19:13:01 - [MESSAGE][PASSED] - Text 'Rasyid' is set on object 'Object Repository/YourInformation_Page/TextArea_LastName'
+
+2024-09-16 19:13:01 - [TEST_STEP][PASSED] - namaterakhir = getAttribute(findTestObject("YourInformation_Page/TextArea_LastName"), "value"): Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_LastName' is: 'Rasyid'
+
+2024-09-16 19:13:01 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_LastName' is: 'Rasyid'
+
+2024-09-16 19:13:01 - [TEST_STEP][PASSED] - println(namaterakhir): null
+
+2024-09-16 19:13:01 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-16 19:13:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_191208\\YourInformation_Page\\YourInformation_Checkout\\20240916_191208\\1726488781899.png]]
+
+2024-09-16 19:13:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/TextArea_PostalCode")): Object 'Object Repository/YourInformation_Page/TextArea_PostalCode' is visible
+
+2024-09-16 19:13:02 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/TextArea_PostalCode' is visible
+
+2024-09-16 19:13:02 - [TEST_STEP][PASSED] - setText(findTestObject("YourInformation_Page/TextArea_PostalCode"), postalCode): Text '12760' is set on object 'Object Repository/YourInformation_Page/TextArea_PostalCode'
+
+2024-09-16 19:13:02 - [MESSAGE][PASSED] - Text '12760' is set on object 'Object Repository/YourInformation_Page/TextArea_PostalCode'
+
+2024-09-16 19:13:02 - [TEST_STEP][PASSED] - postalcode = getAttribute(findTestObject("YourInformation_Page/TextArea_PostalCode"), "value"): Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_PostalCode' is: '12760'
+
+2024-09-16 19:13:03 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_PostalCode' is: '12760'
+
+2024-09-16 19:13:03 - [TEST_STEP][PASSED] - println(postalcode): null
+
+2024-09-16 19:13:03 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-16 19:13:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_191208\\YourInformation_Page\\YourInformation_Checkout\\20240916_191208\\1726488783711.png]]
+
+2024-09-16 19:13:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/Button_Continue")): Object 'Object Repository/YourInformation_Page/Button_Continue' is visible
+
+2024-09-16 19:13:04 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/Button_Continue' is visible
+
+2024-09-16 19:13:04 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("YourInformation_Page/Button_Continue")): Object 'Object Repository/YourInformation_Page/Button_Continue' is clickable
+
+2024-09-16 19:13:04 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/Button_Continue' is clickable
+
+2024-09-16 19:13:04 - [TEST_STEP][PASSED] - click(findTestObject("YourInformation_Page/Button_Continue")): Object: 'Object Repository/YourInformation_Page/Button_Continue' is clicked on
+
+2024-09-16 19:13:04 - [MESSAGE][PASSED] - Object: 'Object Repository/YourInformation_Page/Button_Continue' is clicked on
+
+2024-09-16 19:13:04 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2024-09-16 19:13:04 - [MESSAGE][PASSED] - Navigate back successfully
+
+2024-09-16 19:13:06 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/YourInformation_Page/Negative_Case/InputData_YourInformation_Back' .
+
+2024-09-16 19:13:06 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/YourInformation_Page/Negative_Case/InputData_YourInformation_Back' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/YourInformation_Page/Negative_Case/FirstName_Null" time="11.904" classname="Test Cases/YourInformation_Page/Negative_Case/FirstName_Null" status="PASSED">
+         <system-out><![CDATA[2024-09-16 19:13:06 - [TEST_CASE][PASSED] - Test Cases/YourInformation_Page/Negative_Case/FirstName_Null: Test Cases/YourInformation_Page/Negative_Case/FirstName_Null
+
+2024-09-16 19:13:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Label_Title")): Object 'Object Repository/Global_Header/Label_Title' is visible
+
+2024-09-16 19:13:07 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Label_Title' is visible
+
+2024-09-16 19:13:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Button_Cart")): Object 'Object Repository/Global_Header/Button_Cart' is visible
+
+2024-09-16 19:13:07 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_Cart' is visible
+
+2024-09-16 19:13:07 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Global_Header/Button_Cart")): Object 'Object Repository/Global_Header/Button_Cart' is clickable
+
+2024-09-16 19:13:08 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_Cart' is clickable
+
+2024-09-16 19:13:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Button_BurgerMenu")): Object 'Object Repository/Global_Header/Button_BurgerMenu' is visible
+
+2024-09-16 19:13:08 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_BurgerMenu' is visible
+
+2024-09-16 19:13:08 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Global_Header/Button_BurgerMenu")): Object 'Object Repository/Global_Header/Button_BurgerMenu' is clickable
+
+2024-09-16 19:13:08 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_BurgerMenu' is clickable
+
+2024-09-16 19:13:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/Label_Checkout Your Information")): Object 'Object Repository/YourInformation_Page/Label_Checkout Your Information' is visible
+
+2024-09-16 19:13:09 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/Label_Checkout Your Information' is visible
+
+2024-09-16 19:13:09 - [TEST_STEP][PASSED] - clearText(findTestObject("YourInformation_Page/TextArea_FirstName")): Text of object 'Object Repository/YourInformation_Page/TextArea_FirstName' is cleared
+
+2024-09-16 19:13:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/YourInformation_Page/TextArea_FirstName' is cleared
+
+2024-09-16 19:13:09 - [TEST_STEP][PASSED] - clearText(findTestObject("YourInformation_Page/TextArea_LastName")): Text of object 'Object Repository/YourInformation_Page/TextArea_LastName' is cleared
+
+2024-09-16 19:13:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/YourInformation_Page/TextArea_LastName' is cleared
+
+2024-09-16 19:13:09 - [TEST_STEP][PASSED] - clearText(findTestObject("YourInformation_Page/TextArea_PostalCode")): Text of object 'Object Repository/YourInformation_Page/TextArea_PostalCode' is cleared
+
+2024-09-16 19:13:10 - [MESSAGE][PASSED] - Text of object 'Object Repository/YourInformation_Page/TextArea_PostalCode' is cleared
+
+2024-09-16 19:13:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/TextArea_FirstName")): Object 'Object Repository/YourInformation_Page/TextArea_FirstName' is visible
+
+2024-09-16 19:13:10 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/TextArea_FirstName' is visible
+
+2024-09-16 19:13:10 - [TEST_STEP][PASSED] - setText(findTestObject("YourInformation_Page/TextArea_FirstName"), firstName): Text '' is set on object 'Object Repository/YourInformation_Page/TextArea_FirstName'
+
+2024-09-16 19:13:11 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/YourInformation_Page/TextArea_FirstName'
+
+2024-09-16 19:13:11 - [TEST_STEP][PASSED] - namapertama = getAttribute(findTestObject("YourInformation_Page/TextArea_FirstName"), "value"): Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_FirstName' is: ''
+
+2024-09-16 19:13:11 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_FirstName' is: ''
+
+2024-09-16 19:13:11 - [TEST_STEP][PASSED] - println(namapertama): null
+
+2024-09-16 19:13:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/TextArea_LastName")): Object 'Object Repository/YourInformation_Page/TextArea_LastName' is visible
+
+2024-09-16 19:13:11 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/TextArea_LastName' is visible
+
+2024-09-16 19:13:11 - [TEST_STEP][PASSED] - setText(findTestObject("YourInformation_Page/TextArea_LastName"), lastName): Text 'Rasyid' is set on object 'Object Repository/YourInformation_Page/TextArea_LastName'
+
+2024-09-16 19:13:12 - [MESSAGE][PASSED] - Text 'Rasyid' is set on object 'Object Repository/YourInformation_Page/TextArea_LastName'
+
+2024-09-16 19:13:12 - [TEST_STEP][PASSED] - namaterakhir = getAttribute(findTestObject("YourInformation_Page/TextArea_LastName"), "value"): Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_LastName' is: 'Rasyid'
+
+2024-09-16 19:13:12 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_LastName' is: 'Rasyid'
+
+2024-09-16 19:13:12 - [TEST_STEP][PASSED] - println(namaterakhir): null
+
+2024-09-16 19:13:12 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-16 19:13:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_191208\\YourInformation_Page\\YourInformation_Checkout\\20240916_191208\\1726488793101.png]]
+
+2024-09-16 19:13:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/TextArea_PostalCode")): Object 'Object Repository/YourInformation_Page/TextArea_PostalCode' is visible
+
+2024-09-16 19:13:13 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/TextArea_PostalCode' is visible
+
+2024-09-16 19:13:13 - [TEST_STEP][PASSED] - setText(findTestObject("YourInformation_Page/TextArea_PostalCode"), postalCode): Text '12760' is set on object 'Object Repository/YourInformation_Page/TextArea_PostalCode'
+
+2024-09-16 19:13:14 - [MESSAGE][PASSED] - Text '12760' is set on object 'Object Repository/YourInformation_Page/TextArea_PostalCode'
+
+2024-09-16 19:13:14 - [TEST_STEP][PASSED] - postalcode = getAttribute(findTestObject("YourInformation_Page/TextArea_PostalCode"), "value"): Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_PostalCode' is: '12760'
+
+2024-09-16 19:13:14 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_PostalCode' is: '12760'
+
+2024-09-16 19:13:14 - [TEST_STEP][PASSED] - println(postalcode): null
+
+2024-09-16 19:13:14 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-16 19:13:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_191208\\YourInformation_Page\\YourInformation_Checkout\\20240916_191208\\1726488794904.png]]
+
+2024-09-16 19:13:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/Button_Continue")): Object 'Object Repository/YourInformation_Page/Button_Continue' is visible
+
+2024-09-16 19:13:15 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/Button_Continue' is visible
+
+2024-09-16 19:13:15 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("YourInformation_Page/Button_Continue")): Object 'Object Repository/YourInformation_Page/Button_Continue' is clickable
+
+2024-09-16 19:13:15 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/Button_Continue' is clickable
+
+2024-09-16 19:13:15 - [TEST_STEP][PASSED] - click(findTestObject("YourInformation_Page/Button_Continue")): Object: 'Object Repository/YourInformation_Page/Button_Continue' is clicked on
+
+2024-09-16 19:13:15 - [MESSAGE][PASSED] - Object: 'Object Repository/YourInformation_Page/Button_Continue' is clicked on
+
+2024-09-16 19:13:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/Label_ErrorMessage")): Object 'Object Repository/YourInformation_Page/Label_ErrorMessage' is visible
+
+2024-09-16 19:13:16 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/Label_ErrorMessage' is visible
+
+2024-09-16 19:13:16 - [TEST_STEP][PASSED] - errorMessageFirstNameNull = getText(findTestObject("YourInformation_Page/Label_ErrorMessage")): Text of object 'Object Repository/YourInformation_Page/Label_ErrorMessage' is: 'Error: First Name is required'
+
+2024-09-16 19:13:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/YourInformation_Page/Label_ErrorMessage' is: 'Error: First Name is required'
+
+2024-09-16 19:13:16 - [TEST_STEP][PASSED] - if (errorMessageFirstNameNull.equals(messageFirstNameNull)): null
+
+2024-09-16 19:13:16 - [TEST_STEP][PASSED] - println("Error message sudah sesuai: " + errorMessageFirstNameNull): null
+
+2024-09-16 19:13:18 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/YourInformation_Page/Negative_Case/FirstName_Null' .
+
+2024-09-16 19:13:18 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/YourInformation_Page/Negative_Case/FirstName_Null' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/YourInformation_Page/Negative_Case/LastName_Null" time="42.53" classname="Test Cases/YourInformation_Page/Negative_Case/LastName_Null" status="FAILED">
+         <failure type="FAILED" message="Test Cases/YourInformation_Page/Negative_Case/LastName_Null FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/YourInformation_Page/Label_ErrorMessage' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$1.call(Unknown Source)
+	at LastName_Null.run(LastName_Null:101)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726488728073.run(TempTestSuite1726488728073.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/YourInformation_Page/Label_ErrorMessage' located by '//h3[@data-test='error']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2024-09-16 19:13:18 - [TEST_CASE][FAILED] - Test Cases/YourInformation_Page/Negative_Case/LastName_Null: Test Cases/YourInformation_Page/Negative_Case/LastName_Null FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/YourInformation_Page/Label_ErrorMessage' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$1.call(Unknown Source)
+	at LastName_Null.run(LastName_Null:101)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726488728073.run(TempTestSuite1726488728073.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/YourInformation_Page/Label_ErrorMessage' located by '//h3[@data-test='error']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2024-09-16 19:13:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Label_Title")): Object 'Object Repository/Global_Header/Label_Title' is visible
+
+2024-09-16 19:13:19 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Label_Title' is visible
+
+2024-09-16 19:13:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Button_Cart")): Object 'Object Repository/Global_Header/Button_Cart' is visible
+
+2024-09-16 19:13:19 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_Cart' is visible
+
+2024-09-16 19:13:19 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Global_Header/Button_Cart")): Object 'Object Repository/Global_Header/Button_Cart' is clickable
+
+2024-09-16 19:13:19 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_Cart' is clickable
+
+2024-09-16 19:13:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Button_BurgerMenu")): Object 'Object Repository/Global_Header/Button_BurgerMenu' is visible
+
+2024-09-16 19:13:20 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_BurgerMenu' is visible
+
+2024-09-16 19:13:20 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Global_Header/Button_BurgerMenu")): Object 'Object Repository/Global_Header/Button_BurgerMenu' is clickable
+
+2024-09-16 19:13:20 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_BurgerMenu' is clickable
+
+2024-09-16 19:13:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/Label_Checkout Your Information")): Object 'Object Repository/YourInformation_Page/Label_Checkout Your Information' is visible
+
+2024-09-16 19:13:20 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/Label_Checkout Your Information' is visible
+
+2024-09-16 19:13:20 - [TEST_STEP][PASSED] - clearText(findTestObject("YourInformation_Page/TextArea_FirstName")): Text of object 'Object Repository/YourInformation_Page/TextArea_FirstName' is cleared
+
+2024-09-16 19:13:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/YourInformation_Page/TextArea_FirstName' is cleared
+
+2024-09-16 19:13:21 - [TEST_STEP][PASSED] - clearText(findTestObject("YourInformation_Page/TextArea_LastName")): Text of object 'Object Repository/YourInformation_Page/TextArea_LastName' is cleared
+
+2024-09-16 19:13:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/YourInformation_Page/TextArea_LastName' is cleared
+
+2024-09-16 19:13:21 - [TEST_STEP][PASSED] - clearText(findTestObject("YourInformation_Page/TextArea_PostalCode")): Text of object 'Object Repository/YourInformation_Page/TextArea_PostalCode' is cleared
+
+2024-09-16 19:13:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/YourInformation_Page/TextArea_PostalCode' is cleared
+
+2024-09-16 19:13:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/TextArea_FirstName")): Object 'Object Repository/YourInformation_Page/TextArea_FirstName' is visible
+
+2024-09-16 19:13:22 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/TextArea_FirstName' is visible
+
+2024-09-16 19:13:22 - [TEST_STEP][PASSED] - setText(findTestObject("YourInformation_Page/TextArea_FirstName"), firstName): Text 'Muhammad' is set on object 'Object Repository/YourInformation_Page/TextArea_FirstName'
+
+2024-09-16 19:13:22 - [MESSAGE][PASSED] - Text 'Muhammad' is set on object 'Object Repository/YourInformation_Page/TextArea_FirstName'
+
+2024-09-16 19:13:22 - [TEST_STEP][PASSED] - namapertama = getAttribute(findTestObject("YourInformation_Page/TextArea_FirstName"), "value"): Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_FirstName' is: 'Muhammad'
+
+2024-09-16 19:13:23 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_FirstName' is: 'Muhammad'
+
+2024-09-16 19:13:23 - [TEST_STEP][PASSED] - println(namapertama): null
+
+2024-09-16 19:13:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/TextArea_LastName")): Object 'Object Repository/YourInformation_Page/TextArea_LastName' is visible
+
+2024-09-16 19:13:23 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/TextArea_LastName' is visible
+
+2024-09-16 19:13:23 - [TEST_STEP][PASSED] - setText(findTestObject("YourInformation_Page/TextArea_LastName"), lastName): Text '' is set on object 'Object Repository/YourInformation_Page/TextArea_LastName'
+
+2024-09-16 19:13:24 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/YourInformation_Page/TextArea_LastName'
+
+2024-09-16 19:13:24 - [TEST_STEP][PASSED] - namaterakhir = getAttribute(findTestObject("YourInformation_Page/TextArea_LastName"), "value"): Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_LastName' is: ''
+
+2024-09-16 19:13:24 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_LastName' is: ''
+
+2024-09-16 19:13:24 - [TEST_STEP][PASSED] - println(namaterakhir): null
+
+2024-09-16 19:13:24 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-16 19:13:25 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_191208\\YourInformation_Page\\YourInformation_Checkout\\20240916_191208\\1726488804920.png]]
+
+2024-09-16 19:13:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/TextArea_PostalCode")): Object 'Object Repository/YourInformation_Page/TextArea_PostalCode' is visible
+
+2024-09-16 19:13:25 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/TextArea_PostalCode' is visible
+
+2024-09-16 19:13:25 - [TEST_STEP][PASSED] - setText(findTestObject("YourInformation_Page/TextArea_PostalCode"), postalCode): Text '12760' is set on object 'Object Repository/YourInformation_Page/TextArea_PostalCode'
+
+2024-09-16 19:13:25 - [MESSAGE][PASSED] - Text '12760' is set on object 'Object Repository/YourInformation_Page/TextArea_PostalCode'
+
+2024-09-16 19:13:25 - [TEST_STEP][PASSED] - postalcode = getAttribute(findTestObject("YourInformation_Page/TextArea_PostalCode"), "value"): Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_PostalCode' is: '12760'
+
+2024-09-16 19:13:26 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_PostalCode' is: '12760'
+
+2024-09-16 19:13:26 - [TEST_STEP][PASSED] - println(postalcode): null
+
+2024-09-16 19:13:26 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-16 19:13:26 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_191208\\YourInformation_Page\\YourInformation_Checkout\\20240916_191208\\1726488806757.png]]
+
+2024-09-16 19:13:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/Button_Continue")): Object 'Object Repository/YourInformation_Page/Button_Continue' is visible
+
+2024-09-16 19:13:27 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/Button_Continue' is visible
+
+2024-09-16 19:13:27 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("YourInformation_Page/Button_Continue")): Object 'Object Repository/YourInformation_Page/Button_Continue' is clickable
+
+2024-09-16 19:13:27 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/Button_Continue' is clickable
+
+2024-09-16 19:13:27 - [TEST_STEP][PASSED] - click(findTestObject("YourInformation_Page/Button_Continue")): Object: 'Object Repository/YourInformation_Page/Button_Continue' is clicked on
+
+2024-09-16 19:13:27 - [MESSAGE][PASSED] - Object: 'Object Repository/YourInformation_Page/Button_Continue' is clicked on
+
+2024-09-16 19:13:27 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject("YourInformation_Page/Label_ErrorMessage")): Unable to verify object 'Object Repository/YourInformation_Page/Label_ErrorMessage' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/YourInformation_Page/Label_ErrorMessage' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$1.call(Unknown Source)
+	at LastName_Null.run(LastName_Null:101)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726488728073.run(TempTestSuite1726488728073.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/YourInformation_Page/Label_ErrorMessage' located by '//h3[@data-test='error']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2024-09-16 19:13:59 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //h3[@data-test='error']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2024-09-16 19:13:59 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/YourInformation_Page/Label_ErrorMessage' located by '//h3[@data-test='error']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/YourInformation_Page/Label_ErrorMessage' located by '//h3[@data-test='error']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$1.call(Unknown Source)
+	at LastName_Null.run(LastName_Null:101)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726488728073.run(TempTestSuite1726488728073.groovy:35)
+)
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_191208\\YourInformation_Page\\YourInformation_Checkout\\20240916_191208\\1726488839070.png]]
+
+2024-09-16 19:13:59 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/YourInformation_Page/Label_ErrorMessage' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/YourInformation_Page/Label_ErrorMessage' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$1.call(Unknown Source)
+	at LastName_Null.run(LastName_Null:101)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726488728073.run(TempTestSuite1726488728073.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/YourInformation_Page/Label_ErrorMessage' located by '//h3[@data-test='error']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_191208\\YourInformation_Page\\YourInformation_Checkout\\20240916_191208\\1726488839203.png]]
+
+2024-09-16 19:14:01 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/YourInformation_Page/Negative_Case/LastName_Null' .
+
+2024-09-16 19:14:01 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/YourInformation_Page/Negative_Case/LastName_Null' .]]></system-out>
+         <system-err><![CDATA[2024-09-16 19:13:18 - [TEST_CASE][FAILED] - Test Cases/YourInformation_Page/Negative_Case/LastName_Null: Test Cases/YourInformation_Page/Negative_Case/LastName_Null FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/YourInformation_Page/Label_ErrorMessage' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$1.call(Unknown Source)
+	at LastName_Null.run(LastName_Null:101)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726488728073.run(TempTestSuite1726488728073.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/YourInformation_Page/Label_ErrorMessage' located by '//h3[@data-test='error']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/YourInformation_Page/Negative_Case/PostalCode_Null" time="35.259" classname="Test Cases/YourInformation_Page/Negative_Case/PostalCode_Null" status="FAILED">
+         <failure type="FAILED" message="Test Cases/YourInformation_Page/Negative_Case/PostalCode_Null FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/YourInformation_Page/Label_Checkout Your Information' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$1.call(Unknown Source)
+	at PostalCode_Null.run(PostalCode_Null:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726488728073.run(TempTestSuite1726488728073.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/YourInformation_Page/Label_Checkout Your Information' located by '//span[contains(text(),'Checkout: Your Information')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2024-09-16 19:14:01 - [TEST_CASE][FAILED] - Test Cases/YourInformation_Page/Negative_Case/PostalCode_Null: Test Cases/YourInformation_Page/Negative_Case/PostalCode_Null FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/YourInformation_Page/Label_Checkout Your Information' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$1.call(Unknown Source)
+	at PostalCode_Null.run(PostalCode_Null:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726488728073.run(TempTestSuite1726488728073.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/YourInformation_Page/Label_Checkout Your Information' located by '//span[contains(text(),'Checkout: Your Information')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2024-09-16 19:14:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Label_Title")): Object 'Object Repository/Global_Header/Label_Title' is visible
+
+2024-09-16 19:14:01 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Label_Title' is visible
+
+2024-09-16 19:14:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Button_Cart")): Object 'Object Repository/Global_Header/Button_Cart' is visible
+
+2024-09-16 19:14:02 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_Cart' is visible
+
+2024-09-16 19:14:02 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Global_Header/Button_Cart")): Object 'Object Repository/Global_Header/Button_Cart' is clickable
+
+2024-09-16 19:14:02 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_Cart' is clickable
+
+2024-09-16 19:14:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Button_BurgerMenu")): Object 'Object Repository/Global_Header/Button_BurgerMenu' is visible
+
+2024-09-16 19:14:02 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_BurgerMenu' is visible
+
+2024-09-16 19:14:02 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Global_Header/Button_BurgerMenu")): Object 'Object Repository/Global_Header/Button_BurgerMenu' is clickable
+
+2024-09-16 19:14:03 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_BurgerMenu' is clickable
+
+2024-09-16 19:14:03 - [TEST_STEP][FAILED] - verifyElementVisible(findTestObject("YourInformation_Page/Label_Checkout Your Information")): Unable to verify object 'Object Repository/YourInformation_Page/Label_Checkout Your Information' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/YourInformation_Page/Label_Checkout Your Information' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$1.call(Unknown Source)
+	at PostalCode_Null.run(PostalCode_Null:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726488728073.run(TempTestSuite1726488728073.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/YourInformation_Page/Label_Checkout Your Information' located by '//span[contains(text(),'Checkout: Your Information')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2024-09-16 19:14:34 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //span[contains(text(),'Checkout: Your Information')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2024-09-16 19:14:34 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/YourInformation_Page/Label_Checkout Your Information' located by '//span[contains(text(),'Checkout: Your Information')]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/YourInformation_Page/Label_Checkout Your Information' located by '//span[contains(text(),'Checkout: Your Information')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$1.call(Unknown Source)
+	at PostalCode_Null.run(PostalCode_Null:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726488728073.run(TempTestSuite1726488728073.groovy:35)
+)
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_191208\\YourInformation_Page\\YourInformation_Checkout\\20240916_191208\\1726488874372.png]]
+
+2024-09-16 19:14:34 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/YourInformation_Page/Label_Checkout Your Information' is visible (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/YourInformation_Page/Label_Checkout Your Information' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$1.call(Unknown Source)
+	at PostalCode_Null.run(PostalCode_Null:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726488728073.run(TempTestSuite1726488728073.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/YourInformation_Page/Label_Checkout Your Information' located by '//span[contains(text(),'Checkout: Your Information')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_191208\\YourInformation_Page\\YourInformation_Checkout\\20240916_191208\\1726488874477.png]]
+
+2024-09-16 19:14:36 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/YourInformation_Page/Negative_Case/PostalCode_Null' .
+
+2024-09-16 19:14:36 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/YourInformation_Page/Negative_Case/PostalCode_Null' .]]></system-out>
+         <system-err><![CDATA[2024-09-16 19:14:01 - [TEST_CASE][FAILED] - Test Cases/YourInformation_Page/Negative_Case/PostalCode_Null: Test Cases/YourInformation_Page/Negative_Case/PostalCode_Null FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/YourInformation_Page/Label_Checkout Your Information' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$1.call(Unknown Source)
+	at PostalCode_Null.run(PostalCode_Null:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726488728073.run(TempTestSuite1726488728073.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/YourInformation_Page/Label_Checkout Your Information' located by '//span[contains(text(),'Checkout: Your Information')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-09-16 19:12:17 - [TEST_SUITE][FAILED] - YourInformation_Checkout: Test Cases/YourInformation_Page/Negative_Case/LastName_Null FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/YourInformation_Page/Label_ErrorMessage' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$1.call(Unknown Source)
+	at LastName_Null.run(LastName_Null:101)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726488728073.run(TempTestSuite1726488728073.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/YourInformation_Page/Label_ErrorMessage' located by '//h3[@data-test='error']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2024-09-16 19:12:17 - [TEST_SUITE][FAILED] - YourInformation_Checkout: Test Cases/YourInformation_Page/Negative_Case/LastName_Null FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/YourInformation_Page/Label_ErrorMessage' is visible
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:376)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$1.call(Unknown Source)
+	at LastName_Null.run(LastName_Null:101)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726488728073.run(TempTestSuite1726488728073.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/YourInformation_Page/Label_ErrorMessage' located by '//h3[@data-test='error']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.doCall(VerifyElementVisibleKeyword.groovy:89)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword$_verifyElementVisible_closure1.call(VerifyElementVisibleKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

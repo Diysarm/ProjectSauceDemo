@@ -1,0 +1,43 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+AddToCart,Chrome 128.0.0.0,,,2024-09-15 15:44:08,2024-09-15 15:44:34,25.624s,ERROR
+,,,,,,,
+Test Cases/Login_Page/Positive_Case/Login,Chrome 128.0.0.0,,,2024-09-15 15:44:09,2024-09-15 15:44:21,12.592s,PASSED
+openBrowser(loginUrl),Chrome 128.0.0.0,Buka browser dan navigasi ke URL,,2024-09-15 15:44:09,2024-09-15 15:44:13,3.702s,PASSED
+maximizeWindow(),Chrome 128.0.0.0,Maximize window browser,,2024-09-15 15:44:13,2024-09-15 15:44:13,0.085s,PASSED
+"verifyElementVisible(findTestObject(""Login_Page/Label_LoginTitle""))",Chrome 128.0.0.0,Verifikasi Title Login terlihat,,2024-09-15 15:44:13,2024-09-15 15:44:14,1.478s,PASSED
+"verifyElementVisible(findTestObject(""Login_Page/TextArea_Username""))",Chrome 128.0.0.0,Verifikasi Text Field username terlihat,,2024-09-15 15:44:14,2024-09-15 15:44:15,0.327s,PASSED
+"verifyElementVisible(findTestObject(""Login_Page/TextArea_Password""))",Chrome 128.0.0.0,Verifikasi Text Field password terlihat,,2024-09-15 15:44:15,2024-09-15 15:44:15,0.324s,PASSED
+"verifyElementVisible(findTestObject(""Login_Page/Button_Login""))",Chrome 128.0.0.0,Verifikasi Button login terlihat,,2024-09-15 15:44:15,2024-09-15 15:44:15,0.326s,PASSED
+takeScreenshot(),Chrome 128.0.0.0,Mengambil screenshot pada window,,2024-09-15 15:44:15,2024-09-15 15:44:16,0.382s,PASSED
+"setText(findTestObject(""Login_Page/TextArea_Username""), userName)",Chrome 128.0.0.0,Input username pada field,,2024-09-15 15:44:16,2024-09-15 15:44:16,0.678s,PASSED
+"username = getAttribute(findTestObject(""Login_Page/TextArea_Username""), ""value"")",Chrome 128.0.0.0,Get attribute value yang sudah diinput pada field,,2024-09-15 15:44:16,2024-09-15 15:44:17,0.338s,PASSED
+takeScreenshot(),Chrome 128.0.0.0,Mengambil screenshot pada window,,2024-09-15 15:44:17,2024-09-15 15:44:17,0.326s,PASSED
+"pass = setText(findTestObject(""Login_Page/TextArea_Password""), password)",Chrome 128.0.0.0,Input password pada field,,2024-09-15 15:44:17,2024-09-15 15:44:18,0.653s,PASSED
+"getAttribute(findTestObject(""Login_Page/TextArea_Password""), ""value"")",Chrome 128.0.0.0,Get attribute value yang sudah diinput pada field,,2024-09-15 15:44:18,2024-09-15 15:44:18,0.327s,PASSED
+takeScreenshot(),Chrome 128.0.0.0,Mengambil screenshot pada window,,2024-09-15 15:44:18,2024-09-15 15:44:18,0.351s,PASSED
+"verifyElementClickable(findTestObject(""Login_Page/Button_Login""))",Chrome 128.0.0.0,Verifikasi button Login dapat diklik,,2024-09-15 15:44:18,2024-09-15 15:44:19,0.331s,PASSED
+"click(findTestObject(""Login_Page/Button_Login""))",Chrome 128.0.0.0,Klik button Login,,2024-09-15 15:44:19,2024-09-15 15:44:19,0.379s,PASSED
+,,,,,,,
+Test Cases/Product_Page/AddToCart_Products,Chrome 128.0.0.0,,,2024-09-15 15:44:21,2024-09-15 15:44:24,2.442s,ERROR
+packaged.verifyproduct.verifyProductName(),Chrome 128.0.0.0,,,2024-09-15 15:44:21,2024-09-15 15:44:22,0.024s,ERROR
+Video,Chrome 128.0.0.0,,,2024-09-15 15:44:24,2024-09-15 15:44:24,0.001s,PASSED
+,,,,,,,
+Test Cases/Product_Page/AddToCart_Products,Chrome 128.0.0.0,,,2024-09-15 15:44:24,2024-09-15 15:44:26,2.024s,ERROR
+packaged.verifyproduct.verifyProductName(),Chrome 128.0.0.0,,,2024-09-15 15:44:24,2024-09-15 15:44:24,0.002s,ERROR
+Video,Chrome 128.0.0.0,,,2024-09-15 15:44:26,2024-09-15 15:44:26,0.000s,PASSED
+,,,,,,,
+Test Cases/Product_Page/AddToCart_Products,Chrome 128.0.0.0,,,2024-09-15 15:44:26,2024-09-15 15:44:28,2.040s,ERROR
+packaged.verifyproduct.verifyProductName(),Chrome 128.0.0.0,,,2024-09-15 15:44:26,2024-09-15 15:44:26,0.003s,ERROR
+Video,Chrome 128.0.0.0,,,2024-09-15 15:44:28,2024-09-15 15:44:28,0.000s,PASSED
+,,,,,,,
+Test Cases/Product_Page/AddToCart_Products,Chrome 128.0.0.0,,,2024-09-15 15:44:28,2024-09-15 15:44:30,2.038s,ERROR
+packaged.verifyproduct.verifyProductName(),Chrome 128.0.0.0,,,2024-09-15 15:44:28,2024-09-15 15:44:28,0.003s,ERROR
+Video,Chrome 128.0.0.0,,,2024-09-15 15:44:30,2024-09-15 15:44:30,0.001s,PASSED
+,,,,,,,
+Test Cases/Product_Page/AddToCart_Products,Chrome 128.0.0.0,,,2024-09-15 15:44:30,2024-09-15 15:44:32,2.048s,ERROR
+packaged.verifyproduct.verifyProductName(),Chrome 128.0.0.0,,,2024-09-15 15:44:30,2024-09-15 15:44:30,0.003s,ERROR
+Video,Chrome 128.0.0.0,,,2024-09-15 15:44:32,2024-09-15 15:44:32,0.001s,PASSED
+,,,,,,,
+Test Cases/Product_Page/AddToCart_Products,Chrome 128.0.0.0,,,2024-09-15 15:44:32,2024-09-15 15:44:34,2.030s,ERROR
+packaged.verifyproduct.verifyProductName(),Chrome 128.0.0.0,,,2024-09-15 15:44:32,2024-09-15 15:44:32,0.002s,ERROR
+Video,Chrome 128.0.0.0,,,2024-09-15 15:44:34,2024-09-15 15:44:34,0.000s,PASSED

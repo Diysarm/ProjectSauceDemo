@@ -1,0 +1,108 @@
+1
+00:00:00,247 --> 00:00:00,556
+3. Verifikasi element Title Swag Labs terlihat
+
+2
+00:00:00,558 --> 00:00:00,880
+9. Verifikasi Element button Cart Terlihat
+
+3
+00:00:00,881 --> 00:00:01,179
+15. Verifikasi button Cart dapat diklik
+
+4
+00:00:01,179 --> 00:00:01,497
+21. Verifikasi Button Burger terlihat
+
+5
+00:00:01,498 --> 00:00:01,797
+27. Verifikasi Button Burger dapat diklik
+
+6
+00:00:01,797 --> 00:00:02,116
+33. Verifikasi label checkout: Your Information terlihat
+
+7
+00:00:02,116 --> 00:00:02,433
+39. Clear text yang ada pada text field FirstName
+
+8
+00:00:02,434 --> 00:00:02,758
+45. Clear text yang ada pada text field LastName
+
+9
+00:00:02,759 --> 00:00:03,093
+51. Clear text yang ada pada text field PostalCode
+
+10
+00:00:03,093 --> 00:00:03,407
+57. Verifikasi element FirstName Terlihat
+
+11
+00:00:03,407 --> 00:00:04,049
+63. Input text firstName
+
+12
+00:00:04,050 --> 00:00:04,586
+69. ambil atribut value firstName yang telah diinput
+
+13
+00:00:04,586 --> 00:00:04,587
+75. print value firstName yang telah diinput
+
+14
+00:00:04,587 --> 00:00:04,898
+81. Verifikasi element LastName Terlihat
+
+15
+00:00:04,898 --> 00:00:05,527
+87. Input text lastName
+
+16
+00:00:05,527 --> 00:00:05,842
+93. ambil atribut value lastName yang telah diinput
+
+17
+00:00:05,843 --> 00:00:05,843
+99. print value lastName yang telah diinput
+
+18
+00:00:05,844 --> 00:00:06,175
+105. mengambil Screenshot pada window
+
+19
+00:00:06,175 --> 00:00:06,490
+111. Verifikasi element postalCode Terlihat
+
+20
+00:00:06,490 --> 00:00:07,131
+117. Input text PostalCode
+
+21
+00:00:07,131 --> 00:00:07,663
+123. ambil atribut value postalcode yang telah diinput
+
+22
+00:00:07,663 --> 00:00:07,663
+129. print value postalCode
+
+23
+00:00:07,664 --> 00:00:08,010
+135. mengambil screenshot pada window
+
+24
+00:00:08,010 --> 00:00:08,332
+141. Verifikasi element button continue Terlihat
+
+25
+00:00:08,333 --> 00:00:08,650
+147. Verifikasi element button continue dapat diklik
+
+26
+00:00:08,651 --> 00:00:09,006
+153. klik button Continue
+
+27
+00:00:09,007 --> 00:00:40,340
+159. Verifikasi element error message terlihat
+

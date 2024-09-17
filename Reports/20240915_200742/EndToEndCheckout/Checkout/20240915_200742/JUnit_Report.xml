@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Checkout" time="65.972" tests="6" failures="0" errors="0">
+   <testsuite name="Checkout" tests="6" failures="0" errors="0" time="65.972" skipped="0" timestamp="2024-09-15 20:07:57" hostname="rasyid - DESKTOP-R622UHT" id="Test Suites/EndToEndCheckout/Checkout">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240915_200742\\EndToEndCheckout\\Checkout\\20240915_200742"/>
+         <property name="logFiles" value="C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240915_200742\\EndToEndCheckout\\Checkout\\20240915_200742\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240915_200742\\EndToEndCheckout\\Checkout\\20240915_200742\\1726405686194.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240915_200742\\EndToEndCheckout\\Checkout\\20240915_200742\\1726405687528.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240915_200742\\EndToEndCheckout\\Checkout\\20240915_200742\\1726405688844.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240915_200742\\EndToEndCheckout\\Checkout\\20240915_200742\\1726405690642.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240915_200742\\EndToEndCheckout\\Checkout\\20240915_200742\\1726405698445.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240915_200742\\EndToEndCheckout\\Checkout\\20240915_200742\\1726405700605.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240915_200742\\EndToEndCheckout\\Checkout\\20240915_200742\\1726405702800.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240915_200742\\EndToEndCheckout\\Checkout\\20240915_200742\\1726405704995.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240915_200742\\EndToEndCheckout\\Checkout\\20240915_200742\\1726405710390.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240915_200742\\EndToEndCheckout\\Checkout\\20240915_200742\\1726405720019.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240915_200742\\EndToEndCheckout\\Checkout\\20240915_200742\\1726405721732.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240915_200742\\EndToEndCheckout\\Checkout\\20240915_200742\\1726405723541.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240915_200742\\EndToEndCheckout\\Checkout\\20240915_200742\\1726405729051.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240915_200742\\EndToEndCheckout\\Checkout\\20240915_200742\\1726405733213.png"/>
+         <property name="hostName" value="rasyid - DESKTOP-R622UHT"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.9.208"/>
+         <property name="browser" value="Chrome 128.0.0.0"/>
+         <property name="hostAddress" value="26.103.121.102"/>
+         <property name="sessionId" value="f6898d593b0b0d1ebbcd1a2d5e696506"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login_Page/Positive_Case/Login" time="14.585" classname="Test Cases/Login_Page/Positive_Case/Login" status="PASSED">
+         <system-out><![CDATA[2024-09-15 20:07:58 - [TEST_CASE][PASSED] - Test Cases/Login_Page/Positive_Case/Login: Test Cases/Login_Page/Positive_Case/Login
+
+2024-09-15 20:07:58 - [TEST_STEP][PASSED] - openBrowser(loginUrl): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2024-09-15 20:07:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-09-15 20:07:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-09-15 20:08:03 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2024-09-15 20:08:03 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-09-15 20:08:03 - [MESSAGE][PASSED] - Current window maximized
+
+2024-09-15 20:08:03 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Label_Title")): Object 'Object Repository/Global_Header/Label_Title' is visible
+
+2024-09-15 20:08:04 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Label_Title' is visible
+
+2024-09-15 20:08:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Login_Page/TextArea_Username")): Object 'Object Repository/Login_Page/TextArea_Username' is visible
+
+2024-09-15 20:08:05 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/TextArea_Username' is visible
+
+2024-09-15 20:08:05 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Login_Page/TextArea_Password")): Object 'Object Repository/Login_Page/TextArea_Password' is visible
+
+2024-09-15 20:08:05 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/TextArea_Password' is visible
+
+2024-09-15 20:08:05 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Login_Page/Button_Login")): Object 'Object Repository/Login_Page/Button_Login' is visible
+
+2024-09-15 20:08:05 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/Button_Login' is visible
+
+2024-09-15 20:08:05 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-15 20:08:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240915_200742\\EndToEndCheckout\\Checkout\\20240915_200742\\1726405686194.png]]
+
+2024-09-15 20:08:06 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page/TextArea_Username"), userName): Text 'standard_user' is set on object 'Object Repository/Login_Page/TextArea_Username'
+
+2024-09-15 20:08:06 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login_Page/TextArea_Username'
+
+2024-09-15 20:08:06 - [TEST_STEP][PASSED] - username = getAttribute(findTestObject("Login_Page/TextArea_Username"), "value"): Attribute 'value' of object 'Object Repository/Login_Page/TextArea_Username' is: 'standard_user'
+
+2024-09-15 20:08:07 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Login_Page/TextArea_Username' is: 'standard_user'
+
+2024-09-15 20:08:07 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-15 20:08:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240915_200742\\EndToEndCheckout\\Checkout\\20240915_200742\\1726405687528.png]]
+
+2024-09-15 20:08:07 - [TEST_STEP][PASSED] - pass = setText(findTestObject("Login_Page/TextArea_Password"), password): Text 'secret_sauce' is set on object 'Object Repository/Login_Page/TextArea_Password'
+
+2024-09-15 20:08:08 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Login_Page/TextArea_Password'
+
+2024-09-15 20:08:08 - [TEST_STEP][PASSED] - getAttribute(findTestObject("Login_Page/TextArea_Password"), "value"): Attribute 'value' of object 'Object Repository/Login_Page/TextArea_Password' is: 'secret_sauce'
+
+2024-09-15 20:08:08 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Login_Page/TextArea_Password' is: 'secret_sauce'
+
+2024-09-15 20:08:08 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-15 20:08:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240915_200742\\EndToEndCheckout\\Checkout\\20240915_200742\\1726405688844.png]]
+
+2024-09-15 20:08:08 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Login_Page/Button_Login")): Object 'Object Repository/Login_Page/Button_Login' is clickable
+
+2024-09-15 20:08:09 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/Button_Login' is clickable
+
+2024-09-15 20:08:09 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page/Button_Login")): Object: 'Object Repository/Login_Page/Button_Login' is clicked on
+
+2024-09-15 20:08:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/Button_Login' is clicked on
+
+2024-09-15 20:08:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Product_Page/Label_TitleProducts")): Object 'Object Repository/Product_Page/Label_TitleProducts' is visible
+
+2024-09-15 20:08:10 - [MESSAGE][PASSED] - Object 'Object Repository/Product_Page/Label_TitleProducts' is visible
+
+2024-09-15 20:08:10 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-15 20:08:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240915_200742\\EndToEndCheckout\\Checkout\\20240915_200742\\1726405690642.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Product_Page/Positive_Case/AddToCart_Products" time="14.325" classname="Test Cases/Product_Page/Positive_Case/AddToCart_Products" status="PASSED">
+         <system-out><![CDATA[2024-09-15 20:08:12 - [TEST_CASE][PASSED] - Test Cases/Product_Page/Positive_Case/AddToCart_Products: Test Cases/Product_Page/Positive_Case/AddToCart_Products
+
+2024-09-15 20:08:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Label_Title")): Object 'Object Repository/Global_Header/Label_Title' is visible
+
+2024-09-15 20:08:13 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Label_Title' is visible
+
+2024-09-15 20:08:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Button_Cart")): Object 'Object Repository/Global_Header/Button_Cart' is visible
+
+2024-09-15 20:08:13 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_Cart' is visible
+
+2024-09-15 20:08:13 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Global_Header/Button_Cart")): Object 'Object Repository/Global_Header/Button_Cart' is clickable
+
+2024-09-15 20:08:14 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_Cart' is clickable
+
+2024-09-15 20:08:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Button_BurgerMenu")): Object 'Object Repository/Global_Header/Button_BurgerMenu' is visible
+
+2024-09-15 20:08:14 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_BurgerMenu' is visible
+
+2024-09-15 20:08:14 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Global_Header/Button_BurgerMenu")): Object 'Object Repository/Global_Header/Button_BurgerMenu' is clickable
+
+2024-09-15 20:08:14 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_BurgerMenu' is clickable
+
+2024-09-15 20:08:14 - [TEST_STEP][PASSED] - packaged.verifyproduct.verifyProductName(): packaged.verifyproduct.verifyProductName is PASSED
+
+2024-09-15 20:08:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/Product_Page/Label_ProductsName' is: 'Sauce Labs Backpack'
+
+2024-09-15 20:08:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/Product_Page/Label_ProductsName' is: 'Sauce Labs Bike Light'
+
+2024-09-15 20:08:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/Product_Page/Label_ProductsName' is: 'Sauce Labs Bolt T-Shirt'
+
+2024-09-15 20:08:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/Product_Page/Label_ProductsName' is: 'Sauce Labs Fleece Jacket'
+
+2024-09-15 20:08:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/Product_Page/Label_ProductsName' is: 'Sauce Labs Onesie'
+
+2024-09-15 20:08:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/Product_Page/Label_ProductsName' is: 'Test.allTheThings() T-Shirt (Red)'
+
+2024-09-15 20:08:18 - [MESSAGE][PASSED] - packaged.verifyproduct.verifyProductName is PASSED
+
+2024-09-15 20:08:18 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-15 20:08:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240915_200742\\EndToEndCheckout\\Checkout\\20240915_200742\\1726405698445.png]]
+
+2024-09-15 20:08:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Product_Page/Button_AddToCart_Sauce Labs Backpack")): Object 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Backpack' is visible
+
+2024-09-15 20:08:18 - [MESSAGE][PASSED] - Object 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Backpack' is visible
+
+2024-09-15 20:08:18 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Product_Page/Button_AddToCart_Sauce Labs Backpack")): Object 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Backpack' is clickable
+
+2024-09-15 20:08:19 - [MESSAGE][PASSED] - Object 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Backpack' is clickable
+
+2024-09-15 20:08:19 - [TEST_STEP][PASSED] - click(findTestObject("Product_Page/Button_AddToCart_Sauce Labs Backpack")): Object: 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Backpack' is clicked on
+
+2024-09-15 20:08:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Backpack' is clicked on
+
+2024-09-15 20:08:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Product_Page/Button_Remove_Sauce Labs Backpack")): Object 'Object Repository/Product_Page/Button_Remove_Sauce Labs Backpack' is visible
+
+2024-09-15 20:08:20 - [MESSAGE][PASSED] - Object 'Object Repository/Product_Page/Button_Remove_Sauce Labs Backpack' is visible
+
+2024-09-15 20:08:20 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Product_Page/Button_Remove_Sauce Labs Backpack")): Object 'Object Repository/Product_Page/Button_Remove_Sauce Labs Backpack' is clickable
+
+2024-09-15 20:08:20 - [MESSAGE][PASSED] - Object 'Object Repository/Product_Page/Button_Remove_Sauce Labs Backpack' is clickable
+
+2024-09-15 20:08:20 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-15 20:08:20 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240915_200742\\EndToEndCheckout\\Checkout\\20240915_200742\\1726405700605.png]]
+
+2024-09-15 20:08:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Product_Page/Button_AddToCart_Sauce Labs Bike Light")): Object 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Bike Light' is visible
+
+2024-09-15 20:08:21 - [MESSAGE][PASSED] - Object 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Bike Light' is visible
+
+2024-09-15 20:08:21 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Product_Page/Button_AddToCart_Sauce Labs Bike Light")): Object 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Bike Light' is clickable
+
+2024-09-15 20:08:21 - [MESSAGE][PASSED] - Object 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Bike Light' is clickable
+
+2024-09-15 20:08:21 - [TEST_STEP][PASSED] - click(findTestObject("Product_Page/Button_AddToCart_Sauce Labs Bike Light")): Object: 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Bike Light' is clicked on
+
+2024-09-15 20:08:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Bike Light' is clicked on
+
+2024-09-15 20:08:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Product_Page/Button_Remove_Sauce Labs Bike Light")): Object 'Object Repository/Product_Page/Button_Remove_Sauce Labs Bike Light' is visible
+
+2024-09-15 20:08:22 - [MESSAGE][PASSED] - Object 'Object Repository/Product_Page/Button_Remove_Sauce Labs Bike Light' is visible
+
+2024-09-15 20:08:22 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Product_Page/Button_Remove_Sauce Labs Bike Light")): Object 'Object Repository/Product_Page/Button_Remove_Sauce Labs Bike Light' is clickable
+
+2024-09-15 20:08:22 - [MESSAGE][PASSED] - Object 'Object Repository/Product_Page/Button_Remove_Sauce Labs Bike Light' is clickable
+
+2024-09-15 20:08:22 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-15 20:08:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240915_200742\\EndToEndCheckout\\Checkout\\20240915_200742\\1726405702800.png]]
+
+2024-09-15 20:08:22 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Product_Page/Button_AddToCart_Sauce Labs Bolt T-Shirt")): Object 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Bolt T-Shirt' is visible
+
+2024-09-15 20:08:23 - [MESSAGE][PASSED] - Object 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Bolt T-Shirt' is visible
+
+2024-09-15 20:08:23 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Product_Page/Button_AddToCart_Sauce Labs Bolt T-Shirt")): Object 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Bolt T-Shirt' is clickable
+
+2024-09-15 20:08:23 - [MESSAGE][PASSED] - Object 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Bolt T-Shirt' is clickable
+
+2024-09-15 20:08:23 - [TEST_STEP][PASSED] - click(findTestObject("Product_Page/Button_AddToCart_Sauce Labs Bolt T-Shirt")): Object: 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Bolt T-Shirt' is clicked on
+
+2024-09-15 20:08:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Bolt T-Shirt' is clicked on
+
+2024-09-15 20:08:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Product_Page/Button_Remove_Sauce Labs Bolt T-Shirt")): Object 'Object Repository/Product_Page/Button_Remove_Sauce Labs Bolt T-Shirt' is visible
+
+2024-09-15 20:08:24 - [MESSAGE][PASSED] - Object 'Object Repository/Product_Page/Button_Remove_Sauce Labs Bolt T-Shirt' is visible
+
+2024-09-15 20:08:24 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Product_Page/Button_Remove_Sauce Labs Bolt T-Shirt")): Object 'Object Repository/Product_Page/Button_Remove_Sauce Labs Bolt T-Shirt' is clickable
+
+2024-09-15 20:08:24 - [MESSAGE][PASSED] - Object 'Object Repository/Product_Page/Button_Remove_Sauce Labs Bolt T-Shirt' is clickable
+
+2024-09-15 20:08:24 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-15 20:08:25 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240915_200742\\EndToEndCheckout\\Checkout\\20240915_200742\\1726405704995.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Cart_Page/Positive_Case/ProductCart" time="7.599" classname="Test Cases/Cart_Page/Positive_Case/ProductCart" status="PASSED">
+         <system-out><![CDATA[2024-09-15 20:08:27 - [TEST_CASE][PASSED] - Test Cases/Cart_Page/Positive_Case/ProductCart: Test Cases/Cart_Page/Positive_Case/ProductCart
+
+2024-09-15 20:08:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Label_Title")): Object 'Object Repository/Global_Header/Label_Title' is visible
+
+2024-09-15 20:08:27 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Label_Title' is visible
+
+2024-09-15 20:08:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Button_Cart")): Object 'Object Repository/Global_Header/Button_Cart' is visible
+
+2024-09-15 20:08:28 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_Cart' is visible
+
+2024-09-15 20:08:28 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Global_Header/Button_Cart")): Object 'Object Repository/Global_Header/Button_Cart' is clickable
+
+2024-09-15 20:08:28 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_Cart' is clickable
+
+2024-09-15 20:08:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Button_BurgerMenu")): Object 'Object Repository/Global_Header/Button_BurgerMenu' is visible
+
+2024-09-15 20:08:28 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_BurgerMenu' is visible
+
+2024-09-15 20:08:28 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Global_Header/Button_BurgerMenu")): Object 'Object Repository/Global_Header/Button_BurgerMenu' is clickable
+
+2024-09-15 20:08:28 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_BurgerMenu' is clickable
+
+2024-09-15 20:08:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Button_Cart")): Object 'Object Repository/Global_Header/Button_Cart' is visible
+
+2024-09-15 20:08:29 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_Cart' is visible
+
+2024-09-15 20:08:29 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Global_Header/Button_Cart")): Object 'Object Repository/Global_Header/Button_Cart' is clickable
+
+2024-09-15 20:08:29 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_Cart' is clickable
+
+2024-09-15 20:08:29 - [TEST_STEP][PASSED] - click(findTestObject("Global_Header/Button_Cart")): Object: 'Object Repository/Global_Header/Button_Cart' is clicked on
+
+2024-09-15 20:08:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Global_Header/Button_Cart' is clicked on
+
+2024-09-15 20:08:29 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-15 20:08:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240915_200742\\EndToEndCheckout\\Checkout\\20240915_200742\\1726405710390.png]]
+
+2024-09-15 20:08:30 - [TEST_STEP][PASSED] - packaged.verifyproduct.verifyProductCountCart(): packaged.verifyproduct.verifyProductCountCart is PASSED
+
+2024-09-15 20:08:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/Global_Header/Label_ProductCountCART' is: '3'
+
+2024-09-15 20:08:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/Cart_Page/Label_ProductInCart' is: 'Sauce Labs Backpack'
+
+2024-09-15 20:08:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/Cart_Page/Label_ProductInCart' is: 'Sauce Labs Bike Light'
+
+2024-09-15 20:08:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/Cart_Page/Label_ProductInCart' is: 'Sauce Labs Bolt T-Shirt'
+
+2024-09-15 20:08:31 - [MESSAGE][PASSED] - packaged.verifyproduct.verifyProductCountCart is PASSED
+
+2024-09-15 20:08:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Cart_Page/Button_Checkout")): Object 'Object Repository/Cart_Page/Button_Checkout' is visible
+
+2024-09-15 20:08:32 - [MESSAGE][PASSED] - Object 'Object Repository/Cart_Page/Button_Checkout' is visible
+
+2024-09-15 20:08:32 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Cart_Page/Button_Checkout")): Object 'Object Repository/Cart_Page/Button_Checkout' is clickable
+
+2024-09-15 20:08:32 - [MESSAGE][PASSED] - Object 'Object Repository/Cart_Page/Button_Checkout' is clickable
+
+2024-09-15 20:08:32 - [TEST_STEP][PASSED] - click(findTestObject("Cart_Page/Button_Checkout")): Object: 'Object Repository/Cart_Page/Button_Checkout' is clicked on
+
+2024-09-15 20:08:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Cart_Page/Button_Checkout' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/YourInformation_Page/Positive_Case/InputData_YourInformation" time="11.881" classname="Test Cases/YourInformation_Page/Positive_Case/InputData_YourInformation" status="PASSED">
+         <system-out><![CDATA[2024-09-15 20:08:34 - [TEST_CASE][PASSED] - Test Cases/YourInformation_Page/Positive_Case/InputData_YourInformation: Test Cases/YourInformation_Page/Positive_Case/InputData_YourInformation
+
+2024-09-15 20:08:35 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Label_Title")): Object 'Object Repository/Global_Header/Label_Title' is visible
+
+2024-09-15 20:08:35 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Label_Title' is visible
+
+2024-09-15 20:08:35 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Button_Cart")): Object 'Object Repository/Global_Header/Button_Cart' is visible
+
+2024-09-15 20:08:35 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_Cart' is visible
+
+2024-09-15 20:08:35 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Global_Header/Button_Cart")): Object 'Object Repository/Global_Header/Button_Cart' is clickable
+
+2024-09-15 20:08:35 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_Cart' is clickable
+
+2024-09-15 20:08:35 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Button_BurgerMenu")): Object 'Object Repository/Global_Header/Button_BurgerMenu' is visible
+
+2024-09-15 20:08:36 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_BurgerMenu' is visible
+
+2024-09-15 20:08:36 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Global_Header/Button_BurgerMenu")): Object 'Object Repository/Global_Header/Button_BurgerMenu' is clickable
+
+2024-09-15 20:08:37 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_BurgerMenu' is clickable
+
+2024-09-15 20:08:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/Label_Checkout Your Information")): Object 'Object Repository/YourInformation_Page/Label_Checkout Your Information' is visible
+
+2024-09-15 20:08:38 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/Label_Checkout Your Information' is visible
+
+2024-09-15 20:08:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/TextArea_FirstName")): Object 'Object Repository/YourInformation_Page/TextArea_FirstName' is visible
+
+2024-09-15 20:08:38 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/TextArea_FirstName' is visible
+
+2024-09-15 20:08:38 - [TEST_STEP][PASSED] - setText(findTestObject("YourInformation_Page/TextArea_FirstName"), firstName): Text 'Muhammad' is set on object 'Object Repository/YourInformation_Page/TextArea_FirstName'
+
+2024-09-15 20:08:39 - [MESSAGE][PASSED] - Text 'Muhammad' is set on object 'Object Repository/YourInformation_Page/TextArea_FirstName'
+
+2024-09-15 20:08:39 - [TEST_STEP][PASSED] - namapertama = getAttribute(findTestObject("YourInformation_Page/TextArea_FirstName"), "value"): Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_FirstName' is: 'Muhammad'
+
+2024-09-15 20:08:39 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_FirstName' is: 'Muhammad'
+
+2024-09-15 20:08:39 - [TEST_STEP][PASSED] - println(namapertama): null
+
+2024-09-15 20:08:39 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-15 20:08:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240915_200742\\EndToEndCheckout\\Checkout\\20240915_200742\\1726405720019.png]]
+
+2024-09-15 20:08:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/TextArea_LastName")): Object 'Object Repository/YourInformation_Page/TextArea_LastName' is visible
+
+2024-09-15 20:08:40 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/TextArea_LastName' is visible
+
+2024-09-15 20:08:40 - [TEST_STEP][PASSED] - setText(findTestObject("YourInformation_Page/TextArea_LastName"), lastName): Text 'Rasyid' is set on object 'Object Repository/YourInformation_Page/TextArea_LastName'
+
+2024-09-15 20:08:41 - [MESSAGE][PASSED] - Text 'Rasyid' is set on object 'Object Repository/YourInformation_Page/TextArea_LastName'
+
+2024-09-15 20:08:41 - [TEST_STEP][PASSED] - namaterakhir = getAttribute(findTestObject("YourInformation_Page/TextArea_LastName"), "value"): Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_LastName' is: 'Rasyid'
+
+2024-09-15 20:08:41 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_LastName' is: 'Rasyid'
+
+2024-09-15 20:08:41 - [TEST_STEP][PASSED] - println(namaterakhir): null
+
+2024-09-15 20:08:41 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-15 20:08:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240915_200742\\EndToEndCheckout\\Checkout\\20240915_200742\\1726405721732.png]]
+
+2024-09-15 20:08:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/TextArea_PostalCode")): Object 'Object Repository/YourInformation_Page/TextArea_PostalCode' is visible
+
+2024-09-15 20:08:42 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/TextArea_PostalCode' is visible
+
+2024-09-15 20:08:42 - [TEST_STEP][PASSED] - setText(findTestObject("YourInformation_Page/TextArea_PostalCode"), postalCode): Text '12760' is set on object 'Object Repository/YourInformation_Page/TextArea_PostalCode'
+
+2024-09-15 20:08:42 - [MESSAGE][PASSED] - Text '12760' is set on object 'Object Repository/YourInformation_Page/TextArea_PostalCode'
+
+2024-09-15 20:08:42 - [TEST_STEP][PASSED] - postalcode = getAttribute(findTestObject("YourInformation_Page/TextArea_PostalCode"), "value"): Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_PostalCode' is: '12760'
+
+2024-09-15 20:08:43 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_PostalCode' is: '12760'
+
+2024-09-15 20:08:43 - [TEST_STEP][PASSED] - println(postalcode): null
+
+2024-09-15 20:08:43 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-15 20:08:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240915_200742\\EndToEndCheckout\\Checkout\\20240915_200742\\1726405723541.png]]
+
+2024-09-15 20:08:43 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/Button_Continue")): Object 'Object Repository/YourInformation_Page/Button_Continue' is visible
+
+2024-09-15 20:08:43 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/Button_Continue' is visible
+
+2024-09-15 20:08:43 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("YourInformation_Page/Button_Continue")): Object 'Object Repository/YourInformation_Page/Button_Continue' is clickable
+
+2024-09-15 20:08:44 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/Button_Continue' is clickable
+
+2024-09-15 20:08:44 - [TEST_STEP][PASSED] - click(findTestObject("YourInformation_Page/Button_Continue")): Object: 'Object Repository/YourInformation_Page/Button_Continue' is clicked on
+
+2024-09-15 20:08:44 - [MESSAGE][PASSED] - Object: 'Object Repository/YourInformation_Page/Button_Continue' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Checkout_Overview_Page/Positive_Case/Checkout_Product" time="10.565" classname="Test Cases/Checkout_Overview_Page/Positive_Case/Checkout_Product" status="PASSED">
+         <system-out><![CDATA[2024-09-15 20:08:46 - [TEST_CASE][PASSED] - Test Cases/Checkout_Overview_Page/Positive_Case/Checkout_Product: Test Cases/Checkout_Overview_Page/Positive_Case/Checkout_Product
+
+2024-09-15 20:08:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Label_Title")): Object 'Object Repository/Global_Header/Label_Title' is visible
+
+2024-09-15 20:08:47 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Label_Title' is visible
+
+2024-09-15 20:08:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Button_Cart")): Object 'Object Repository/Global_Header/Button_Cart' is visible
+
+2024-09-15 20:08:47 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_Cart' is visible
+
+2024-09-15 20:08:47 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Global_Header/Button_Cart")): Object 'Object Repository/Global_Header/Button_Cart' is clickable
+
+2024-09-15 20:08:47 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_Cart' is clickable
+
+2024-09-15 20:08:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Button_BurgerMenu")): Object 'Object Repository/Global_Header/Button_BurgerMenu' is visible
+
+2024-09-15 20:08:48 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_BurgerMenu' is visible
+
+2024-09-15 20:08:48 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Global_Header/Button_BurgerMenu")): Object 'Object Repository/Global_Header/Button_BurgerMenu' is clickable
+
+2024-09-15 20:08:48 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_BurgerMenu' is clickable
+
+2024-09-15 20:08:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Checkout_Overview_Page/Label_CheckoutOverview")): Object 'Object Repository/Checkout_Overview_Page/Label_CheckoutOverview' is visible
+
+2024-09-15 20:08:48 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout_Overview_Page/Label_CheckoutOverview' is visible
+
+2024-09-15 20:08:48 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-15 20:08:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240915_200742\\EndToEndCheckout\\Checkout\\20240915_200742\\1726405729051.png]]
+
+2024-09-15 20:08:49 - [TEST_STEP][PASSED] - packaged.verifyproduct.verifyProductPrice(): packaged.verifyproduct.verifyProductPrice is PASSED
+
+2024-09-15 20:08:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/Global_Header/Label_ProductCountCART' is: '3'
+
+2024-09-15 20:08:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/Checkout_Overview_Page/Label_ProductPrice' is: '$29.99'
+
+2024-09-15 20:08:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/Checkout_Overview_Page/Label_ProductPrice' is: '$9.99'
+
+2024-09-15 20:08:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/Checkout_Overview_Page/Label_ProductPrice' is: '$15.99'
+
+2024-09-15 20:08:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/Checkout_Overview_Page/Label_SubTotalProductPrice' is: 'Item total: $55.97'
+
+2024-09-15 20:08:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/Checkout_Overview_Page/Label_TaxProductPrice' is: 'Tax: $4.48'
+
+2024-09-15 20:08:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/Checkout_Overview_Page/Label_FinalTotalProductPrice' is: 'Total: $60.45'
+
+2024-09-15 20:08:51 - [MESSAGE][PASSED] - packaged.verifyproduct.verifyProductPrice is PASSED
+
+2024-09-15 20:08:51 - [TEST_STEP][PASSED] - packaged.verifyproduct.verifyProductCountCart(): packaged.verifyproduct.verifyProductCountCart is PASSED
+
+2024-09-15 20:08:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/Global_Header/Label_ProductCountCART' is: '3'
+
+2024-09-15 20:08:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/Cart_Page/Label_ProductInCart' is: 'Sauce Labs Backpack'
+
+2024-09-15 20:08:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/Cart_Page/Label_ProductInCart' is: 'Sauce Labs Bike Light'
+
+2024-09-15 20:08:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/Cart_Page/Label_ProductInCart' is: 'Sauce Labs Bolt T-Shirt'
+
+2024-09-15 20:08:52 - [MESSAGE][PASSED] - packaged.verifyproduct.verifyProductCountCart is PASSED
+
+2024-09-15 20:08:52 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Checkout_Overview_Page/Label_SubTotalProductPrice"), 0): Scroll to object 'Object Repository/Checkout_Overview_Page/Label_SubTotalProductPrice' successfully
+
+2024-09-15 20:08:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2024-09-15 20:08:52 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Checkout_Overview_Page/Label_SubTotalProductPrice' successfully
+
+2024-09-15 20:08:52 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-15 20:08:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240915_200742\\EndToEndCheckout\\Checkout\\20240915_200742\\1726405733213.png]]
+
+2024-09-15 20:08:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Checkout_Overview_Page/Label_SubTotalProductPrice")): Object 'Object Repository/Checkout_Overview_Page/Label_SubTotalProductPrice' is visible
+
+2024-09-15 20:08:53 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout_Overview_Page/Label_SubTotalProductPrice' is visible
+
+2024-09-15 20:08:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Checkout_Overview_Page/Label_TaxProductPrice")): Object 'Object Repository/Checkout_Overview_Page/Label_TaxProductPrice' is visible
+
+2024-09-15 20:08:53 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout_Overview_Page/Label_TaxProductPrice' is visible
+
+2024-09-15 20:08:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Checkout_Overview_Page/Label_FinalTotalProductPrice")): Object 'Object Repository/Checkout_Overview_Page/Label_FinalTotalProductPrice' is visible
+
+2024-09-15 20:08:54 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout_Overview_Page/Label_FinalTotalProductPrice' is visible
+
+2024-09-15 20:08:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Checkout_Overview_Page/Button_Finish")): Object 'Object Repository/Checkout_Overview_Page/Button_Finish' is visible
+
+2024-09-15 20:08:54 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout_Overview_Page/Button_Finish' is visible
+
+2024-09-15 20:08:54 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Checkout_Overview_Page/Button_Finish")): Object 'Object Repository/Checkout_Overview_Page/Button_Finish' is clickable
+
+2024-09-15 20:08:54 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout_Overview_Page/Button_Finish' is clickable
+
+2024-09-15 20:08:54 - [TEST_STEP][PASSED] - click(findTestObject("Checkout_Overview_Page/Button_Finish")): Object: 'Object Repository/Checkout_Overview_Page/Button_Finish' is clicked on
+
+2024-09-15 20:08:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout_Overview_Page/Button_Finish' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Checkout_Complete_Page/Positive_Case/Checkout_Complete" time="6.61" classname="Test Cases/Checkout_Complete_Page/Positive_Case/Checkout_Complete" status="PASSED">
+         <system-out><![CDATA[2024-09-15 20:08:57 - [TEST_CASE][PASSED] - Test Cases/Checkout_Complete_Page/Positive_Case/Checkout_Complete: Test Cases/Checkout_Complete_Page/Positive_Case/Checkout_Complete
+
+2024-09-15 20:08:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Label_Title")): Object 'Object Repository/Global_Header/Label_Title' is visible
+
+2024-09-15 20:08:57 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Label_Title' is visible
+
+2024-09-15 20:08:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Button_Cart")): Object 'Object Repository/Global_Header/Button_Cart' is visible
+
+2024-09-15 20:08:58 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_Cart' is visible
+
+2024-09-15 20:08:58 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Global_Header/Button_Cart")): Object 'Object Repository/Global_Header/Button_Cart' is clickable
+
+2024-09-15 20:08:58 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_Cart' is clickable
+
+2024-09-15 20:08:58 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Button_BurgerMenu")): Object 'Object Repository/Global_Header/Button_BurgerMenu' is visible
+
+2024-09-15 20:08:58 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_BurgerMenu' is visible
+
+2024-09-15 20:08:58 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Global_Header/Button_BurgerMenu")): Object 'Object Repository/Global_Header/Button_BurgerMenu' is clickable
+
+2024-09-15 20:08:59 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_BurgerMenu' is clickable
+
+2024-09-15 20:08:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Checkout_Complete_Page/Label_CheckoutComplete")): Object 'Object Repository/Checkout_Complete_Page/Label_CheckoutComplete' is visible
+
+2024-09-15 20:08:59 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout_Complete_Page/Label_CheckoutComplete' is visible
+
+2024-09-15 20:08:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Checkout_Complete_Page/Image_CheckoutSuccess")): Object 'Object Repository/Checkout_Complete_Page/Image_CheckoutSuccess' is visible
+
+2024-09-15 20:08:59 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout_Complete_Page/Image_CheckoutSuccess' is visible
+
+2024-09-15 20:08:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Checkout_Complete_Page/Label_Thankyou")): Object 'Object Repository/Checkout_Complete_Page/Label_Thankyou' is visible
+
+2024-09-15 20:09:00 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout_Complete_Page/Label_Thankyou' is visible
+
+2024-09-15 20:09:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Checkout_Complete_Page/Label_YourOrderDispatched")): Object 'Object Repository/Checkout_Complete_Page/Label_YourOrderDispatched' is visible
+
+2024-09-15 20:09:00 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout_Complete_Page/Label_YourOrderDispatched' is visible
+
+2024-09-15 20:09:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Checkout_Complete_Page/Button_BackHome")): Object 'Object Repository/Checkout_Complete_Page/Button_BackHome' is visible
+
+2024-09-15 20:09:00 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout_Complete_Page/Button_BackHome' is visible
+
+2024-09-15 20:09:00 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Checkout_Complete_Page/Button_BackHome")): Object 'Object Repository/Checkout_Complete_Page/Button_BackHome' is clickable
+
+2024-09-15 20:09:00 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout_Complete_Page/Button_BackHome' is clickable
+
+2024-09-15 20:09:00 - [TEST_STEP][PASSED] - click(findTestObject("Checkout_Complete_Page/Button_BackHome")): Object: 'Object Repository/Checkout_Complete_Page/Button_BackHome' is clicked on
+
+2024-09-15 20:09:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout_Complete_Page/Button_BackHome' is clicked on
+
+2024-09-15 20:09:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Product_Page/Label_TitleProducts")): Object 'Object Repository/Product_Page/Label_TitleProducts' is visible
+
+2024-09-15 20:09:01 - [MESSAGE][PASSED] - Object 'Object Repository/Product_Page/Label_TitleProducts' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-09-15 20:07:57 - [TEST_SUITE][PASSED] - Checkout: Test Cases/Checkout_Complete_Page/Positive_Case/Checkout_Complete]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

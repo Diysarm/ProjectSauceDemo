@@ -1,0 +1,8 @@
+1
+00:00:00,002 --> 00:00:02,261
+3. Verifikasi apakah nama product sesuai dengan product data di Excel
+
+2
+00:00:02,261 --> 00:00:02,640
+9. Mengambil screenshot pada window
+

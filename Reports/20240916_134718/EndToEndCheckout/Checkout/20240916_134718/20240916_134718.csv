@@ -1,0 +1,129 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Checkout,Chrome 128.0.0.0,,,2024-09-16 13:47:28,2024-09-16 13:48:34,1m - 5.736s,PASSED
+,,,,,,,
+Test Cases/Login_Page/Positive_Case/Login,Chrome 128.0.0.0,,,2024-09-16 13:47:28,2024-09-16 13:47:42,13.850s,PASSED
+openBrowser(loginUrl),Chrome 128.0.0.0,Buka browser dan navigasi ke URL,,2024-09-16 13:47:29,2024-09-16 13:47:32,3.738s,PASSED
+maximizeWindow(),Chrome 128.0.0.0,Maximize window browser,,2024-09-16 13:47:32,2024-09-16 13:47:33,0.079s,PASSED
+"verifyElementVisible(findTestObject(""Global_Header/Label_Title""))",Chrome 128.0.0.0,Verifikasi Title Login terlihat,,2024-09-16 13:47:33,2024-09-16 13:47:34,1.584s,PASSED
+"verifyElementVisible(findTestObject(""Login_Page/TextArea_Username""))",Chrome 128.0.0.0,Verifikasi Text Field username terlihat,,2024-09-16 13:47:34,2024-09-16 13:47:34,0.323s,PASSED
+"verifyElementVisible(findTestObject(""Login_Page/TextArea_Password""))",Chrome 128.0.0.0,Verifikasi Text Field password terlihat,,2024-09-16 13:47:34,2024-09-16 13:47:35,0.337s,PASSED
+"verifyElementVisible(findTestObject(""Login_Page/Button_Login""))",Chrome 128.0.0.0,Verifikasi Button login terlihat,,2024-09-16 13:47:35,2024-09-16 13:47:35,0.344s,PASSED
+takeScreenshot(),Chrome 128.0.0.0,Mengambil screenshot pada window,,2024-09-16 13:47:35,2024-09-16 13:47:35,0.370s,PASSED
+"setText(findTestObject(""Login_Page/TextArea_Username""), userName)",Chrome 128.0.0.0,Input username pada field,,2024-09-16 13:47:35,2024-09-16 13:47:36,0.677s,PASSED
+"username = getAttribute(findTestObject(""Login_Page/TextArea_Username""), ""value"")",Chrome 128.0.0.0,Get attribute value yang sudah diinput pada field,,2024-09-16 13:47:36,2024-09-16 13:47:37,0.349s,PASSED
+takeScreenshot(),Chrome 128.0.0.0,Mengambil screenshot pada window,,2024-09-16 13:47:37,2024-09-16 13:47:37,0.343s,PASSED
+"pass = setText(findTestObject(""Login_Page/TextArea_Password""), password)",Chrome 128.0.0.0,Input password pada field,,2024-09-16 13:47:37,2024-09-16 13:47:38,0.651s,PASSED
+"getAttribute(findTestObject(""Login_Page/TextArea_Password""), ""value"")",Chrome 128.0.0.0,Get attribute value yang sudah diinput pada field,,2024-09-16 13:47:38,2024-09-16 13:47:38,0.318s,PASSED
+takeScreenshot(),Chrome 128.0.0.0,Mengambil screenshot pada window,,2024-09-16 13:47:38,2024-09-16 13:47:38,0.352s,PASSED
+"verifyElementClickable(findTestObject(""Login_Page/Button_Login""))",Chrome 128.0.0.0,Verifikasi button Login dapat diklik,,2024-09-16 13:47:38,2024-09-16 13:47:39,0.333s,PASSED
+"click(findTestObject(""Login_Page/Button_Login""))",Chrome 128.0.0.0,Klik button Login,,2024-09-16 13:47:39,2024-09-16 13:47:39,0.387s,PASSED
+"verifyElementVisible(findTestObject(""Product_Page/Label_TitleProducts""))",Chrome 128.0.0.0,Verifikasi title product pada product page tampil,,2024-09-16 13:47:39,2024-09-16 13:47:39,0.416s,PASSED
+takeScreenshot(),Chrome 128.0.0.0,Mengambil screenshot pada window,,2024-09-16 13:47:39,2024-09-16 13:47:40,0.641s,PASSED
+Video,Chrome 128.0.0.0,,,2024-09-16 13:47:42,2024-09-16 13:47:42,0.000s,PASSED
+,,,,,,,
+Test Cases/Product_Page/Positive_Case/AddToCart_Products,Chrome 128.0.0.0,,,2024-09-16 13:47:42,2024-09-16 13:47:56,14.345s,PASSED
+"verifyElementVisible(findTestObject(""Global_Header/Label_Title""))",Chrome 128.0.0.0,Verifikasi element Title Swag Labs terlihat,,2024-09-16 13:47:42,2024-09-16 13:47:43,0.321s,PASSED
+"verifyElementVisible(findTestObject(""Global_Header/Button_Cart""))",Chrome 128.0.0.0,Verifikasi Element button Cart Terlihat,,2024-09-16 13:47:43,2024-09-16 13:47:43,0.326s,PASSED
+"verifyElementClickable(findTestObject(""Global_Header/Button_Cart""))",Chrome 128.0.0.0,Verifikasi button Cart dapat diklik,,2024-09-16 13:47:43,2024-09-16 13:47:43,0.316s,PASSED
+"verifyElementVisible(findTestObject(""Global_Header/Button_BurgerMenu""))",Chrome 128.0.0.0,Verifikasi Button Burger terlihat,,2024-09-16 13:47:43,2024-09-16 13:47:44,0.323s,PASSED
+"verifyElementClickable(findTestObject(""Global_Header/Button_BurgerMenu""))",Chrome 128.0.0.0,Verifikasi Button Burger dapat diklik,,2024-09-16 13:47:44,2024-09-16 13:47:44,0.313s,PASSED
+packaged.verifyproduct.verifyProductName(),Chrome 128.0.0.0,Verifikasi apakah nama product sesuai dengan product data di Excel,,2024-09-16 13:47:44,2024-09-16 13:47:47,3.353s,PASSED
+takeScreenshot(),Chrome 128.0.0.0,Mengambil screenshot pada window,,2024-09-16 13:47:47,2024-09-16 13:47:48,0.403s,PASSED
+"verifyElementVisible(findTestObject(""Product_Page/Button_AddToCart_Sauce Labs Backpack""))",Chrome 128.0.0.0,Verifikasi button add to cart terlihat,,2024-09-16 13:47:48,2024-09-16 13:47:48,0.330s,PASSED
+"verifyElementClickable(findTestObject(""Product_Page/Button_AddToCart_Sauce Labs Backpack""))",Chrome 128.0.0.0,Verifikasi button add to cart dapat diklik,,2024-09-16 13:47:48,2024-09-16 13:47:48,0.313s,PASSED
+"click(findTestObject(""Product_Page/Button_AddToCart_Sauce Labs Backpack""))",Chrome 128.0.0.0,Klik button add to cart,,2024-09-16 13:47:48,2024-09-16 13:47:49,0.343s,PASSED
+"verifyElementVisible(findTestObject(""Product_Page/Button_Remove_Sauce Labs Backpack""))",Chrome 128.0.0.0,Verifikasi button remove terlihat,,2024-09-16 13:47:49,2024-09-16 13:47:49,0.537s,PASSED
+"verifyElementClickable(findTestObject(""Product_Page/Button_Remove_Sauce Labs Backpack""))",Chrome 128.0.0.0,Verifikasi button remove dapat diklik,,2024-09-16 13:47:49,2024-09-16 13:47:50,0.317s,PASSED
+takeScreenshot(),Chrome 128.0.0.0,Mengambil screenshot pada window,,2024-09-16 13:47:50,2024-09-16 13:47:50,0.378s,PASSED
+"verifyElementVisible(findTestObject(""Product_Page/Button_AddToCart_Sauce Labs Bike Light""))",Chrome 128.0.0.0,Verifikasi button add to cart terlihat,,2024-09-16 13:47:50,2024-09-16 13:47:50,0.327s,PASSED
+"verifyElementClickable(findTestObject(""Product_Page/Button_AddToCart_Sauce Labs Bike Light""))",Chrome 128.0.0.0,Verifikasi button add to cart dapat diklik,,2024-09-16 13:47:50,2024-09-16 13:47:51,0.331s,PASSED
+"click(findTestObject(""Product_Page/Button_AddToCart_Sauce Labs Bike Light""))",Chrome 128.0.0.0,Klik button add to cart,,2024-09-16 13:47:51,2024-09-16 13:47:51,0.376s,PASSED
+"verifyElementVisible(findTestObject(""Product_Page/Button_Remove_Sauce Labs Bike Light""))",Chrome 128.0.0.0,Verifikasi button remove terlihat,,2024-09-16 13:47:51,2024-09-16 13:47:51,0.450s,PASSED
+"verifyElementClickable(findTestObject(""Product_Page/Button_Remove_Sauce Labs Bike Light""))",Chrome 128.0.0.0,Verifikasi button remove dapat diklik,,2024-09-16 13:47:51,2024-09-16 13:47:52,0.314s,PASSED
+takeScreenshot(),Chrome 128.0.0.0,Mengambil screenshot pada window,,2024-09-16 13:47:52,2024-09-16 13:47:52,0.364s,PASSED
+"verifyElementVisible(findTestObject(""Product_Page/Button_AddToCart_Sauce Labs Bolt T-Shirt""))",Chrome 128.0.0.0,Verifikasi button add to cart terlihat,,2024-09-16 13:47:52,2024-09-16 13:47:52,0.328s,PASSED
+"verifyElementClickable(findTestObject(""Product_Page/Button_AddToCart_Sauce Labs Bolt T-Shirt""))",Chrome 128.0.0.0,Verifikasi button add to cart dapat diklik,,2024-09-16 13:47:52,2024-09-16 13:47:53,0.318s,PASSED
+"click(findTestObject(""Product_Page/Button_AddToCart_Sauce Labs Bolt T-Shirt""))",Chrome 128.0.0.0,Klik button add to cart,,2024-09-16 13:47:53,2024-09-16 13:47:53,0.342s,PASSED
+"verifyElementVisible(findTestObject(""Product_Page/Button_Remove_Sauce Labs Bolt T-Shirt""))",Chrome 128.0.0.0,Verifikasi button remove terlihat,,2024-09-16 13:47:53,2024-09-16 13:47:54,0.540s,PASSED
+"verifyElementClickable(findTestObject(""Product_Page/Button_Remove_Sauce Labs Bolt T-Shirt""))",Chrome 128.0.0.0,Verifikasi button remove dapat diklik,,2024-09-16 13:47:54,2024-09-16 13:47:54,0.312s,PASSED
+takeScreenshot(),Chrome 128.0.0.0,Mengambil screenshot pada window,,2024-09-16 13:47:54,2024-09-16 13:47:54,0.380s,PASSED
+Video,Chrome 128.0.0.0,,,2024-09-16 13:47:56,2024-09-16 13:47:56,0.000s,PASSED
+,,,,,,,
+Test Cases/Cart_Page/Positive_Case/ProductCart,Chrome 128.0.0.0,,,2024-09-16 13:47:56,2024-09-16 13:48:04,7.738s,PASSED
+"verifyElementVisible(findTestObject(""Global_Header/Label_Title""))",Chrome 128.0.0.0,Verifikasi element Title Swag Labs terlihat,,2024-09-16 13:47:57,2024-09-16 13:47:57,0.333s,PASSED
+"verifyElementVisible(findTestObject(""Global_Header/Button_Cart""))",Chrome 128.0.0.0,Verifikasi Element button Cart Terlihat,,2024-09-16 13:47:57,2024-09-16 13:47:57,0.334s,PASSED
+"verifyElementClickable(findTestObject(""Global_Header/Button_Cart""))",Chrome 128.0.0.0,Verifikasi button Cart dapat diklik,,2024-09-16 13:47:57,2024-09-16 13:47:58,0.322s,PASSED
+"verifyElementVisible(findTestObject(""Global_Header/Button_BurgerMenu""))",Chrome 128.0.0.0,Verifikasi Button Burger terlihat,,2024-09-16 13:47:58,2024-09-16 13:47:58,0.321s,PASSED
+"verifyElementClickable(findTestObject(""Global_Header/Button_BurgerMenu""))",Chrome 128.0.0.0,Verifikasi Button Burger dapat diklik,,2024-09-16 13:47:58,2024-09-16 13:47:58,0.312s,PASSED
+"verifyElementVisible(findTestObject(""Global_Header/Button_Cart""))",Chrome 128.0.0.0,Verifikasi button Cart terlihat,,2024-09-16 13:47:58,2024-09-16 13:47:59,0.322s,PASSED
+"verifyElementClickable(findTestObject(""Global_Header/Button_Cart""))",Chrome 128.0.0.0,Verifikasi button Cart dapat diklik,,2024-09-16 13:47:59,2024-09-16 13:47:59,0.303s,PASSED
+"click(findTestObject(""Global_Header/Button_Cart""))",Chrome 128.0.0.0,Klik button Cart,,2024-09-16 13:47:59,2024-09-16 13:47:59,0.362s,PASSED
+takeScreenshot(),Chrome 128.0.0.0,Mengambil screenshot pada window,,2024-09-16 13:47:59,2024-09-16 13:48:00,0.559s,PASSED
+packaged.verifyproduct.verifyProductCountCart(),Chrome 128.0.0.0,Verifikasi bahwa product count dengan product yang ada di cart sudah sesuai,,2024-09-16 13:48:00,2024-09-16 13:48:01,1.295s,PASSED
+"verifyElementVisible(findTestObject(""Cart_Page/Button_Checkout""))",Chrome 128.0.0.0,Verifikasi button checkout terlihat,,2024-09-16 13:48:01,2024-09-16 13:48:01,0.339s,PASSED
+"verifyElementClickable(findTestObject(""Cart_Page/Button_Checkout""))",Chrome 128.0.0.0,Verifikasi button checkout dapat diklik,,2024-09-16 13:48:01,2024-09-16 13:48:02,0.306s,PASSED
+"click(findTestObject(""Cart_Page/Button_Checkout""))",Chrome 128.0.0.0,Klik button checkout,,2024-09-16 13:48:02,2024-09-16 13:48:02,0.354s,PASSED
+Video,Chrome 128.0.0.0,,,2024-09-16 13:48:04,2024-09-16 13:48:04,0.002s,PASSED
+,,,,,,,
+Test Cases/YourInformation_Page/Positive_Case/InputData_YourInformation,Chrome 128.0.0.0,,,2024-09-16 13:48:04,2024-09-16 13:48:16,12.077s,PASSED
+"verifyElementVisible(findTestObject(""Global_Header/Label_Title""))",Chrome 128.0.0.0,Verifikasi element Title Swag Labs terlihat,,2024-09-16 13:48:04,2024-09-16 13:48:05,0.329s,PASSED
+"verifyElementVisible(findTestObject(""Global_Header/Button_Cart""))",Chrome 128.0.0.0,Verifikasi Element button Cart Terlihat,,2024-09-16 13:48:05,2024-09-16 13:48:05,0.315s,PASSED
+"verifyElementClickable(findTestObject(""Global_Header/Button_Cart""))",Chrome 128.0.0.0,Verifikasi button Cart dapat diklik,,2024-09-16 13:48:05,2024-09-16 13:48:05,0.314s,PASSED
+"verifyElementVisible(findTestObject(""Global_Header/Button_BurgerMenu""))",Chrome 128.0.0.0,Verifikasi Button Burger terlihat,,2024-09-16 13:48:05,2024-09-16 13:48:07,1.733s,PASSED
+"verifyElementClickable(findTestObject(""Global_Header/Button_BurgerMenu""))",Chrome 128.0.0.0,Verifikasi Button Burger dapat diklik,,2024-09-16 13:48:07,2024-09-16 13:48:07,0.300s,PASSED
+"verifyElementVisible(findTestObject(""YourInformation_Page/Label_Checkout Your Information""))",Chrome 128.0.0.0,Verifikasi label checkout: Your Information terlihat,,2024-09-16 13:48:07,2024-09-16 13:48:08,0.322s,PASSED
+"verifyElementVisible(findTestObject(""YourInformation_Page/TextArea_FirstName""))",Chrome 128.0.0.0,Verifikasi element FirstName Terlihat,,2024-09-16 13:48:08,2024-09-16 13:48:08,0.309s,PASSED
+"setText(findTestObject(""YourInformation_Page/TextArea_FirstName""), firstName)",Chrome 128.0.0.0,Input text firstName,,2024-09-16 13:48:08,2024-09-16 13:48:09,0.653s,PASSED
+"namapertama = getAttribute(findTestObject(""YourInformation_Page/TextArea_FirstName""), ""value"")",Chrome 128.0.0.0,ambil atribut value firstName yang telah diinput,,2024-09-16 13:48:09,2024-09-16 13:48:09,0.538s,PASSED
+println(namapertama),Chrome 128.0.0.0,print value firstName yang telah diinput,,2024-09-16 13:48:09,2024-09-16 13:48:09,0.002s,PASSED
+takeScreenshot(),Chrome 128.0.0.0,Mengambil Screenshot pada Window,,2024-09-16 13:48:09,2024-09-16 13:48:10,0.326s,PASSED
+"verifyElementVisible(findTestObject(""YourInformation_Page/TextArea_LastName""))",Chrome 128.0.0.0,Verifikasi element LastName Terlihat,,2024-09-16 13:48:10,2024-09-16 13:48:10,0.298s,PASSED
+"setText(findTestObject(""YourInformation_Page/TextArea_LastName""), lastName)",Chrome 128.0.0.0,Input text lastName,,2024-09-16 13:48:10,2024-09-16 13:48:10,0.643s,PASSED
+"namaterakhir = getAttribute(findTestObject(""YourInformation_Page/TextArea_LastName""), ""value"")",Chrome 128.0.0.0,ambil atribut value lastName yang telah diinput,,2024-09-16 13:48:10,2024-09-16 13:48:11,0.444s,PASSED
+println(namaterakhir),Chrome 128.0.0.0,print value lastName yang telah diinput,,2024-09-16 13:48:11,2024-09-16 13:48:11,0.002s,PASSED
+takeScreenshot(),Chrome 128.0.0.0,mengambil Screenshot pada window,,2024-09-16 13:48:11,2024-09-16 13:48:11,0.341s,PASSED
+"verifyElementVisible(findTestObject(""YourInformation_Page/TextArea_PostalCode""))",Chrome 128.0.0.0,Verifikasi element postalCode Terlihat,,2024-09-16 13:48:11,2024-09-16 13:48:12,0.332s,PASSED
+"setText(findTestObject(""YourInformation_Page/TextArea_PostalCode""), postalCode)",Chrome 128.0.0.0,Input text PostalCode,,2024-09-16 13:48:12,2024-09-16 13:48:12,0.656s,PASSED
+"postalcode = getAttribute(findTestObject(""YourInformation_Page/TextArea_PostalCode""), ""value"")",Chrome 128.0.0.0,ambil atribut value postalcode yang telah diinput,,2024-09-16 13:48:12,2024-09-16 13:48:13,0.527s,PASSED
+println(postalcode),Chrome 128.0.0.0,print value postalCode,,2024-09-16 13:48:13,2024-09-16 13:48:13,0.000s,PASSED
+takeScreenshot(),Chrome 128.0.0.0,mengambil screenshot pada window,,2024-09-16 13:48:13,2024-09-16 13:48:13,0.334s,PASSED
+"verifyElementVisible(findTestObject(""YourInformation_Page/Button_Continue""))",Chrome 128.0.0.0,Verifikasi element button continue Terlihat,,2024-09-16 13:48:13,2024-09-16 13:48:13,0.318s,PASSED
+"verifyElementClickable(findTestObject(""YourInformation_Page/Button_Continue""))",Chrome 128.0.0.0,Verifikasi element button continue dapat diklik,,2024-09-16 13:48:13,2024-09-16 13:48:14,0.313s,PASSED
+"click(findTestObject(""YourInformation_Page/Button_Continue""))",Chrome 128.0.0.0,klik button Continue,,2024-09-16 13:48:14,2024-09-16 13:48:14,0.381s,PASSED
+Video,Chrome 128.0.0.0,,,2024-09-16 13:48:16,2024-09-16 13:48:16,0.000s,PASSED
+,,,,,,,
+Test Cases/Checkout_Overview_Page/Positive_Case/Checkout_Product,Chrome 128.0.0.0,,,2024-09-16 13:48:16,2024-09-16 13:48:27,10.635s,PASSED
+"verifyElementVisible(findTestObject(""Global_Header/Label_Title""))",Chrome 128.0.0.0,Verifikasi element Title Swag Labs terlihat,,2024-09-16 13:48:16,2024-09-16 13:48:17,0.317s,PASSED
+"verifyElementVisible(findTestObject(""Global_Header/Button_Cart""))",Chrome 128.0.0.0,Verifikasi Element button Cart Terlihat,,2024-09-16 13:48:17,2024-09-16 13:48:17,0.340s,PASSED
+"verifyElementClickable(findTestObject(""Global_Header/Button_Cart""))",Chrome 128.0.0.0,Verifikasi button Cart dapat diklik,,2024-09-16 13:48:17,2024-09-16 13:48:17,0.295s,PASSED
+"verifyElementVisible(findTestObject(""Global_Header/Button_BurgerMenu""))",Chrome 128.0.0.0,Verifikasi Button Burger terlihat,,2024-09-16 13:48:17,2024-09-16 13:48:18,0.325s,PASSED
+"verifyElementClickable(findTestObject(""Global_Header/Button_BurgerMenu""))",Chrome 128.0.0.0,Verifikasi Button Burger dapat diklik,,2024-09-16 13:48:18,2024-09-16 13:48:18,0.293s,PASSED
+"verifyElementVisible(findTestObject(""Checkout_Overview_Page/Label_CheckoutOverview""))",Chrome 128.0.0.0,Verifikasi element title checkout overview terlihat,,2024-09-16 13:48:18,2024-09-16 13:48:18,0.318s,PASSED
+takeScreenshot(),Chrome 128.0.0.0,Mengambil screenshot window,,2024-09-16 13:48:18,2024-09-16 13:48:19,0.335s,PASSED
+packaged.verifyproduct.verifyProductPrice(),Chrome 128.0.0.0,Verifikasi harga produk dengan harga total + tax sudah sesuai,,2024-09-16 13:48:19,2024-09-16 13:48:21,2.261s,PASSED
+packaged.verifyproduct.verifyProductCountCart(),Chrome 128.0.0.0,Verifikasi quantity barang yang dicheckout sudah sesuai,,2024-09-16 13:48:21,2024-09-16 13:48:22,1.254s,PASSED
+"scrollToElement(findTestObject(""Checkout_Overview_Page/Label_SubTotalProductPrice""), 0)",Chrome 128.0.0.0,Scroll window ke element Item Total,,2024-09-16 13:48:22,2024-09-16 13:48:22,0.315s,PASSED
+takeScreenshot(),Chrome 128.0.0.0,Mengambil screenshot window,,2024-09-16 13:48:22,2024-09-16 13:48:23,0.326s,PASSED
+"verifyElementVisible(findTestObject(""Checkout_Overview_Page/Label_SubTotalProductPrice""))",Chrome 128.0.0.0,Verifikasi element item total terlihat,,2024-09-16 13:48:23,2024-09-16 13:48:23,0.313s,PASSED
+"verifyElementVisible(findTestObject(""Checkout_Overview_Page/Label_TaxProductPrice""))",Chrome 128.0.0.0,Verifikasi element tax terlihat,,2024-09-16 13:48:23,2024-09-16 13:48:23,0.311s,PASSED
+"verifyElementVisible(findTestObject(""Checkout_Overview_Page/Label_FinalTotalProductPrice""))",Chrome 128.0.0.0,Verifikasi element Total terlihat,,2024-09-16 13:48:23,2024-09-16 13:48:24,0.323s,PASSED
+"verifyElementVisible(findTestObject(""Checkout_Overview_Page/Button_Finish""))",Chrome 128.0.0.0,Verifikasi button Finish terlihat,,2024-09-16 13:48:24,2024-09-16 13:48:24,0.360s,PASSED
+"verifyElementClickable(findTestObject(""Checkout_Overview_Page/Button_Finish""))",Chrome 128.0.0.0,Verifikasi button Finish dapat diklik,,2024-09-16 13:48:24,2024-09-16 13:48:24,0.306s,PASSED
+"click(findTestObject(""Checkout_Overview_Page/Button_Finish""))",Chrome 128.0.0.0,Klik button Finish,,2024-09-16 13:48:24,2024-09-16 13:48:25,0.337s,PASSED
+Video,Chrome 128.0.0.0,,,2024-09-16 13:48:27,2024-09-16 13:48:27,0.000s,PASSED
+,,,,,,,
+Test Cases/Checkout_Complete_Page/Positive_Case/Checkout_Complete,Chrome 128.0.0.0,,,2024-09-16 13:48:27,2024-09-16 13:48:34,6.722s,PASSED
+"verifyElementVisible(findTestObject(""Global_Header/Label_Title""))",Chrome 128.0.0.0,Verifikasi element Title Swag Labs terlihat,,2024-09-16 13:48:27,2024-09-16 13:48:27,0.327s,PASSED
+"verifyElementVisible(findTestObject(""Global_Header/Button_Cart""))",Chrome 128.0.0.0,Verifikasi Element button Cart Terlihat,,2024-09-16 13:48:27,2024-09-16 13:48:28,0.325s,PASSED
+"verifyElementClickable(findTestObject(""Global_Header/Button_Cart""))",Chrome 128.0.0.0,Verifikasi button Cart dapat diklik,,2024-09-16 13:48:28,2024-09-16 13:48:28,0.310s,PASSED
+"verifyElementVisible(findTestObject(""Global_Header/Button_BurgerMenu""))",Chrome 128.0.0.0,Verifikasi Button Burger terlihat,,2024-09-16 13:48:28,2024-09-16 13:48:28,0.345s,PASSED
+"verifyElementClickable(findTestObject(""Global_Header/Button_BurgerMenu""))",Chrome 128.0.0.0,Verifikasi Button Burger dapat diklik,,2024-09-16 13:48:28,2024-09-16 13:48:29,0.307s,PASSED
+"verifyElementVisible(findTestObject(""Checkout_Complete_Page/Label_CheckoutComplete""))",Chrome 128.0.0.0,Verifikasi label checkout terlihat,,2024-09-16 13:48:29,2024-09-16 13:48:29,0.329s,PASSED
+"verifyElementVisible(findTestObject(""Checkout_Complete_Page/Image_CheckoutSuccess""))",Chrome 128.0.0.0,Verifikasi Image terlihat,,2024-09-16 13:48:29,2024-09-16 13:48:29,0.329s,PASSED
+"verifyElementVisible(findTestObject(""Checkout_Complete_Page/Label_Thankyou""))",Chrome 128.0.0.0,Verifikasi label thankyou terlihat,,2024-09-16 13:48:29,2024-09-16 13:48:30,0.342s,PASSED
+"verifyElementVisible(findTestObject(""Checkout_Complete_Page/Label_YourOrderDispatched""))",Chrome 128.0.0.0,Verifikasi label your order dispatched terlihat,,2024-09-16 13:48:30,2024-09-16 13:48:30,0.337s,PASSED
+"verifyElementVisible(findTestObject(""Checkout_Complete_Page/Button_BackHome""))",Chrome 128.0.0.0,Verifikasi Buton Back Home terlihat,,2024-09-16 13:48:30,2024-09-16 13:48:30,0.326s,PASSED
+"verifyElementClickable(findTestObject(""Checkout_Complete_Page/Button_BackHome""))",Chrome 128.0.0.0,Verifikasi button Back Home dapat diklik,,2024-09-16 13:48:30,2024-09-16 13:48:31,0.320s,PASSED
+"click(findTestObject(""Checkout_Complete_Page/Button_BackHome""))",Chrome 128.0.0.0,Klik button Back home,,2024-09-16 13:48:31,2024-09-16 13:48:31,0.346s,PASSED
+"verifyElementVisible(findTestObject(""Product_Page/Label_TitleProducts""))",Chrome 128.0.0.0,Verifikasi label title produk terlihat setelah klik back home,,2024-09-16 13:48:31,2024-09-16 13:48:32,0.531s,PASSED
+Video,Chrome 128.0.0.0,,,2024-09-16 13:48:34,2024-09-16 13:48:34,0.000s,PASSED

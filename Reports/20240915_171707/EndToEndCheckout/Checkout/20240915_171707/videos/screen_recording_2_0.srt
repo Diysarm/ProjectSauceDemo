@@ -1,0 +1,72 @@
+1
+00:00:00,409 --> 00:00:04,726
+3. Verifikasi apakah nama product sesuai dengan product data di Excel
+
+2
+00:00:04,727 --> 00:00:05,098
+9. Mengambil screenshot pada window
+
+3
+00:00:05,099 --> 00:00:05,445
+15. Verifikasi button add to cart terlihat
+
+4
+00:00:05,445 --> 00:00:05,794
+21. Verifikasi button add to cart dapat diklik
+
+5
+00:00:05,795 --> 00:00:06,155
+27. Klik button add to cart
+
+6
+00:00:06,156 --> 00:00:06,610
+33. Verifikasi button remove terlihat
+
+7
+00:00:06,610 --> 00:00:06,942
+39. Verifikasi button remove dapat diklik
+
+8
+00:00:06,943 --> 00:00:07,339
+45. Mengambil screenshot pada window
+
+9
+00:00:07,340 --> 00:00:07,687
+51. Verifikasi button add to cart terlihat
+
+10
+00:00:07,687 --> 00:00:08,023
+57. Verifikasi button add to cart dapat diklik
+
+11
+00:00:08,024 --> 00:00:08,374
+63. Klik button add to cart
+
+12
+00:00:08,375 --> 00:00:08,823
+69. Verifikasi button remove terlihat
+
+13
+00:00:08,823 --> 00:00:09,151
+75. Verifikasi button remove dapat diklik
+
+14
+00:00:09,151 --> 00:00:09,503
+81. Mengambil screenshot pada window
+
+15
+00:00:09,504 --> 00:00:09,830
+87. Verifikasi button add to cart terlihat
+
+16
+00:00:09,831 --> 00:00:10,143
+93. Verifikasi button add to cart dapat diklik
+
+17
+00:00:10,143 --> 00:00:10,483
+99. Klik button add to cart
+
+18
+00:00:10,483 --> 00:00:42,161
+105. Verifikasi button remove terlihat
+

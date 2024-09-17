@@ -1,0 +1,2 @@
+{"testCaseName":"Test Cases/Login_Page/Positive_Case/Login","testCaseId":"Test Cases/Login_Page/Positive_Case/Login","iterationVariableName":"","bindedValues":{"password":"\u0027secret_sauce\u0027","userName":"\u0027standard_user\u0027"}}
+{"testCaseName":"Test Cases/Login_Page/Negative_Case/Login_LockedOutUser","testCaseId":"Test Cases/Login_Page/Negative_Case/Login_LockedOutUser","iterationVariableName":"","bindedValues":{"password":"\u0027secret_sauce\u0027","userName":"\u0027locked_out_user\u0027"}}

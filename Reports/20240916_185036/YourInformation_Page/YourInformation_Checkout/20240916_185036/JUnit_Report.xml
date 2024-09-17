@@ -1,0 +1,1561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="YourInformation_Checkout" time="118.46" tests="11" failures="1" errors="0">
+   <testsuite name="YourInformation_Checkout" tests="11" failures="1" errors="0" time="118.46" skipped="0" timestamp="2024-09-16 18:50:46" hostname="rasyid - DESKTOP-R622UHT" id="Test Suites/YourInformation_Page/YourInformation_Checkout">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036"/>
+         <property name="logFiles" value="C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\1726487453889.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\1726487455254.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\1726487456579.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\1726487458309.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\1726487466006.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\1726487468159.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\1726487470282.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\1726487472340.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\1726487477772.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\1726487487329.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\1726487489147.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\1726487490886.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\1726487497569.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\1726487499386.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\1726487501199.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\1726487507904.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\1726487509653.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\1726487511376.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\1726487518140.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\1726487519963.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\1726487521780.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\1726487528433.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\1726487530236.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\1726487532047.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\1726487541018.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\1726487542647.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\1726487552465.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\1726487554048.png"/>
+         <property name="hostName" value="rasyid - DESKTOP-R622UHT"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.9.208"/>
+         <property name="browser" value="Chrome 128.0.0.0"/>
+         <property name="hostAddress" value="26.103.121.102"/>
+         <property name="sessionId" value="1286268f44cca5456899063d7574434e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login_Page/Positive_Case/Login" time="13.909" classname="Test Cases/Login_Page/Positive_Case/Login" status="PASSED">
+         <system-out><![CDATA[2024-09-16 18:50:46 - [TEST_CASE][PASSED] - Test Cases/Login_Page/Positive_Case/Login: Test Cases/Login_Page/Positive_Case/Login
+
+2024-09-16 18:50:47 - [TEST_STEP][PASSED] - openBrowser(loginUrl): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2024-09-16 18:50:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-09-16 18:50:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-09-16 18:50:50 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2024-09-16 18:50:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-09-16 18:50:50 - [MESSAGE][PASSED] - Current window maximized
+
+2024-09-16 18:50:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Label_Title")): Object 'Object Repository/Global_Header/Label_Title' is visible
+
+2024-09-16 18:50:52 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Label_Title' is visible
+
+2024-09-16 18:50:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Login_Page/TextArea_Username")): Object 'Object Repository/Login_Page/TextArea_Username' is visible
+
+2024-09-16 18:50:52 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/TextArea_Username' is visible
+
+2024-09-16 18:50:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Login_Page/TextArea_Password")): Object 'Object Repository/Login_Page/TextArea_Password' is visible
+
+2024-09-16 18:50:53 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/TextArea_Password' is visible
+
+2024-09-16 18:50:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Login_Page/Button_Login")): Object 'Object Repository/Login_Page/Button_Login' is visible
+
+2024-09-16 18:50:53 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/Button_Login' is visible
+
+2024-09-16 18:50:53 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-16 18:50:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\1726487453889.png]]
+
+2024-09-16 18:50:53 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page/TextArea_Username"), userName): Text 'standard_user' is set on object 'Object Repository/Login_Page/TextArea_Username'
+
+2024-09-16 18:50:54 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login_Page/TextArea_Username'
+
+2024-09-16 18:50:54 - [TEST_STEP][PASSED] - username = getAttribute(findTestObject("Login_Page/TextArea_Username"), "value"): Attribute 'value' of object 'Object Repository/Login_Page/TextArea_Username' is: 'standard_user'
+
+2024-09-16 18:50:55 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Login_Page/TextArea_Username' is: 'standard_user'
+
+2024-09-16 18:50:55 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-16 18:50:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\1726487455254.png]]
+
+2024-09-16 18:50:55 - [TEST_STEP][PASSED] - pass = setText(findTestObject("Login_Page/TextArea_Password"), password): Text 'secret_sauce' is set on object 'Object Repository/Login_Page/TextArea_Password'
+
+2024-09-16 18:50:56 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Login_Page/TextArea_Password'
+
+2024-09-16 18:50:56 - [TEST_STEP][PASSED] - getAttribute(findTestObject("Login_Page/TextArea_Password"), "value"): Attribute 'value' of object 'Object Repository/Login_Page/TextArea_Password' is: 'secret_sauce'
+
+2024-09-16 18:50:56 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Login_Page/TextArea_Password' is: 'secret_sauce'
+
+2024-09-16 18:50:56 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-16 18:50:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\1726487456579.png]]
+
+2024-09-16 18:50:56 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Login_Page/Button_Login")): Object 'Object Repository/Login_Page/Button_Login' is clickable
+
+2024-09-16 18:50:56 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/Button_Login' is clickable
+
+2024-09-16 18:50:56 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page/Button_Login")): Object: 'Object Repository/Login_Page/Button_Login' is clicked on
+
+2024-09-16 18:50:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/Button_Login' is clicked on
+
+2024-09-16 18:50:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Product_Page/Label_TitleProducts")): Object 'Object Repository/Product_Page/Label_TitleProducts' is visible
+
+2024-09-16 18:50:57 - [MESSAGE][PASSED] - Object 'Object Repository/Product_Page/Label_TitleProducts' is visible
+
+2024-09-16 18:50:57 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-16 18:50:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\1726487458309.png]]
+
+2024-09-16 18:51:00 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Login_Page/Positive_Case/Login' .
+
+2024-09-16 18:51:00 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Login_Page/Positive_Case/Login' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Product_Page/Positive_Case/AddToCart_Products" time="14.078" classname="Test Cases/Product_Page/Positive_Case/AddToCart_Products" status="PASSED">
+         <system-out><![CDATA[2024-09-16 18:51:00 - [TEST_CASE][PASSED] - Test Cases/Product_Page/Positive_Case/AddToCart_Products: Test Cases/Product_Page/Positive_Case/AddToCart_Products
+
+2024-09-16 18:51:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Label_Title")): Object 'Object Repository/Global_Header/Label_Title' is visible
+
+2024-09-16 18:51:01 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Label_Title' is visible
+
+2024-09-16 18:51:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Button_Cart")): Object 'Object Repository/Global_Header/Button_Cart' is visible
+
+2024-09-16 18:51:01 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_Cart' is visible
+
+2024-09-16 18:51:01 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Global_Header/Button_Cart")): Object 'Object Repository/Global_Header/Button_Cart' is clickable
+
+2024-09-16 18:51:01 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_Cart' is clickable
+
+2024-09-16 18:51:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Button_BurgerMenu")): Object 'Object Repository/Global_Header/Button_BurgerMenu' is visible
+
+2024-09-16 18:51:02 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_BurgerMenu' is visible
+
+2024-09-16 18:51:02 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Global_Header/Button_BurgerMenu")): Object 'Object Repository/Global_Header/Button_BurgerMenu' is clickable
+
+2024-09-16 18:51:02 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_BurgerMenu' is clickable
+
+2024-09-16 18:51:02 - [TEST_STEP][PASSED] - packaged.verifyproduct.verifyProductName(): packaged.verifyproduct.verifyProductName is PASSED
+
+2024-09-16 18:51:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/Product_Page/Label_ProductsName' is: 'Sauce Labs Backpack'
+
+2024-09-16 18:51:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/Product_Page/Label_ProductsName' is: 'Sauce Labs Bike Light'
+
+2024-09-16 18:51:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/Product_Page/Label_ProductsName' is: 'Sauce Labs Bolt T-Shirt'
+
+2024-09-16 18:51:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/Product_Page/Label_ProductsName' is: 'Sauce Labs Fleece Jacket'
+
+2024-09-16 18:51:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/Product_Page/Label_ProductsName' is: 'Sauce Labs Onesie'
+
+2024-09-16 18:51:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/Product_Page/Label_ProductsName' is: 'Test.allTheThings() T-Shirt (Red)'
+
+2024-09-16 18:51:05 - [MESSAGE][PASSED] - packaged.verifyproduct.verifyProductName is PASSED
+
+2024-09-16 18:51:05 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-16 18:51:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\1726487466006.png]]
+
+2024-09-16 18:51:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Product_Page/Button_AddToCart_Sauce Labs Backpack")): Object 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Backpack' is visible
+
+2024-09-16 18:51:06 - [MESSAGE][PASSED] - Object 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Backpack' is visible
+
+2024-09-16 18:51:06 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Product_Page/Button_AddToCart_Sauce Labs Backpack")): Object 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Backpack' is clickable
+
+2024-09-16 18:51:06 - [MESSAGE][PASSED] - Object 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Backpack' is clickable
+
+2024-09-16 18:51:06 - [TEST_STEP][PASSED] - click(findTestObject("Product_Page/Button_AddToCart_Sauce Labs Backpack")): Object: 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Backpack' is clicked on
+
+2024-09-16 18:51:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Backpack' is clicked on
+
+2024-09-16 18:51:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Product_Page/Button_Remove_Sauce Labs Backpack")): Object 'Object Repository/Product_Page/Button_Remove_Sauce Labs Backpack' is visible
+
+2024-09-16 18:51:07 - [MESSAGE][PASSED] - Object 'Object Repository/Product_Page/Button_Remove_Sauce Labs Backpack' is visible
+
+2024-09-16 18:51:07 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Product_Page/Button_Remove_Sauce Labs Backpack")): Object 'Object Repository/Product_Page/Button_Remove_Sauce Labs Backpack' is clickable
+
+2024-09-16 18:51:07 - [MESSAGE][PASSED] - Object 'Object Repository/Product_Page/Button_Remove_Sauce Labs Backpack' is clickable
+
+2024-09-16 18:51:07 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-16 18:51:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\1726487468159.png]]
+
+2024-09-16 18:51:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Product_Page/Button_AddToCart_Sauce Labs Bike Light")): Object 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Bike Light' is visible
+
+2024-09-16 18:51:08 - [MESSAGE][PASSED] - Object 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Bike Light' is visible
+
+2024-09-16 18:51:08 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Product_Page/Button_AddToCart_Sauce Labs Bike Light")): Object 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Bike Light' is clickable
+
+2024-09-16 18:51:08 - [MESSAGE][PASSED] - Object 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Bike Light' is clickable
+
+2024-09-16 18:51:08 - [TEST_STEP][PASSED] - click(findTestObject("Product_Page/Button_AddToCart_Sauce Labs Bike Light")): Object: 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Bike Light' is clicked on
+
+2024-09-16 18:51:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Bike Light' is clicked on
+
+2024-09-16 18:51:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Product_Page/Button_Remove_Sauce Labs Bike Light")): Object 'Object Repository/Product_Page/Button_Remove_Sauce Labs Bike Light' is visible
+
+2024-09-16 18:51:09 - [MESSAGE][PASSED] - Object 'Object Repository/Product_Page/Button_Remove_Sauce Labs Bike Light' is visible
+
+2024-09-16 18:51:09 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Product_Page/Button_Remove_Sauce Labs Bike Light")): Object 'Object Repository/Product_Page/Button_Remove_Sauce Labs Bike Light' is clickable
+
+2024-09-16 18:51:10 - [MESSAGE][PASSED] - Object 'Object Repository/Product_Page/Button_Remove_Sauce Labs Bike Light' is clickable
+
+2024-09-16 18:51:10 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-16 18:51:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\1726487470282.png]]
+
+2024-09-16 18:51:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Product_Page/Button_AddToCart_Sauce Labs Bolt T-Shirt")): Object 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Bolt T-Shirt' is visible
+
+2024-09-16 18:51:10 - [MESSAGE][PASSED] - Object 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Bolt T-Shirt' is visible
+
+2024-09-16 18:51:10 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Product_Page/Button_AddToCart_Sauce Labs Bolt T-Shirt")): Object 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Bolt T-Shirt' is clickable
+
+2024-09-16 18:51:11 - [MESSAGE][PASSED] - Object 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Bolt T-Shirt' is clickable
+
+2024-09-16 18:51:11 - [TEST_STEP][PASSED] - click(findTestObject("Product_Page/Button_AddToCart_Sauce Labs Bolt T-Shirt")): Object: 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Bolt T-Shirt' is clicked on
+
+2024-09-16 18:51:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Product_Page/Button_AddToCart_Sauce Labs Bolt T-Shirt' is clicked on
+
+2024-09-16 18:51:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Product_Page/Button_Remove_Sauce Labs Bolt T-Shirt")): Object 'Object Repository/Product_Page/Button_Remove_Sauce Labs Bolt T-Shirt' is visible
+
+2024-09-16 18:51:11 - [MESSAGE][PASSED] - Object 'Object Repository/Product_Page/Button_Remove_Sauce Labs Bolt T-Shirt' is visible
+
+2024-09-16 18:51:11 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Product_Page/Button_Remove_Sauce Labs Bolt T-Shirt")): Object 'Object Repository/Product_Page/Button_Remove_Sauce Labs Bolt T-Shirt' is clickable
+
+2024-09-16 18:51:12 - [MESSAGE][PASSED] - Object 'Object Repository/Product_Page/Button_Remove_Sauce Labs Bolt T-Shirt' is clickable
+
+2024-09-16 18:51:12 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-16 18:51:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\1726487472340.png]]
+
+2024-09-16 18:51:14 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Product_Page/Positive_Case/AddToCart_Products' .
+
+2024-09-16 18:51:14 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Product_Page/Positive_Case/AddToCart_Products' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Cart_Page/Positive_Case/ProductCart" time="7.583" classname="Test Cases/Cart_Page/Positive_Case/ProductCart" status="PASSED">
+         <system-out><![CDATA[2024-09-16 18:51:14 - [TEST_CASE][PASSED] - Test Cases/Cart_Page/Positive_Case/ProductCart: Test Cases/Cart_Page/Positive_Case/ProductCart
+
+2024-09-16 18:51:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Label_Title")): Object 'Object Repository/Global_Header/Label_Title' is visible
+
+2024-09-16 18:51:15 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Label_Title' is visible
+
+2024-09-16 18:51:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Button_Cart")): Object 'Object Repository/Global_Header/Button_Cart' is visible
+
+2024-09-16 18:51:15 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_Cart' is visible
+
+2024-09-16 18:51:15 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Global_Header/Button_Cart")): Object 'Object Repository/Global_Header/Button_Cart' is clickable
+
+2024-09-16 18:51:15 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_Cart' is clickable
+
+2024-09-16 18:51:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Button_BurgerMenu")): Object 'Object Repository/Global_Header/Button_BurgerMenu' is visible
+
+2024-09-16 18:51:16 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_BurgerMenu' is visible
+
+2024-09-16 18:51:16 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Global_Header/Button_BurgerMenu")): Object 'Object Repository/Global_Header/Button_BurgerMenu' is clickable
+
+2024-09-16 18:51:16 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_BurgerMenu' is clickable
+
+2024-09-16 18:51:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Button_Cart")): Object 'Object Repository/Global_Header/Button_Cart' is visible
+
+2024-09-16 18:51:16 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_Cart' is visible
+
+2024-09-16 18:51:16 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Global_Header/Button_Cart")): Object 'Object Repository/Global_Header/Button_Cart' is clickable
+
+2024-09-16 18:51:16 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_Cart' is clickable
+
+2024-09-16 18:51:16 - [TEST_STEP][PASSED] - click(findTestObject("Global_Header/Button_Cart")): Object: 'Object Repository/Global_Header/Button_Cart' is clicked on
+
+2024-09-16 18:51:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Global_Header/Button_Cart' is clicked on
+
+2024-09-16 18:51:17 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-16 18:51:17 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\1726487477772.png]]
+
+2024-09-16 18:51:17 - [TEST_STEP][PASSED] - packaged.verifyproduct.verifyProductCountCart(): packaged.verifyproduct.verifyProductCountCart is PASSED
+
+2024-09-16 18:51:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/Global_Header/Label_ProductCountCART' is: '3'
+
+2024-09-16 18:51:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/Cart_Page/Label_ProductInCart' is: 'Sauce Labs Backpack'
+
+2024-09-16 18:51:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/Cart_Page/Label_ProductInCart' is: 'Sauce Labs Bike Light'
+
+2024-09-16 18:51:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/Cart_Page/Label_ProductInCart' is: 'Sauce Labs Bolt T-Shirt'
+
+2024-09-16 18:51:19 - [MESSAGE][PASSED] - packaged.verifyproduct.verifyProductCountCart is PASSED
+
+2024-09-16 18:51:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Cart_Page/Button_Checkout")): Object 'Object Repository/Cart_Page/Button_Checkout' is visible
+
+2024-09-16 18:51:19 - [MESSAGE][PASSED] - Object 'Object Repository/Cart_Page/Button_Checkout' is visible
+
+2024-09-16 18:51:19 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Cart_Page/Button_Checkout")): Object 'Object Repository/Cart_Page/Button_Checkout' is clickable
+
+2024-09-16 18:51:19 - [MESSAGE][PASSED] - Object 'Object Repository/Cart_Page/Button_Checkout' is clickable
+
+2024-09-16 18:51:19 - [TEST_STEP][PASSED] - click(findTestObject("Cart_Page/Button_Checkout")): Object: 'Object Repository/Cart_Page/Button_Checkout' is clicked on
+
+2024-09-16 18:51:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Cart_Page/Button_Checkout' is clicked on
+
+2024-09-16 18:51:22 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Cart_Page/Positive_Case/ProductCart' .
+
+2024-09-16 18:51:22 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Cart_Page/Positive_Case/ProductCart' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/YourInformation_Page/Negative_Case/InputData_YourInformation_Back" time="11.86" classname="Test Cases/YourInformation_Page/Negative_Case/InputData_YourInformation_Back" status="PASSED">
+         <system-out><![CDATA[2024-09-16 18:51:22 - [TEST_CASE][PASSED] - Test Cases/YourInformation_Page/Negative_Case/InputData_YourInformation_Back: Test Cases/YourInformation_Page/Negative_Case/InputData_YourInformation_Back
+
+2024-09-16 18:51:22 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Label_Title")): Object 'Object Repository/Global_Header/Label_Title' is visible
+
+2024-09-16 18:51:22 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Label_Title' is visible
+
+2024-09-16 18:51:22 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Button_Cart")): Object 'Object Repository/Global_Header/Button_Cart' is visible
+
+2024-09-16 18:51:23 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_Cart' is visible
+
+2024-09-16 18:51:23 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Global_Header/Button_Cart")): Object 'Object Repository/Global_Header/Button_Cart' is clickable
+
+2024-09-16 18:51:23 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_Cart' is clickable
+
+2024-09-16 18:51:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Button_BurgerMenu")): Object 'Object Repository/Global_Header/Button_BurgerMenu' is visible
+
+2024-09-16 18:51:23 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_BurgerMenu' is visible
+
+2024-09-16 18:51:23 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Global_Header/Button_BurgerMenu")): Object 'Object Repository/Global_Header/Button_BurgerMenu' is clickable
+
+2024-09-16 18:51:23 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_BurgerMenu' is clickable
+
+2024-09-16 18:51:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/Label_Checkout Your Information")): Object 'Object Repository/YourInformation_Page/Label_Checkout Your Information' is visible
+
+2024-09-16 18:51:25 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/Label_Checkout Your Information' is visible
+
+2024-09-16 18:51:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/TextArea_FirstName")): Object 'Object Repository/YourInformation_Page/TextArea_FirstName' is visible
+
+2024-09-16 18:51:25 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/TextArea_FirstName' is visible
+
+2024-09-16 18:51:25 - [TEST_STEP][PASSED] - setText(findTestObject("YourInformation_Page/TextArea_FirstName"), firstName): Text 'Muhammad' is set on object 'Object Repository/YourInformation_Page/TextArea_FirstName'
+
+2024-09-16 18:51:26 - [MESSAGE][PASSED] - Text 'Muhammad' is set on object 'Object Repository/YourInformation_Page/TextArea_FirstName'
+
+2024-09-16 18:51:26 - [TEST_STEP][PASSED] - namapertama = getAttribute(findTestObject("YourInformation_Page/TextArea_FirstName"), "value"): Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_FirstName' is: 'Muhammad'
+
+2024-09-16 18:51:27 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_FirstName' is: 'Muhammad'
+
+2024-09-16 18:51:27 - [TEST_STEP][PASSED] - println(namapertama): null
+
+2024-09-16 18:51:27 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-16 18:51:27 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\1726487487329.png]]
+
+2024-09-16 18:51:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/TextArea_LastName")): Object 'Object Repository/YourInformation_Page/TextArea_LastName' is visible
+
+2024-09-16 18:51:27 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/TextArea_LastName' is visible
+
+2024-09-16 18:51:27 - [TEST_STEP][PASSED] - setText(findTestObject("YourInformation_Page/TextArea_LastName"), lastName): Text 'Rasyid' is set on object 'Object Repository/YourInformation_Page/TextArea_LastName'
+
+2024-09-16 18:51:28 - [MESSAGE][PASSED] - Text 'Rasyid' is set on object 'Object Repository/YourInformation_Page/TextArea_LastName'
+
+2024-09-16 18:51:28 - [TEST_STEP][PASSED] - namaterakhir = getAttribute(findTestObject("YourInformation_Page/TextArea_LastName"), "value"): Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_LastName' is: 'Rasyid'
+
+2024-09-16 18:51:28 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_LastName' is: 'Rasyid'
+
+2024-09-16 18:51:28 - [TEST_STEP][PASSED] - println(namaterakhir): null
+
+2024-09-16 18:51:28 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-16 18:51:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\1726487489147.png]]
+
+2024-09-16 18:51:29 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/TextArea_PostalCode")): Object 'Object Repository/YourInformation_Page/TextArea_PostalCode' is visible
+
+2024-09-16 18:51:29 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/TextArea_PostalCode' is visible
+
+2024-09-16 18:51:29 - [TEST_STEP][PASSED] - setText(findTestObject("YourInformation_Page/TextArea_PostalCode"), postalCode): Text '12760' is set on object 'Object Repository/YourInformation_Page/TextArea_PostalCode'
+
+2024-09-16 18:51:30 - [MESSAGE][PASSED] - Text '12760' is set on object 'Object Repository/YourInformation_Page/TextArea_PostalCode'
+
+2024-09-16 18:51:30 - [TEST_STEP][PASSED] - postalcode = getAttribute(findTestObject("YourInformation_Page/TextArea_PostalCode"), "value"): Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_PostalCode' is: '12760'
+
+2024-09-16 18:51:30 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_PostalCode' is: '12760'
+
+2024-09-16 18:51:30 - [TEST_STEP][PASSED] - println(postalcode): null
+
+2024-09-16 18:51:30 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-16 18:51:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\1726487490886.png]]
+
+2024-09-16 18:51:30 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/Button_Continue")): Object 'Object Repository/YourInformation_Page/Button_Continue' is visible
+
+2024-09-16 18:51:31 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/Button_Continue' is visible
+
+2024-09-16 18:51:31 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("YourInformation_Page/Button_Continue")): Object 'Object Repository/YourInformation_Page/Button_Continue' is clickable
+
+2024-09-16 18:51:31 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/Button_Continue' is clickable
+
+2024-09-16 18:51:31 - [TEST_STEP][PASSED] - click(findTestObject("YourInformation_Page/Button_Continue")): Object: 'Object Repository/YourInformation_Page/Button_Continue' is clicked on
+
+2024-09-16 18:51:31 - [MESSAGE][PASSED] - Object: 'Object Repository/YourInformation_Page/Button_Continue' is clicked on
+
+2024-09-16 18:51:31 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2024-09-16 18:51:31 - [MESSAGE][PASSED] - Navigate back successfully
+
+2024-09-16 18:51:33 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/YourInformation_Page/Negative_Case/InputData_YourInformation_Back' .
+
+2024-09-16 18:51:33 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/YourInformation_Page/Negative_Case/InputData_YourInformation_Back' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/YourInformation_Page/Negative_Case/InputData_YourInformation_Back" time="10.281" classname="Test Cases/YourInformation_Page/Negative_Case/InputData_YourInformation_Back" status="PASSED">
+         <system-out><![CDATA[2024-09-16 18:51:34 - [TEST_CASE][PASSED] - Test Cases/YourInformation_Page/Negative_Case/InputData_YourInformation_Back: Test Cases/YourInformation_Page/Negative_Case/InputData_YourInformation_Back
+
+2024-09-16 18:51:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Label_Title")): Object 'Object Repository/Global_Header/Label_Title' is visible
+
+2024-09-16 18:51:34 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Label_Title' is visible
+
+2024-09-16 18:51:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Button_Cart")): Object 'Object Repository/Global_Header/Button_Cart' is visible
+
+2024-09-16 18:51:34 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_Cart' is visible
+
+2024-09-16 18:51:34 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Global_Header/Button_Cart")): Object 'Object Repository/Global_Header/Button_Cart' is clickable
+
+2024-09-16 18:51:34 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_Cart' is clickable
+
+2024-09-16 18:51:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Button_BurgerMenu")): Object 'Object Repository/Global_Header/Button_BurgerMenu' is visible
+
+2024-09-16 18:51:35 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_BurgerMenu' is visible
+
+2024-09-16 18:51:35 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Global_Header/Button_BurgerMenu")): Object 'Object Repository/Global_Header/Button_BurgerMenu' is clickable
+
+2024-09-16 18:51:35 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_BurgerMenu' is clickable
+
+2024-09-16 18:51:35 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/Label_Checkout Your Information")): Object 'Object Repository/YourInformation_Page/Label_Checkout Your Information' is visible
+
+2024-09-16 18:51:35 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/Label_Checkout Your Information' is visible
+
+2024-09-16 18:51:35 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/TextArea_FirstName")): Object 'Object Repository/YourInformation_Page/TextArea_FirstName' is visible
+
+2024-09-16 18:51:36 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/TextArea_FirstName' is visible
+
+2024-09-16 18:51:36 - [TEST_STEP][PASSED] - setText(findTestObject("YourInformation_Page/TextArea_FirstName"), firstName): Text 'Muhammad' is set on object 'Object Repository/YourInformation_Page/TextArea_FirstName'
+
+2024-09-16 18:51:36 - [MESSAGE][PASSED] - Text 'Muhammad' is set on object 'Object Repository/YourInformation_Page/TextArea_FirstName'
+
+2024-09-16 18:51:36 - [TEST_STEP][PASSED] - namapertama = getAttribute(findTestObject("YourInformation_Page/TextArea_FirstName"), "value"): Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_FirstName' is: 'Muhammad'
+
+2024-09-16 18:51:37 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_FirstName' is: 'Muhammad'
+
+2024-09-16 18:51:37 - [TEST_STEP][PASSED] - println(namapertama): null
+
+2024-09-16 18:51:37 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-16 18:51:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\1726487497569.png]]
+
+2024-09-16 18:51:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/TextArea_LastName")): Object 'Object Repository/YourInformation_Page/TextArea_LastName' is visible
+
+2024-09-16 18:51:37 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/TextArea_LastName' is visible
+
+2024-09-16 18:51:37 - [TEST_STEP][PASSED] - setText(findTestObject("YourInformation_Page/TextArea_LastName"), lastName): Text 'Risyad' is set on object 'Object Repository/YourInformation_Page/TextArea_LastName'
+
+2024-09-16 18:51:38 - [MESSAGE][PASSED] - Text 'Risyad' is set on object 'Object Repository/YourInformation_Page/TextArea_LastName'
+
+2024-09-16 18:51:38 - [TEST_STEP][PASSED] - namaterakhir = getAttribute(findTestObject("YourInformation_Page/TextArea_LastName"), "value"): Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_LastName' is: 'Risyad'
+
+2024-09-16 18:51:39 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_LastName' is: 'Risyad'
+
+2024-09-16 18:51:39 - [TEST_STEP][PASSED] - println(namaterakhir): null
+
+2024-09-16 18:51:39 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-16 18:51:39 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\1726487499386.png]]
+
+2024-09-16 18:51:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/TextArea_PostalCode")): Object 'Object Repository/YourInformation_Page/TextArea_PostalCode' is visible
+
+2024-09-16 18:51:39 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/TextArea_PostalCode' is visible
+
+2024-09-16 18:51:39 - [TEST_STEP][PASSED] - setText(findTestObject("YourInformation_Page/TextArea_PostalCode"), postalCode): Text '12790' is set on object 'Object Repository/YourInformation_Page/TextArea_PostalCode'
+
+2024-09-16 18:51:40 - [MESSAGE][PASSED] - Text '12790' is set on object 'Object Repository/YourInformation_Page/TextArea_PostalCode'
+
+2024-09-16 18:51:40 - [TEST_STEP][PASSED] - postalcode = getAttribute(findTestObject("YourInformation_Page/TextArea_PostalCode"), "value"): Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_PostalCode' is: '12790'
+
+2024-09-16 18:51:40 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_PostalCode' is: '12790'
+
+2024-09-16 18:51:40 - [TEST_STEP][PASSED] - println(postalcode): null
+
+2024-09-16 18:51:40 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-16 18:51:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\1726487501199.png]]
+
+2024-09-16 18:51:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/Button_Continue")): Object 'Object Repository/YourInformation_Page/Button_Continue' is visible
+
+2024-09-16 18:51:41 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/Button_Continue' is visible
+
+2024-09-16 18:51:41 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("YourInformation_Page/Button_Continue")): Object 'Object Repository/YourInformation_Page/Button_Continue' is clickable
+
+2024-09-16 18:51:41 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/Button_Continue' is clickable
+
+2024-09-16 18:51:41 - [TEST_STEP][PASSED] - click(findTestObject("YourInformation_Page/Button_Continue")): Object: 'Object Repository/YourInformation_Page/Button_Continue' is clicked on
+
+2024-09-16 18:51:42 - [MESSAGE][PASSED] - Object: 'Object Repository/YourInformation_Page/Button_Continue' is clicked on
+
+2024-09-16 18:51:42 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2024-09-16 18:51:42 - [MESSAGE][PASSED] - Navigate back successfully
+
+2024-09-16 18:51:44 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/YourInformation_Page/Negative_Case/InputData_YourInformation_Back' .
+
+2024-09-16 18:51:44 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/YourInformation_Page/Negative_Case/InputData_YourInformation_Back' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/YourInformation_Page/Negative_Case/InputData_YourInformation_Back" time="10.152" classname="Test Cases/YourInformation_Page/Negative_Case/InputData_YourInformation_Back" status="PASSED">
+         <system-out><![CDATA[2024-09-16 18:51:44 - [TEST_CASE][PASSED] - Test Cases/YourInformation_Page/Negative_Case/InputData_YourInformation_Back: Test Cases/YourInformation_Page/Negative_Case/InputData_YourInformation_Back
+
+2024-09-16 18:51:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Label_Title")): Object 'Object Repository/Global_Header/Label_Title' is visible
+
+2024-09-16 18:51:44 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Label_Title' is visible
+
+2024-09-16 18:51:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Button_Cart")): Object 'Object Repository/Global_Header/Button_Cart' is visible
+
+2024-09-16 18:51:44 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_Cart' is visible
+
+2024-09-16 18:51:44 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Global_Header/Button_Cart")): Object 'Object Repository/Global_Header/Button_Cart' is clickable
+
+2024-09-16 18:51:45 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_Cart' is clickable
+
+2024-09-16 18:51:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Button_BurgerMenu")): Object 'Object Repository/Global_Header/Button_BurgerMenu' is visible
+
+2024-09-16 18:51:45 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_BurgerMenu' is visible
+
+2024-09-16 18:51:45 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Global_Header/Button_BurgerMenu")): Object 'Object Repository/Global_Header/Button_BurgerMenu' is clickable
+
+2024-09-16 18:51:45 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_BurgerMenu' is clickable
+
+2024-09-16 18:51:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/Label_Checkout Your Information")): Object 'Object Repository/YourInformation_Page/Label_Checkout Your Information' is visible
+
+2024-09-16 18:51:46 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/Label_Checkout Your Information' is visible
+
+2024-09-16 18:51:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/TextArea_FirstName")): Object 'Object Repository/YourInformation_Page/TextArea_FirstName' is visible
+
+2024-09-16 18:51:46 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/TextArea_FirstName' is visible
+
+2024-09-16 18:51:46 - [TEST_STEP][PASSED] - setText(findTestObject("YourInformation_Page/TextArea_FirstName"), firstName): Text 'Herry' is set on object 'Object Repository/YourInformation_Page/TextArea_FirstName'
+
+2024-09-16 18:51:47 - [MESSAGE][PASSED] - Text 'Herry' is set on object 'Object Repository/YourInformation_Page/TextArea_FirstName'
+
+2024-09-16 18:51:47 - [TEST_STEP][PASSED] - namapertama = getAttribute(findTestObject("YourInformation_Page/TextArea_FirstName"), "value"): Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_FirstName' is: 'Herry'
+
+2024-09-16 18:51:47 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_FirstName' is: 'Herry'
+
+2024-09-16 18:51:47 - [TEST_STEP][PASSED] - println(namapertama): null
+
+2024-09-16 18:51:47 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-16 18:51:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\1726487507904.png]]
+
+2024-09-16 18:51:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/TextArea_LastName")): Object 'Object Repository/YourInformation_Page/TextArea_LastName' is visible
+
+2024-09-16 18:51:48 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/TextArea_LastName' is visible
+
+2024-09-16 18:51:48 - [TEST_STEP][PASSED] - setText(findTestObject("YourInformation_Page/TextArea_LastName"), lastName): Text 'Wijaya' is set on object 'Object Repository/YourInformation_Page/TextArea_LastName'
+
+2024-09-16 18:51:48 - [MESSAGE][PASSED] - Text 'Wijaya' is set on object 'Object Repository/YourInformation_Page/TextArea_LastName'
+
+2024-09-16 18:51:48 - [TEST_STEP][PASSED] - namaterakhir = getAttribute(findTestObject("YourInformation_Page/TextArea_LastName"), "value"): Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_LastName' is: 'Wijaya'
+
+2024-09-16 18:51:49 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_LastName' is: 'Wijaya'
+
+2024-09-16 18:51:49 - [TEST_STEP][PASSED] - println(namaterakhir): null
+
+2024-09-16 18:51:49 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-16 18:51:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\1726487509653.png]]
+
+2024-09-16 18:51:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/TextArea_PostalCode")): Object 'Object Repository/YourInformation_Page/TextArea_PostalCode' is visible
+
+2024-09-16 18:51:50 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/TextArea_PostalCode' is visible
+
+2024-09-16 18:51:50 - [TEST_STEP][PASSED] - setText(findTestObject("YourInformation_Page/TextArea_PostalCode"), postalCode): Text '12300' is set on object 'Object Repository/YourInformation_Page/TextArea_PostalCode'
+
+2024-09-16 18:51:50 - [MESSAGE][PASSED] - Text '12300' is set on object 'Object Repository/YourInformation_Page/TextArea_PostalCode'
+
+2024-09-16 18:51:50 - [TEST_STEP][PASSED] - postalcode = getAttribute(findTestObject("YourInformation_Page/TextArea_PostalCode"), "value"): Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_PostalCode' is: '12300'
+
+2024-09-16 18:51:51 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_PostalCode' is: '12300'
+
+2024-09-16 18:51:51 - [TEST_STEP][PASSED] - println(postalcode): null
+
+2024-09-16 18:51:51 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-16 18:51:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\1726487511376.png]]
+
+2024-09-16 18:51:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/Button_Continue")): Object 'Object Repository/YourInformation_Page/Button_Continue' is visible
+
+2024-09-16 18:51:51 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/Button_Continue' is visible
+
+2024-09-16 18:51:51 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("YourInformation_Page/Button_Continue")): Object 'Object Repository/YourInformation_Page/Button_Continue' is clickable
+
+2024-09-16 18:51:52 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/Button_Continue' is clickable
+
+2024-09-16 18:51:52 - [TEST_STEP][PASSED] - click(findTestObject("YourInformation_Page/Button_Continue")): Object: 'Object Repository/YourInformation_Page/Button_Continue' is clicked on
+
+2024-09-16 18:51:52 - [MESSAGE][PASSED] - Object: 'Object Repository/YourInformation_Page/Button_Continue' is clicked on
+
+2024-09-16 18:51:52 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2024-09-16 18:51:52 - [MESSAGE][PASSED] - Navigate back successfully
+
+2024-09-16 18:51:54 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/YourInformation_Page/Negative_Case/InputData_YourInformation_Back' .
+
+2024-09-16 18:51:54 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/YourInformation_Page/Negative_Case/InputData_YourInformation_Back' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/YourInformation_Page/Negative_Case/InputData_YourInformation_Back" time="10.374" classname="Test Cases/YourInformation_Page/Negative_Case/InputData_YourInformation_Back" status="PASSED">
+         <system-out><![CDATA[2024-09-16 18:51:54 - [TEST_CASE][PASSED] - Test Cases/YourInformation_Page/Negative_Case/InputData_YourInformation_Back: Test Cases/YourInformation_Page/Negative_Case/InputData_YourInformation_Back
+
+2024-09-16 18:51:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Label_Title")): Object 'Object Repository/Global_Header/Label_Title' is visible
+
+2024-09-16 18:51:54 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Label_Title' is visible
+
+2024-09-16 18:51:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Button_Cart")): Object 'Object Repository/Global_Header/Button_Cart' is visible
+
+2024-09-16 18:51:55 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_Cart' is visible
+
+2024-09-16 18:51:55 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Global_Header/Button_Cart")): Object 'Object Repository/Global_Header/Button_Cart' is clickable
+
+2024-09-16 18:51:55 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_Cart' is clickable
+
+2024-09-16 18:51:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Button_BurgerMenu")): Object 'Object Repository/Global_Header/Button_BurgerMenu' is visible
+
+2024-09-16 18:51:55 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_BurgerMenu' is visible
+
+2024-09-16 18:51:55 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Global_Header/Button_BurgerMenu")): Object 'Object Repository/Global_Header/Button_BurgerMenu' is clickable
+
+2024-09-16 18:51:56 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_BurgerMenu' is clickable
+
+2024-09-16 18:51:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/Label_Checkout Your Information")): Object 'Object Repository/YourInformation_Page/Label_Checkout Your Information' is visible
+
+2024-09-16 18:51:56 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/Label_Checkout Your Information' is visible
+
+2024-09-16 18:51:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/TextArea_FirstName")): Object 'Object Repository/YourInformation_Page/TextArea_FirstName' is visible
+
+2024-09-16 18:51:56 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/TextArea_FirstName' is visible
+
+2024-09-16 18:51:56 - [TEST_STEP][PASSED] - setText(findTestObject("YourInformation_Page/TextArea_FirstName"), firstName): Text 'Fachrie' is set on object 'Object Repository/YourInformation_Page/TextArea_FirstName'
+
+2024-09-16 18:51:57 - [MESSAGE][PASSED] - Text 'Fachrie' is set on object 'Object Repository/YourInformation_Page/TextArea_FirstName'
+
+2024-09-16 18:51:57 - [TEST_STEP][PASSED] - namapertama = getAttribute(findTestObject("YourInformation_Page/TextArea_FirstName"), "value"): Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_FirstName' is: 'Fachrie'
+
+2024-09-16 18:51:57 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_FirstName' is: 'Fachrie'
+
+2024-09-16 18:51:57 - [TEST_STEP][PASSED] - println(namapertama): null
+
+2024-09-16 18:51:57 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-16 18:51:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\1726487518140.png]]
+
+2024-09-16 18:51:58 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/TextArea_LastName")): Object 'Object Repository/YourInformation_Page/TextArea_LastName' is visible
+
+2024-09-16 18:51:58 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/TextArea_LastName' is visible
+
+2024-09-16 18:51:58 - [TEST_STEP][PASSED] - setText(findTestObject("YourInformation_Page/TextArea_LastName"), lastName): Text 'Arithianta' is set on object 'Object Repository/YourInformation_Page/TextArea_LastName'
+
+2024-09-16 18:51:59 - [MESSAGE][PASSED] - Text 'Arithianta' is set on object 'Object Repository/YourInformation_Page/TextArea_LastName'
+
+2024-09-16 18:51:59 - [TEST_STEP][PASSED] - namaterakhir = getAttribute(findTestObject("YourInformation_Page/TextArea_LastName"), "value"): Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_LastName' is: 'Arithianta'
+
+2024-09-16 18:51:59 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_LastName' is: 'Arithianta'
+
+2024-09-16 18:51:59 - [TEST_STEP][PASSED] - println(namaterakhir): null
+
+2024-09-16 18:51:59 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-16 18:52:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\1726487519963.png]]
+
+2024-09-16 18:52:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/TextArea_PostalCode")): Object 'Object Repository/YourInformation_Page/TextArea_PostalCode' is visible
+
+2024-09-16 18:52:00 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/TextArea_PostalCode' is visible
+
+2024-09-16 18:52:00 - [TEST_STEP][PASSED] - setText(findTestObject("YourInformation_Page/TextArea_PostalCode"), postalCode): Text '19000' is set on object 'Object Repository/YourInformation_Page/TextArea_PostalCode'
+
+2024-09-16 18:52:01 - [MESSAGE][PASSED] - Text '19000' is set on object 'Object Repository/YourInformation_Page/TextArea_PostalCode'
+
+2024-09-16 18:52:01 - [TEST_STEP][PASSED] - postalcode = getAttribute(findTestObject("YourInformation_Page/TextArea_PostalCode"), "value"): Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_PostalCode' is: '19000'
+
+2024-09-16 18:52:01 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_PostalCode' is: '19000'
+
+2024-09-16 18:52:01 - [TEST_STEP][PASSED] - println(postalcode): null
+
+2024-09-16 18:52:01 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-16 18:52:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\1726487521780.png]]
+
+2024-09-16 18:52:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/Button_Continue")): Object 'Object Repository/YourInformation_Page/Button_Continue' is visible
+
+2024-09-16 18:52:02 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/Button_Continue' is visible
+
+2024-09-16 18:52:02 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("YourInformation_Page/Button_Continue")): Object 'Object Repository/YourInformation_Page/Button_Continue' is clickable
+
+2024-09-16 18:52:02 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/Button_Continue' is clickable
+
+2024-09-16 18:52:02 - [TEST_STEP][PASSED] - click(findTestObject("YourInformation_Page/Button_Continue")): Object: 'Object Repository/YourInformation_Page/Button_Continue' is clicked on
+
+2024-09-16 18:52:02 - [MESSAGE][PASSED] - Object: 'Object Repository/YourInformation_Page/Button_Continue' is clicked on
+
+2024-09-16 18:52:02 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2024-09-16 18:52:02 - [MESSAGE][PASSED] - Navigate back successfully
+
+2024-09-16 18:52:04 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/YourInformation_Page/Negative_Case/InputData_YourInformation_Back' .
+
+2024-09-16 18:52:04 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/YourInformation_Page/Negative_Case/InputData_YourInformation_Back' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/YourInformation_Page/Negative_Case/InputData_YourInformation_Back" time="10.231" classname="Test Cases/YourInformation_Page/Negative_Case/InputData_YourInformation_Back" status="PASSED">
+         <system-out><![CDATA[2024-09-16 18:52:04 - [TEST_CASE][PASSED] - Test Cases/YourInformation_Page/Negative_Case/InputData_YourInformation_Back: Test Cases/YourInformation_Page/Negative_Case/InputData_YourInformation_Back
+
+2024-09-16 18:52:04 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Label_Title")): Object 'Object Repository/Global_Header/Label_Title' is visible
+
+2024-09-16 18:52:05 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Label_Title' is visible
+
+2024-09-16 18:52:05 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Button_Cart")): Object 'Object Repository/Global_Header/Button_Cart' is visible
+
+2024-09-16 18:52:05 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_Cart' is visible
+
+2024-09-16 18:52:05 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Global_Header/Button_Cart")): Object 'Object Repository/Global_Header/Button_Cart' is clickable
+
+2024-09-16 18:52:05 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_Cart' is clickable
+
+2024-09-16 18:52:05 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Button_BurgerMenu")): Object 'Object Repository/Global_Header/Button_BurgerMenu' is visible
+
+2024-09-16 18:52:06 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_BurgerMenu' is visible
+
+2024-09-16 18:52:06 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Global_Header/Button_BurgerMenu")): Object 'Object Repository/Global_Header/Button_BurgerMenu' is clickable
+
+2024-09-16 18:52:06 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_BurgerMenu' is clickable
+
+2024-09-16 18:52:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/Label_Checkout Your Information")): Object 'Object Repository/YourInformation_Page/Label_Checkout Your Information' is visible
+
+2024-09-16 18:52:06 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/Label_Checkout Your Information' is visible
+
+2024-09-16 18:52:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/TextArea_FirstName")): Object 'Object Repository/YourInformation_Page/TextArea_FirstName' is visible
+
+2024-09-16 18:52:07 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/TextArea_FirstName' is visible
+
+2024-09-16 18:52:07 - [TEST_STEP][PASSED] - setText(findTestObject("YourInformation_Page/TextArea_FirstName"), firstName): Text 'Ryo' is set on object 'Object Repository/YourInformation_Page/TextArea_FirstName'
+
+2024-09-16 18:52:07 - [MESSAGE][PASSED] - Text 'Ryo' is set on object 'Object Repository/YourInformation_Page/TextArea_FirstName'
+
+2024-09-16 18:52:07 - [TEST_STEP][PASSED] - namapertama = getAttribute(findTestObject("YourInformation_Page/TextArea_FirstName"), "value"): Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_FirstName' is: 'Ryo'
+
+2024-09-16 18:52:08 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_FirstName' is: 'Ryo'
+
+2024-09-16 18:52:08 - [TEST_STEP][PASSED] - println(namapertama): null
+
+2024-09-16 18:52:08 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-16 18:52:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\1726487528433.png]]
+
+2024-09-16 18:52:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/TextArea_LastName")): Object 'Object Repository/YourInformation_Page/TextArea_LastName' is visible
+
+2024-09-16 18:52:08 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/TextArea_LastName' is visible
+
+2024-09-16 18:52:08 - [TEST_STEP][PASSED] - setText(findTestObject("YourInformation_Page/TextArea_LastName"), lastName): Text 'Yoshiando' is set on object 'Object Repository/YourInformation_Page/TextArea_LastName'
+
+2024-09-16 18:52:09 - [MESSAGE][PASSED] - Text 'Yoshiando' is set on object 'Object Repository/YourInformation_Page/TextArea_LastName'
+
+2024-09-16 18:52:09 - [TEST_STEP][PASSED] - namaterakhir = getAttribute(findTestObject("YourInformation_Page/TextArea_LastName"), "value"): Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_LastName' is: 'Yoshiando'
+
+2024-09-16 18:52:09 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_LastName' is: 'Yoshiando'
+
+2024-09-16 18:52:09 - [TEST_STEP][PASSED] - println(namaterakhir): null
+
+2024-09-16 18:52:09 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-16 18:52:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\1726487530236.png]]
+
+2024-09-16 18:52:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/TextArea_PostalCode")): Object 'Object Repository/YourInformation_Page/TextArea_PostalCode' is visible
+
+2024-09-16 18:52:10 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/TextArea_PostalCode' is visible
+
+2024-09-16 18:52:10 - [TEST_STEP][PASSED] - setText(findTestObject("YourInformation_Page/TextArea_PostalCode"), postalCode): Text '20938' is set on object 'Object Repository/YourInformation_Page/TextArea_PostalCode'
+
+2024-09-16 18:52:11 - [MESSAGE][PASSED] - Text '20938' is set on object 'Object Repository/YourInformation_Page/TextArea_PostalCode'
+
+2024-09-16 18:52:11 - [TEST_STEP][PASSED] - postalcode = getAttribute(findTestObject("YourInformation_Page/TextArea_PostalCode"), "value"): Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_PostalCode' is: '20938'
+
+2024-09-16 18:52:11 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_PostalCode' is: '20938'
+
+2024-09-16 18:52:11 - [TEST_STEP][PASSED] - println(postalcode): null
+
+2024-09-16 18:52:11 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-16 18:52:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\1726487532047.png]]
+
+2024-09-16 18:52:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/Button_Continue")): Object 'Object Repository/YourInformation_Page/Button_Continue' is visible
+
+2024-09-16 18:52:12 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/Button_Continue' is visible
+
+2024-09-16 18:52:12 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("YourInformation_Page/Button_Continue")): Object 'Object Repository/YourInformation_Page/Button_Continue' is clickable
+
+2024-09-16 18:52:12 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/Button_Continue' is clickable
+
+2024-09-16 18:52:12 - [TEST_STEP][PASSED] - click(findTestObject("YourInformation_Page/Button_Continue")): Object: 'Object Repository/YourInformation_Page/Button_Continue' is clicked on
+
+2024-09-16 18:52:13 - [MESSAGE][PASSED] - Object: 'Object Repository/YourInformation_Page/Button_Continue' is clicked on
+
+2024-09-16 18:52:13 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2024-09-16 18:52:13 - [MESSAGE][PASSED] - Navigate back successfully
+
+2024-09-16 18:52:15 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/YourInformation_Page/Negative_Case/InputData_YourInformation_Back' .
+
+2024-09-16 18:52:15 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/YourInformation_Page/Negative_Case/InputData_YourInformation_Back' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/YourInformation_Page/Negative_Case/FirstName_Null" time="11.397" classname="Test Cases/YourInformation_Page/Negative_Case/FirstName_Null" status="PASSED">
+         <system-out><![CDATA[2024-09-16 18:52:15 - [TEST_CASE][PASSED] - Test Cases/YourInformation_Page/Negative_Case/FirstName_Null: Test Cases/YourInformation_Page/Negative_Case/FirstName_Null
+
+2024-09-16 18:52:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Label_Title")): Object 'Object Repository/Global_Header/Label_Title' is visible
+
+2024-09-16 18:52:15 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Label_Title' is visible
+
+2024-09-16 18:52:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Button_Cart")): Object 'Object Repository/Global_Header/Button_Cart' is visible
+
+2024-09-16 18:52:16 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_Cart' is visible
+
+2024-09-16 18:52:16 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Global_Header/Button_Cart")): Object 'Object Repository/Global_Header/Button_Cart' is clickable
+
+2024-09-16 18:52:16 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_Cart' is clickable
+
+2024-09-16 18:52:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Button_BurgerMenu")): Object 'Object Repository/Global_Header/Button_BurgerMenu' is visible
+
+2024-09-16 18:52:16 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_BurgerMenu' is visible
+
+2024-09-16 18:52:16 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Global_Header/Button_BurgerMenu")): Object 'Object Repository/Global_Header/Button_BurgerMenu' is clickable
+
+2024-09-16 18:52:16 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_BurgerMenu' is clickable
+
+2024-09-16 18:52:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/Label_Checkout Your Information")): Object 'Object Repository/YourInformation_Page/Label_Checkout Your Information' is visible
+
+2024-09-16 18:52:17 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/Label_Checkout Your Information' is visible
+
+2024-09-16 18:52:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/TextArea_FirstName")): Object 'Object Repository/YourInformation_Page/TextArea_FirstName' is visible
+
+2024-09-16 18:52:17 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/TextArea_FirstName' is visible
+
+2024-09-16 18:52:17 - [TEST_STEP][PASSED] - setText(findTestObject("YourInformation_Page/TextArea_FirstName"), firstName): Text '' is set on object 'Object Repository/YourInformation_Page/TextArea_FirstName'
+
+2024-09-16 18:52:18 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/YourInformation_Page/TextArea_FirstName'
+
+2024-09-16 18:52:18 - [TEST_STEP][PASSED] - namapertama = getAttribute(findTestObject("YourInformation_Page/TextArea_FirstName"), "value"): Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_FirstName' is: ''
+
+2024-09-16 18:52:18 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_FirstName' is: ''
+
+2024-09-16 18:52:18 - [TEST_STEP][PASSED] - println(namapertama): null
+
+2024-09-16 18:52:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/TextArea_LastName")): Object 'Object Repository/YourInformation_Page/TextArea_LastName' is visible
+
+2024-09-16 18:52:18 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/TextArea_LastName' is visible
+
+2024-09-16 18:52:18 - [TEST_STEP][PASSED] - clearText(findTestObject("YourInformation_Page/TextArea_FirstName")): Text of object 'Object Repository/YourInformation_Page/TextArea_FirstName' is cleared
+
+2024-09-16 18:52:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/YourInformation_Page/TextArea_FirstName' is cleared
+
+2024-09-16 18:52:19 - [TEST_STEP][PASSED] - clearText(findTestObject("YourInformation_Page/TextArea_LastName")): Text of object 'Object Repository/YourInformation_Page/TextArea_LastName' is cleared
+
+2024-09-16 18:52:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/YourInformation_Page/TextArea_LastName' is cleared
+
+2024-09-16 18:52:19 - [TEST_STEP][PASSED] - clearText(findTestObject("YourInformation_Page/TextArea_PostalCode")): Text of object 'Object Repository/YourInformation_Page/TextArea_PostalCode' is cleared
+
+2024-09-16 18:52:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/YourInformation_Page/TextArea_PostalCode' is cleared
+
+2024-09-16 18:52:19 - [TEST_STEP][PASSED] - setText(findTestObject("YourInformation_Page/TextArea_LastName"), lastName): Text '' is set on object 'Object Repository/YourInformation_Page/TextArea_LastName'
+
+2024-09-16 18:52:20 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/YourInformation_Page/TextArea_LastName'
+
+2024-09-16 18:52:20 - [TEST_STEP][PASSED] - namaterakhir = getAttribute(findTestObject("YourInformation_Page/TextArea_LastName"), "value"): Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_LastName' is: ''
+
+2024-09-16 18:52:20 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_LastName' is: ''
+
+2024-09-16 18:52:20 - [TEST_STEP][PASSED] - println(namaterakhir): null
+
+2024-09-16 18:52:20 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-16 18:52:21 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\1726487541018.png]]
+
+2024-09-16 18:52:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/TextArea_PostalCode")): Object 'Object Repository/YourInformation_Page/TextArea_PostalCode' is visible
+
+2024-09-16 18:52:21 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/TextArea_PostalCode' is visible
+
+2024-09-16 18:52:21 - [TEST_STEP][PASSED] - setText(findTestObject("YourInformation_Page/TextArea_PostalCode"), postalCode): Text '' is set on object 'Object Repository/YourInformation_Page/TextArea_PostalCode'
+
+2024-09-16 18:52:22 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/YourInformation_Page/TextArea_PostalCode'
+
+2024-09-16 18:52:22 - [TEST_STEP][PASSED] - postalcode = getAttribute(findTestObject("YourInformation_Page/TextArea_PostalCode"), "value"): Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_PostalCode' is: ''
+
+2024-09-16 18:52:22 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_PostalCode' is: ''
+
+2024-09-16 18:52:22 - [TEST_STEP][PASSED] - println(postalcode): null
+
+2024-09-16 18:52:22 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-16 18:52:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\1726487542647.png]]
+
+2024-09-16 18:52:22 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/Button_Continue")): Object 'Object Repository/YourInformation_Page/Button_Continue' is visible
+
+2024-09-16 18:52:23 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/Button_Continue' is visible
+
+2024-09-16 18:52:23 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("YourInformation_Page/Button_Continue")): Object 'Object Repository/YourInformation_Page/Button_Continue' is clickable
+
+2024-09-16 18:52:23 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/Button_Continue' is clickable
+
+2024-09-16 18:52:23 - [TEST_STEP][PASSED] - click(findTestObject("YourInformation_Page/Button_Continue")): Object: 'Object Repository/YourInformation_Page/Button_Continue' is clicked on
+
+2024-09-16 18:52:23 - [MESSAGE][PASSED] - Object: 'Object Repository/YourInformation_Page/Button_Continue' is clicked on
+
+2024-09-16 18:52:23 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/Label_ErrorMessage")): Object 'Object Repository/YourInformation_Page/Label_ErrorMessage' is visible
+
+2024-09-16 18:52:24 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/Label_ErrorMessage' is visible
+
+2024-09-16 18:52:24 - [TEST_STEP][PASSED] - errorMessageFirstNameNull = getText(findTestObject("YourInformation_Page/Label_ErrorMessage")): Text of object 'Object Repository/YourInformation_Page/Label_ErrorMessage' is: 'Error: First Name is required'
+
+2024-09-16 18:52:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/YourInformation_Page/Label_ErrorMessage' is: 'Error: First Name is required'
+
+2024-09-16 18:52:24 - [TEST_STEP][PASSED] - if (errorMessageFirstNameNull.equals(messageFirstNameNull)): null
+
+2024-09-16 18:52:24 - [TEST_STEP][PASSED] - println("Error message sudah sesuai: " + errorMessageFirstNameNull): null
+
+2024-09-16 18:52:26 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/YourInformation_Page/Negative_Case/FirstName_Null' .
+
+2024-09-16 18:52:26 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/YourInformation_Page/Negative_Case/FirstName_Null' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/YourInformation_Page/Negative_Case/LastName_Null" time="11.2" classname="Test Cases/YourInformation_Page/Negative_Case/LastName_Null" status="PASSED">
+         <system-out><![CDATA[2024-09-16 18:52:26 - [TEST_CASE][PASSED] - Test Cases/YourInformation_Page/Negative_Case/LastName_Null: Test Cases/YourInformation_Page/Negative_Case/LastName_Null
+
+2024-09-16 18:52:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Label_Title")): Object 'Object Repository/Global_Header/Label_Title' is visible
+
+2024-09-16 18:52:27 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Label_Title' is visible
+
+2024-09-16 18:52:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Button_Cart")): Object 'Object Repository/Global_Header/Button_Cart' is visible
+
+2024-09-16 18:52:27 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_Cart' is visible
+
+2024-09-16 18:52:27 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Global_Header/Button_Cart")): Object 'Object Repository/Global_Header/Button_Cart' is clickable
+
+2024-09-16 18:52:27 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_Cart' is clickable
+
+2024-09-16 18:52:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Button_BurgerMenu")): Object 'Object Repository/Global_Header/Button_BurgerMenu' is visible
+
+2024-09-16 18:52:28 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_BurgerMenu' is visible
+
+2024-09-16 18:52:28 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Global_Header/Button_BurgerMenu")): Object 'Object Repository/Global_Header/Button_BurgerMenu' is clickable
+
+2024-09-16 18:52:28 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_BurgerMenu' is clickable
+
+2024-09-16 18:52:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/Label_Checkout Your Information")): Object 'Object Repository/YourInformation_Page/Label_Checkout Your Information' is visible
+
+2024-09-16 18:52:28 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/Label_Checkout Your Information' is visible
+
+2024-09-16 18:52:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/TextArea_FirstName")): Object 'Object Repository/YourInformation_Page/TextArea_FirstName' is visible
+
+2024-09-16 18:52:29 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/TextArea_FirstName' is visible
+
+2024-09-16 18:52:29 - [TEST_STEP][PASSED] - setText(findTestObject("YourInformation_Page/TextArea_FirstName"), firstName): Text '' is set on object 'Object Repository/YourInformation_Page/TextArea_FirstName'
+
+2024-09-16 18:52:29 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/YourInformation_Page/TextArea_FirstName'
+
+2024-09-16 18:52:29 - [TEST_STEP][PASSED] - namapertama = getAttribute(findTestObject("YourInformation_Page/TextArea_FirstName"), "value"): Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_FirstName' is: ''
+
+2024-09-16 18:52:30 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_FirstName' is: ''
+
+2024-09-16 18:52:30 - [TEST_STEP][PASSED] - println(namapertama): null
+
+2024-09-16 18:52:30 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/TextArea_LastName")): Object 'Object Repository/YourInformation_Page/TextArea_LastName' is visible
+
+2024-09-16 18:52:30 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/TextArea_LastName' is visible
+
+2024-09-16 18:52:30 - [TEST_STEP][PASSED] - clearText(findTestObject("YourInformation_Page/TextArea_FirstName")): Text of object 'Object Repository/YourInformation_Page/TextArea_FirstName' is cleared
+
+2024-09-16 18:52:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/YourInformation_Page/TextArea_FirstName' is cleared
+
+2024-09-16 18:52:30 - [TEST_STEP][PASSED] - clearText(findTestObject("YourInformation_Page/TextArea_LastName")): Text of object 'Object Repository/YourInformation_Page/TextArea_LastName' is cleared
+
+2024-09-16 18:52:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/YourInformation_Page/TextArea_LastName' is cleared
+
+2024-09-16 18:52:30 - [TEST_STEP][PASSED] - clearText(findTestObject("YourInformation_Page/TextArea_PostalCode")): Text of object 'Object Repository/YourInformation_Page/TextArea_PostalCode' is cleared
+
+2024-09-16 18:52:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/YourInformation_Page/TextArea_PostalCode' is cleared
+
+2024-09-16 18:52:31 - [TEST_STEP][PASSED] - setText(findTestObject("YourInformation_Page/TextArea_LastName"), lastName): Text '' is set on object 'Object Repository/YourInformation_Page/TextArea_LastName'
+
+2024-09-16 18:52:31 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/YourInformation_Page/TextArea_LastName'
+
+2024-09-16 18:52:31 - [TEST_STEP][PASSED] - namaterakhir = getAttribute(findTestObject("YourInformation_Page/TextArea_LastName"), "value"): Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_LastName' is: ''
+
+2024-09-16 18:52:32 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_LastName' is: ''
+
+2024-09-16 18:52:32 - [TEST_STEP][PASSED] - println(namaterakhir): null
+
+2024-09-16 18:52:32 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-16 18:52:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\1726487552465.png]]
+
+2024-09-16 18:52:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/TextArea_PostalCode")): Object 'Object Repository/YourInformation_Page/TextArea_PostalCode' is visible
+
+2024-09-16 18:52:32 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/TextArea_PostalCode' is visible
+
+2024-09-16 18:52:32 - [TEST_STEP][PASSED] - setText(findTestObject("YourInformation_Page/TextArea_PostalCode"), postalCode): Text '' is set on object 'Object Repository/YourInformation_Page/TextArea_PostalCode'
+
+2024-09-16 18:52:33 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/YourInformation_Page/TextArea_PostalCode'
+
+2024-09-16 18:52:33 - [TEST_STEP][PASSED] - postalcode = getAttribute(findTestObject("YourInformation_Page/TextArea_PostalCode"), "value"): Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_PostalCode' is: ''
+
+2024-09-16 18:52:33 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_PostalCode' is: ''
+
+2024-09-16 18:52:33 - [TEST_STEP][PASSED] - println(postalcode): null
+
+2024-09-16 18:52:33 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-16 18:52:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240916_185036\\YourInformation_Page\\YourInformation_Checkout\\20240916_185036\\1726487554048.png]]
+
+2024-09-16 18:52:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/Button_Continue")): Object 'Object Repository/YourInformation_Page/Button_Continue' is visible
+
+2024-09-16 18:52:34 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/Button_Continue' is visible
+
+2024-09-16 18:52:34 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("YourInformation_Page/Button_Continue")): Object 'Object Repository/YourInformation_Page/Button_Continue' is clickable
+
+2024-09-16 18:52:34 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/Button_Continue' is clickable
+
+2024-09-16 18:52:34 - [TEST_STEP][PASSED] - click(findTestObject("YourInformation_Page/Button_Continue")): Object: 'Object Repository/YourInformation_Page/Button_Continue' is clicked on
+
+2024-09-16 18:52:35 - [MESSAGE][PASSED] - Object: 'Object Repository/YourInformation_Page/Button_Continue' is clicked on
+
+2024-09-16 18:52:35 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/Label_ErrorMessage")): Object 'Object Repository/YourInformation_Page/Label_ErrorMessage' is visible
+
+2024-09-16 18:52:35 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/Label_ErrorMessage' is visible
+
+2024-09-16 18:52:35 - [TEST_STEP][PASSED] - errorMessageLastNameNull = getText(findTestObject("YourInformation_Page/Label_ErrorMessage")): Text of object 'Object Repository/YourInformation_Page/Label_ErrorMessage' is: 'Error: First Name is required'
+
+2024-09-16 18:52:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/YourInformation_Page/Label_ErrorMessage' is: 'Error: First Name is required'
+
+2024-09-16 18:52:35 - [TEST_STEP][PASSED] - if (errorMessageLastNameNull.equals(errorLastNameNull)): null
+
+2024-09-16 18:52:35 - [TEST_STEP][PASSED] - else: null
+
+2024-09-16 18:52:35 - [TEST_STEP][PASSED] - println("Error message BELUM sesuai: " + errorMessageLastNameNull): null
+
+2024-09-16 18:52:37 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/YourInformation_Page/Negative_Case/LastName_Null' .
+
+2024-09-16 18:52:37 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/YourInformation_Page/Negative_Case/LastName_Null' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/YourInformation_Page/Negative_Case/PostalCode_Null" time="6.946" classname="Test Cases/YourInformation_Page/Negative_Case/PostalCode_Null" status="FAILED">
+         <failure type="FAILED" message="Test Cases/YourInformation_Page/Negative_Case/PostalCode_Null FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '' of object 'Object Repository/YourInformation_Page/TextArea_LastName'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at PostalCode_Null.run(PostalCode_Null:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726487436758.run(TempTestSuite1726487436758.groovy:35)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=128.0.6613.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-R622UHT', ip: '26.103.121.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\rasyid\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1286268f44cca5456899063d7574434e
+*** Element info: {Using=xpath, value=//input[@id=&quot;last-name&quot;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1027)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:919)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:901)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:896)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:892)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:720)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1376)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2024-09-16 18:52:37 - [TEST_CASE][FAILED] - Test Cases/YourInformation_Page/Negative_Case/PostalCode_Null: Test Cases/YourInformation_Page/Negative_Case/PostalCode_Null FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '' of object 'Object Repository/YourInformation_Page/TextArea_LastName'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at PostalCode_Null.run(PostalCode_Null:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726487436758.run(TempTestSuite1726487436758.groovy:35)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=128.0.6613.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-R622UHT', ip: '26.103.121.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\rasyid\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1286268f44cca5456899063d7574434e
+*** Element info: {Using=xpath, value=//input[@id="last-name"]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1027)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:919)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:901)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:896)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:892)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:720)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1376)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2024-09-16 18:52:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Label_Title")): Object 'Object Repository/Global_Header/Label_Title' is visible
+
+2024-09-16 18:52:38 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Label_Title' is visible
+
+2024-09-16 18:52:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Button_Cart")): Object 'Object Repository/Global_Header/Button_Cart' is visible
+
+2024-09-16 18:52:38 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_Cart' is visible
+
+2024-09-16 18:52:38 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Global_Header/Button_Cart")): Object 'Object Repository/Global_Header/Button_Cart' is clickable
+
+2024-09-16 18:52:38 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_Cart' is clickable
+
+2024-09-16 18:52:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Global_Header/Button_BurgerMenu")): Object 'Object Repository/Global_Header/Button_BurgerMenu' is visible
+
+2024-09-16 18:52:39 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_BurgerMenu' is visible
+
+2024-09-16 18:52:39 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Global_Header/Button_BurgerMenu")): Object 'Object Repository/Global_Header/Button_BurgerMenu' is clickable
+
+2024-09-16 18:52:39 - [MESSAGE][PASSED] - Object 'Object Repository/Global_Header/Button_BurgerMenu' is clickable
+
+2024-09-16 18:52:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/Label_Checkout Your Information")): Object 'Object Repository/YourInformation_Page/Label_Checkout Your Information' is visible
+
+2024-09-16 18:52:39 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/Label_Checkout Your Information' is visible
+
+2024-09-16 18:52:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/TextArea_FirstName")): Object 'Object Repository/YourInformation_Page/TextArea_FirstName' is visible
+
+2024-09-16 18:52:40 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/TextArea_FirstName' is visible
+
+2024-09-16 18:52:40 - [TEST_STEP][PASSED] - setText(findTestObject("YourInformation_Page/TextArea_FirstName"), firstName): Text '' is set on object 'Object Repository/YourInformation_Page/TextArea_FirstName'
+
+2024-09-16 18:52:40 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/YourInformation_Page/TextArea_FirstName'
+
+2024-09-16 18:52:40 - [TEST_STEP][PASSED] - namapertama = getAttribute(findTestObject("YourInformation_Page/TextArea_FirstName"), "value"): Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_FirstName' is: ''
+
+2024-09-16 18:52:41 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/YourInformation_Page/TextArea_FirstName' is: ''
+
+2024-09-16 18:52:41 - [TEST_STEP][PASSED] - println(namapertama): null
+
+2024-09-16 18:52:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("YourInformation_Page/TextArea_LastName")): Object 'Object Repository/YourInformation_Page/TextArea_LastName' is visible
+
+2024-09-16 18:52:41 - [MESSAGE][PASSED] - Object 'Object Repository/YourInformation_Page/TextArea_LastName' is visible
+
+2024-09-16 18:52:41 - [TEST_STEP][PASSED] - clearText(findTestObject("YourInformation_Page/TextArea_FirstName")): Text of object 'Object Repository/YourInformation_Page/TextArea_FirstName' is cleared
+
+2024-09-16 18:52:41 - [MESSAGE][PASSED] - Text of object 'Object Repository/YourInformation_Page/TextArea_FirstName' is cleared
+
+2024-09-16 18:52:41 - [TEST_STEP][PASSED] - clearText(findTestObject("YourInformation_Page/TextArea_LastName")): Text of object 'Object Repository/YourInformation_Page/TextArea_LastName' is cleared
+
+2024-09-16 18:52:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/YourInformation_Page/TextArea_LastName' is cleared
+
+2024-09-16 18:52:42 - [TEST_STEP][PASSED] - clearText(findTestObject("YourInformation_Page/TextArea_PostalCode")): Text of object 'Object Repository/YourInformation_Page/TextArea_PostalCode' is cleared
+
+2024-09-16 18:52:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/YourInformation_Page/TextArea_PostalCode' is cleared
+
+2024-09-16 18:52:42 - [TEST_STEP][FAILED] - setText(findTestObject("YourInformation_Page/TextArea_LastName"), lastName): Unable to set text '' of object 'Object Repository/YourInformation_Page/TextArea_LastName' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '' of object 'Object Repository/YourInformation_Page/TextArea_LastName'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at PostalCode_Null.run(PostalCode_Null:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726487436758.run(TempTestSuite1726487436758.groovy:35)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=128.0.6613.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-R622UHT', ip: '26.103.121.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\rasyid\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1286268f44cca5456899063d7574434e
+*** Element info: {Using=xpath, value=//input[@id="last-name"]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1027)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:919)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:901)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:896)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:892)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:720)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1376)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Script1726484997058.run(Script1726484997058.groovy:63)
+	... 13 more
+)
+
+2024-09-16 18:52:42 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2024-09-16 18:52:42 - [MESSAGE][FAILED] - Unable to set text '' of object 'Object Repository/YourInformation_Page/TextArea_LastName' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '' of object 'Object Repository/YourInformation_Page/TextArea_LastName'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at PostalCode_Null.run(PostalCode_Null:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726487436758.run(TempTestSuite1726487436758.groovy:35)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=128.0.6613.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-R622UHT', ip: '26.103.121.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\rasyid\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1286268f44cca5456899063d7574434e
+*** Element info: {Using=xpath, value=//input[@id="last-name"]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1027)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:919)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:901)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:896)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:892)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:720)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1376)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Script1726484997058.run(Script1726484997058.groovy:63)
+	... 13 more
+)
+
+2024-09-16 18:52:44 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/YourInformation_Page/Negative_Case/PostalCode_Null' .
+
+2024-09-16 18:52:44 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/YourInformation_Page/Negative_Case/PostalCode_Null' .]]></system-out>
+         <system-err><![CDATA[2024-09-16 18:52:37 - [TEST_CASE][FAILED] - Test Cases/YourInformation_Page/Negative_Case/PostalCode_Null: Test Cases/YourInformation_Page/Negative_Case/PostalCode_Null FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '' of object 'Object Repository/YourInformation_Page/TextArea_LastName'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at PostalCode_Null.run(PostalCode_Null:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726487436758.run(TempTestSuite1726487436758.groovy:35)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=128.0.6613.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-R622UHT', ip: '26.103.121.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\rasyid\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1286268f44cca5456899063d7574434e
+*** Element info: {Using=xpath, value=//input[@id="last-name"]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1027)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:919)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:901)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:896)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:892)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:720)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1376)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-09-16 18:50:46 - [TEST_SUITE][FAILED] - YourInformation_Checkout: Test Cases/YourInformation_Page/Negative_Case/PostalCode_Null FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '' of object 'Object Repository/YourInformation_Page/TextArea_LastName'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at PostalCode_Null.run(PostalCode_Null:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726487436758.run(TempTestSuite1726487436758.groovy:35)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=128.0.6613.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-R622UHT', ip: '26.103.121.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\rasyid\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1286268f44cca5456899063d7574434e
+*** Element info: {Using=xpath, value=//input[@id="last-name"]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1027)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:919)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:901)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:896)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:892)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:720)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1376)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2024-09-16 18:50:46 - [TEST_SUITE][FAILED] - YourInformation_Checkout: Test Cases/YourInformation_Page/Negative_Case/PostalCode_Null FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '' of object 'Object Repository/YourInformation_Page/TextArea_LastName'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at PostalCode_Null.run(PostalCode_Null:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726487436758.run(TempTestSuite1726487436758.groovy:35)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=128.0.6613.138)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-R622UHT', ip: '26.103.121.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.138, chrome: {chromedriverVersion: 128.0.6613.137 (fe621c5aa2d..., userDataDir: C:\Users\rasyid\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52384}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1286268f44cca5456899063d7574434e
+*** Element info: {Using=xpath, value=//input[@id="last-name"]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1027)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:919)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:901)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:896)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:892)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:720)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1376)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

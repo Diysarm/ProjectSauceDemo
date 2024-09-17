@@ -1,0 +1,120 @@
+1
+00:00:00,223 --> 00:00:00,537
+3. Verifikasi element Title Swag Labs terlihat
+
+2
+00:00:00,537 --> 00:00:00,866
+9. Verifikasi Element button Cart Terlihat
+
+3
+00:00:00,866 --> 00:00:01,165
+15. Verifikasi button Cart dapat diklik
+
+4
+00:00:01,165 --> 00:00:01,487
+21. Verifikasi Button Burger terlihat
+
+5
+00:00:01,487 --> 00:00:01,785
+27. Verifikasi Button Burger dapat diklik
+
+6
+00:00:01,786 --> 00:00:02,106
+33. Verifikasi label checkout: Your Information terlihat
+
+7
+00:00:02,106 --> 00:00:02,422
+39. Verifikasi element FirstName Terlihat
+
+8
+00:00:02,422 --> 00:00:03,068
+45. Input text firstName
+
+9
+00:00:03,068 --> 00:00:03,380
+51. ambil atribut value firstName yang telah diinput
+
+10
+00:00:03,380 --> 00:00:03,380
+57. print value firstName yang telah diinput
+
+11
+00:00:03,381 --> 00:00:03,688
+63. Verifikasi element LastName Terlihat
+
+12
+00:00:03,688 --> 00:00:04,025
+69. Clear text yang ada pada text field FirstName
+
+13
+00:00:04,026 --> 00:00:04,350
+75. Clear text yang ada pada text field LastName
+
+14
+00:00:04,351 --> 00:00:04,672
+81. Clear text yang ada pada text field PostalCode
+
+15
+00:00:04,672 --> 00:00:05,325
+87. Input text lastName
+
+16
+00:00:05,326 --> 00:00:05,856
+93. ambil atribut value lastName yang telah diinput
+
+17
+00:00:05,857 --> 00:00:05,858
+99. print value lastName yang telah diinput
+
+18
+00:00:05,858 --> 00:00:06,183
+105. mengambil Screenshot pada window
+
+19
+00:00:06,183 --> 00:00:06,490
+111. Verifikasi element postalCode Terlihat
+
+20
+00:00:06,491 --> 00:00:07,124
+117. Input text PostalCode
+
+21
+00:00:07,124 --> 00:00:07,655
+123. ambil atribut value postalcode yang telah diinput
+
+22
+00:00:07,655 --> 00:00:07,656
+129. print value postalCode
+
+23
+00:00:07,656 --> 00:00:07,962
+135. mengambil screenshot pada window
+
+24
+00:00:07,962 --> 00:00:08,297
+141. Verifikasi element button continue Terlihat
+
+25
+00:00:08,298 --> 00:00:08,595
+147. Verifikasi element button continue dapat diklik
+
+26
+00:00:08,595 --> 00:00:08,933
+153. klik button Continue
+
+27
+00:00:08,933 --> 00:00:09,463
+159. Verifikasi element error message terlihat
+
+28
+00:00:09,464 --> 00:00:09,765
+165. Mengambil teks error message pada field error message dan store ke variabel
+
+29
+00:00:09,766 --> 00:00:09,766
+171. Jika error message sudah sesuai akan menamppilkan error message sudah sesuai jika belum akan menampilkan BELUM sesuai
+
+30
+00:00:09,766 --> 00:00:09,767
+1. println("Error message sudah sesuai: " + errorMessageFirstNameNull)
+

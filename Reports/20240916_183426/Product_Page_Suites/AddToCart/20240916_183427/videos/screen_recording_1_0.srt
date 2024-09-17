@@ -1,0 +1,68 @@
+1
+00:00:00,324 --> 00:00:04,059
+3. Buka browser dan navigasi ke URL
+
+2
+00:00:04,065 --> 00:00:04,153
+9. Maximize window browser
+
+3
+00:00:04,153 --> 00:00:05,622
+15. Verifikasi Title Login terlihat
+
+4
+00:00:05,622 --> 00:00:05,947
+21. Verifikasi Text Field username terlihat
+
+5
+00:00:05,947 --> 00:00:06,272
+27. Verifikasi Text Field password terlihat
+
+6
+00:00:06,272 --> 00:00:06,596
+33. Verifikasi Button login terlihat
+
+7
+00:00:06,597 --> 00:00:06,968
+39. Mengambil screenshot pada window
+
+8
+00:00:06,968 --> 00:00:07,647
+45. Input username pada field
+
+9
+00:00:07,647 --> 00:00:07,979
+51. Get attribute value yang sudah diinput pada field
+
+10
+00:00:07,982 --> 00:00:08,324
+57. Mengambil screenshot pada window
+
+11
+00:00:08,324 --> 00:00:08,993
+63. Input password pada field
+
+12
+00:00:08,994 --> 00:00:09,314
+69. Get attribute value yang sudah diinput pada field
+
+13
+00:00:09,314 --> 00:00:09,649
+75. Mengambil screenshot pada window
+
+14
+00:00:09,649 --> 00:00:09,962
+81. Verifikasi button Login dapat diklik
+
+15
+00:00:09,962 --> 00:00:10,335
+87. Klik button Login
+
+16
+00:00:10,336 --> 00:00:10,797
+93. Verifikasi title product pada product page tampil
+
+17
+00:00:10,797 --> 00:00:11,367
+99. Mengambil screenshot pada window
+

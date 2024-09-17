@@ -1,0 +1,100 @@
+1
+00:00:00,264 --> 00:00:00,580
+3. Verifikasi element Title Swag Labs terlihat
+
+2
+00:00:00,580 --> 00:00:02,185
+9. Verifikasi Element button Cart Terlihat
+
+3
+00:00:02,186 --> 00:00:02,503
+15. Verifikasi button Cart dapat diklik
+
+4
+00:00:02,503 --> 00:00:02,826
+21. Verifikasi Button Burger terlihat
+
+5
+00:00:02,827 --> 00:00:03,137
+27. Verifikasi Button Burger dapat diklik
+
+6
+00:00:03,138 --> 00:00:03,463
+33. Verifikasi label checkout: Your Information terlihat
+
+7
+00:00:03,464 --> 00:00:03,770
+39. Verifikasi element FirstName Terlihat
+
+8
+00:00:03,770 --> 00:00:04,435
+45. Input text firstName
+
+9
+00:00:04,438 --> 00:00:04,966
+51. ambil atribut value firstName yang telah diinput
+
+10
+00:00:04,966 --> 00:00:04,967
+57. print value firstName yang telah diinput
+
+11
+00:00:04,968 --> 00:00:05,291
+63. Mengambil Screenshot pada Window
+
+12
+00:00:05,292 --> 00:00:05,603
+69. Verifikasi element LastName Terlihat
+
+13
+00:00:05,603 --> 00:00:06,265
+75. Input text lastName
+
+14
+00:00:06,266 --> 00:00:06,797
+81. ambil atribut value lastName yang telah diinput
+
+15
+00:00:06,798 --> 00:00:06,798
+87. print value lastName yang telah diinput
+
+16
+00:00:06,798 --> 00:00:07,119
+93. mengambil Screenshot pada window
+
+17
+00:00:07,119 --> 00:00:07,432
+99. Verifikasi element postalCode Terlihat
+
+18
+00:00:07,432 --> 00:00:08,068
+105. Input text PostalCode
+
+19
+00:00:08,068 --> 00:00:08,606
+111. ambil atribut value postalcode yang telah diinput
+
+20
+00:00:08,607 --> 00:00:08,608
+117. print value postalCode
+
+21
+00:00:08,608 --> 00:00:08,931
+123. mengambil screenshot pada window
+
+22
+00:00:08,931 --> 00:00:09,242
+129. Verifikasi element button continue Terlihat
+
+23
+00:00:09,243 --> 00:00:09,556
+135. Verifikasi element button continue dapat diklik
+
+24
+00:00:09,556 --> 00:00:09,909
+141. klik button Continue
+
+25
+00:00:09,910 --> 00:00:09,945
+147. Tekan button back browser
+

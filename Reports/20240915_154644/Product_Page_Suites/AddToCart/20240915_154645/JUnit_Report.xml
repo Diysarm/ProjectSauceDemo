@@ -1,0 +1,864 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AddToCart" time="26.292" tests="7" failures="0" errors="6">
+   <testsuite name="AddToCart" tests="7" failures="0" errors="6" time="26.292" skipped="0" timestamp="2024-09-15 15:46:55" hostname="rasyid - DESKTOP-R622UHT" id="Test Suites/Product_Page_Suites/AddToCart">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240915_154644\\Product_Page_Suites\\AddToCart\\20240915_154645"/>
+         <property name="logFiles" value="C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240915_154644\\Product_Page_Suites\\AddToCart\\20240915_154645\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240915_154644\\Product_Page_Suites\\AddToCart\\20240915_154645\\1726390022799.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240915_154644\\Product_Page_Suites\\AddToCart\\20240915_154645\\1726390024150.png, C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240915_154644\\Product_Page_Suites\\AddToCart\\20240915_154645\\1726390025440.png"/>
+         <property name="hostName" value="rasyid - DESKTOP-R622UHT"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.9.208"/>
+         <property name="browser" value="Chrome 128.0.0.0"/>
+         <property name="hostAddress" value="26.103.121.102"/>
+         <property name="sessionId" value="ee9b387cbe1a737685026509a51a1e08"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login_Page/Positive_Case/Login" time="12.523" classname="Test Cases/Login_Page/Positive_Case/Login" status="PASSED">
+         <system-out><![CDATA[2024-09-15 15:46:55 - [TEST_CASE][PASSED] - Test Cases/Login_Page/Positive_Case/Login: Test Cases/Login_Page/Positive_Case/Login
+
+2024-09-15 15:46:56 - [TEST_STEP][PASSED] - openBrowser(loginUrl): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2024-09-15 15:46:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2024-09-15 15:46:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-09-15 15:46:59 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2024-09-15 15:46:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2024-09-15 15:46:59 - [MESSAGE][PASSED] - Current window maximized
+
+2024-09-15 15:46:59 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Login_Page/Label_LoginTitle")): Object 'Object Repository/Login_Page/Label_LoginTitle' is visible
+
+2024-09-15 15:47:01 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/Label_LoginTitle' is visible
+
+2024-09-15 15:47:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Login_Page/TextArea_Username")): Object 'Object Repository/Login_Page/TextArea_Username' is visible
+
+2024-09-15 15:47:01 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/TextArea_Username' is visible
+
+2024-09-15 15:47:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Login_Page/TextArea_Password")): Object 'Object Repository/Login_Page/TextArea_Password' is visible
+
+2024-09-15 15:47:02 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/TextArea_Password' is visible
+
+2024-09-15 15:47:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Login_Page/Button_Login")): Object 'Object Repository/Login_Page/Button_Login' is visible
+
+2024-09-15 15:47:02 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/Button_Login' is visible
+
+2024-09-15 15:47:02 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-15 15:47:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240915_154644\\Product_Page_Suites\\AddToCart\\20240915_154645\\1726390022799.png]]
+
+2024-09-15 15:47:02 - [TEST_STEP][PASSED] - setText(findTestObject("Login_Page/TextArea_Username"), userName): Text 'standard_user' is set on object 'Object Repository/Login_Page/TextArea_Username'
+
+2024-09-15 15:47:03 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login_Page/TextArea_Username'
+
+2024-09-15 15:47:03 - [TEST_STEP][PASSED] - username = getAttribute(findTestObject("Login_Page/TextArea_Username"), "value"): Attribute 'value' of object 'Object Repository/Login_Page/TextArea_Username' is: 'standard_user'
+
+2024-09-15 15:47:03 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Login_Page/TextArea_Username' is: 'standard_user'
+
+2024-09-15 15:47:03 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-15 15:47:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240915_154644\\Product_Page_Suites\\AddToCart\\20240915_154645\\1726390024150.png]]
+
+2024-09-15 15:47:04 - [TEST_STEP][PASSED] - pass = setText(findTestObject("Login_Page/TextArea_Password"), password): Text 'secret_sauce' is set on object 'Object Repository/Login_Page/TextArea_Password'
+
+2024-09-15 15:47:04 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Login_Page/TextArea_Password'
+
+2024-09-15 15:47:04 - [TEST_STEP][PASSED] - getAttribute(findTestObject("Login_Page/TextArea_Password"), "value"): Attribute 'value' of object 'Object Repository/Login_Page/TextArea_Password' is: 'secret_sauce'
+
+2024-09-15 15:47:05 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Login_Page/TextArea_Password' is: 'secret_sauce'
+
+2024-09-15 15:47:05 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2024-09-15 15:47:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\rasyid\\Katalon Studio\\SauceDemo\\Reports\\20240915_154644\\Product_Page_Suites\\AddToCart\\20240915_154645\\1726390025440.png]]
+
+2024-09-15 15:47:05 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Login_Page/Button_Login")): Object 'Object Repository/Login_Page/Button_Login' is clickable
+
+2024-09-15 15:47:05 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Page/Button_Login' is clickable
+
+2024-09-15 15:47:05 - [TEST_STEP][PASSED] - click(findTestObject("Login_Page/Button_Login")): Object: 'Object Repository/Login_Page/Button_Login' is clicked on
+
+2024-09-15 15:47:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Login_Page/Button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Product_Page/AddToCart_Products" time="3.037" classname="Test Cases/Product_Page/AddToCart_Products" status="ERROR">
+         <error type="ERROR" message="Test Cases/Product_Page/AddToCart_Products FAILED.
+Reason:
+java.lang.ClassCastException: com.kms.katalon.core.testdata.reader.SheetPOI cannot be cast to java.lang.Integer
+	at packaged.verifyproduct.verifyProductName(verifyproduct.groovy:30)
+	at packaged.verifyproduct.invokeMethod(verifyproduct.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at AddToCart_Products.run(AddToCart_Products:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726390005989.run(TempTestSuite1726390005989.groovy:35)
+"/>
+         <system-out><![CDATA[2024-09-15 15:47:08 - [TEST_CASE][ERROR] - Test Cases/Product_Page/AddToCart_Products: Test Cases/Product_Page/AddToCart_Products FAILED.
+Reason:
+java.lang.ClassCastException: com.kms.katalon.core.testdata.reader.SheetPOI cannot be cast to java.lang.Integer
+	at packaged.verifyproduct.verifyProductName(verifyproduct.groovy:30)
+	at packaged.verifyproduct.invokeMethod(verifyproduct.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at AddToCart_Products.run(AddToCart_Products:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726390005989.run(TempTestSuite1726390005989.groovy:35)
+
+
+2024-09-15 15:47:08 - [TEST_STEP][ERROR] - packaged.verifyproduct.verifyProductName(): Test Cases/Product_Page/AddToCart_Products FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: java.lang.ClassCastException: com.kms.katalon.core.testdata.reader.SheetPOI cannot be cast to java.lang.Integer
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at AddToCart_Products.run(AddToCart_Products:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726390005989.run(TempTestSuite1726390005989.groovy:35)
+Caused by: java.lang.ClassCastException: com.kms.katalon.core.testdata.reader.SheetPOI cannot be cast to java.lang.Integer
+	at packaged.verifyproduct.verifyProductName(verifyproduct.groovy:30)
+	at packaged.verifyproduct.invokeMethod(verifyproduct.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	... 14 more
+
+
+2024-09-15 15:47:09 - [MESSAGE][ERROR] - com.kms.katalon.core.testdata.reader.SheetPOI cannot be cast to java.lang.Integer
+
+2024-09-15 15:47:09 - [MESSAGE][ERROR] - Test Cases/Product_Page/AddToCart_Products FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: java.lang.ClassCastException: com.kms.katalon.core.testdata.reader.SheetPOI cannot be cast to java.lang.Integer
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at AddToCart_Products.run(AddToCart_Products:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726390005989.run(TempTestSuite1726390005989.groovy:35)
+Caused by: java.lang.ClassCastException: com.kms.katalon.core.testdata.reader.SheetPOI cannot be cast to java.lang.Integer
+	at packaged.verifyproduct.verifyProductName(verifyproduct.groovy:30)
+	at packaged.verifyproduct.invokeMethod(verifyproduct.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	... 14 more
+
+
+2024-09-15 15:47:11 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Product_Page/AddToCart_Products' .
+
+2024-09-15 15:47:11 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Product_Page/AddToCart_Products' .]]></system-out>
+         <system-err><![CDATA[2024-09-15 15:47:08 - [TEST_CASE][ERROR] - Test Cases/Product_Page/AddToCart_Products: Test Cases/Product_Page/AddToCart_Products FAILED.
+Reason:
+java.lang.ClassCastException: com.kms.katalon.core.testdata.reader.SheetPOI cannot be cast to java.lang.Integer
+	at packaged.verifyproduct.verifyProductName(verifyproduct.groovy:30)
+	at packaged.verifyproduct.invokeMethod(verifyproduct.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at AddToCart_Products.run(AddToCart_Products:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726390005989.run(TempTestSuite1726390005989.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Product_Page/AddToCart_Products" time="2.105" classname="Test Cases/Product_Page/AddToCart_Products" status="ERROR">
+         <error type="ERROR" message="Test Cases/Product_Page/AddToCart_Products FAILED.
+Reason:
+java.lang.ClassCastException: com.kms.katalon.core.testdata.reader.SheetPOI cannot be cast to java.lang.Integer
+	at packaged.verifyproduct.verifyProductName(verifyproduct.groovy:30)
+	at packaged.verifyproduct.invokeMethod(verifyproduct.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at AddToCart_Products.run(AddToCart_Products:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726390005989.run(TempTestSuite1726390005989.groovy:35)
+"/>
+         <system-out><![CDATA[2024-09-15 15:47:11 - [TEST_CASE][ERROR] - Test Cases/Product_Page/AddToCart_Products: Test Cases/Product_Page/AddToCart_Products FAILED.
+Reason:
+java.lang.ClassCastException: com.kms.katalon.core.testdata.reader.SheetPOI cannot be cast to java.lang.Integer
+	at packaged.verifyproduct.verifyProductName(verifyproduct.groovy:30)
+	at packaged.verifyproduct.invokeMethod(verifyproduct.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at AddToCart_Products.run(AddToCart_Products:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726390005989.run(TempTestSuite1726390005989.groovy:35)
+
+
+2024-09-15 15:47:11 - [TEST_STEP][ERROR] - packaged.verifyproduct.verifyProductName(): Test Cases/Product_Page/AddToCart_Products FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: java.lang.ClassCastException: com.kms.katalon.core.testdata.reader.SheetPOI cannot be cast to java.lang.Integer
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at AddToCart_Products.run(AddToCart_Products:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726390005989.run(TempTestSuite1726390005989.groovy:35)
+Caused by: java.lang.ClassCastException: com.kms.katalon.core.testdata.reader.SheetPOI cannot be cast to java.lang.Integer
+	at packaged.verifyproduct.verifyProductName(verifyproduct.groovy:30)
+	at packaged.verifyproduct.invokeMethod(verifyproduct.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	... 14 more
+
+
+2024-09-15 15:47:11 - [MESSAGE][ERROR] - com.kms.katalon.core.testdata.reader.SheetPOI cannot be cast to java.lang.Integer
+
+2024-09-15 15:47:11 - [MESSAGE][ERROR] - Test Cases/Product_Page/AddToCart_Products FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: java.lang.ClassCastException: com.kms.katalon.core.testdata.reader.SheetPOI cannot be cast to java.lang.Integer
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at AddToCart_Products.run(AddToCart_Products:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726390005989.run(TempTestSuite1726390005989.groovy:35)
+Caused by: java.lang.ClassCastException: com.kms.katalon.core.testdata.reader.SheetPOI cannot be cast to java.lang.Integer
+	at packaged.verifyproduct.verifyProductName(verifyproduct.groovy:30)
+	at packaged.verifyproduct.invokeMethod(verifyproduct.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	... 14 more
+
+
+2024-09-15 15:47:13 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Product_Page/AddToCart_Products' .
+
+2024-09-15 15:47:13 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Product_Page/AddToCart_Products' .]]></system-out>
+         <system-err><![CDATA[2024-09-15 15:47:11 - [TEST_CASE][ERROR] - Test Cases/Product_Page/AddToCart_Products: Test Cases/Product_Page/AddToCart_Products FAILED.
+Reason:
+java.lang.ClassCastException: com.kms.katalon.core.testdata.reader.SheetPOI cannot be cast to java.lang.Integer
+	at packaged.verifyproduct.verifyProductName(verifyproduct.groovy:30)
+	at packaged.verifyproduct.invokeMethod(verifyproduct.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at AddToCart_Products.run(AddToCart_Products:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726390005989.run(TempTestSuite1726390005989.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Product_Page/AddToCart_Products" time="2.047" classname="Test Cases/Product_Page/AddToCart_Products" status="ERROR">
+         <error type="ERROR" message="Test Cases/Product_Page/AddToCart_Products FAILED.
+Reason:
+java.lang.ClassCastException: com.kms.katalon.core.testdata.reader.SheetPOI cannot be cast to java.lang.Integer
+	at packaged.verifyproduct.verifyProductName(verifyproduct.groovy:30)
+	at packaged.verifyproduct.invokeMethod(verifyproduct.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at AddToCart_Products.run(AddToCart_Products:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726390005989.run(TempTestSuite1726390005989.groovy:35)
+"/>
+         <system-out><![CDATA[2024-09-15 15:47:13 - [TEST_CASE][ERROR] - Test Cases/Product_Page/AddToCart_Products: Test Cases/Product_Page/AddToCart_Products FAILED.
+Reason:
+java.lang.ClassCastException: com.kms.katalon.core.testdata.reader.SheetPOI cannot be cast to java.lang.Integer
+	at packaged.verifyproduct.verifyProductName(verifyproduct.groovy:30)
+	at packaged.verifyproduct.invokeMethod(verifyproduct.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at AddToCart_Products.run(AddToCart_Products:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726390005989.run(TempTestSuite1726390005989.groovy:35)
+
+
+2024-09-15 15:47:13 - [TEST_STEP][ERROR] - packaged.verifyproduct.verifyProductName(): Test Cases/Product_Page/AddToCart_Products FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: java.lang.ClassCastException: com.kms.katalon.core.testdata.reader.SheetPOI cannot be cast to java.lang.Integer
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at AddToCart_Products.run(AddToCart_Products:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726390005989.run(TempTestSuite1726390005989.groovy:35)
+Caused by: java.lang.ClassCastException: com.kms.katalon.core.testdata.reader.SheetPOI cannot be cast to java.lang.Integer
+	at packaged.verifyproduct.verifyProductName(verifyproduct.groovy:30)
+	at packaged.verifyproduct.invokeMethod(verifyproduct.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	... 14 more
+
+
+2024-09-15 15:47:13 - [MESSAGE][ERROR] - com.kms.katalon.core.testdata.reader.SheetPOI cannot be cast to java.lang.Integer
+
+2024-09-15 15:47:13 - [MESSAGE][ERROR] - Test Cases/Product_Page/AddToCart_Products FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: java.lang.ClassCastException: com.kms.katalon.core.testdata.reader.SheetPOI cannot be cast to java.lang.Integer
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at AddToCart_Products.run(AddToCart_Products:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726390005989.run(TempTestSuite1726390005989.groovy:35)
+Caused by: java.lang.ClassCastException: com.kms.katalon.core.testdata.reader.SheetPOI cannot be cast to java.lang.Integer
+	at packaged.verifyproduct.verifyProductName(verifyproduct.groovy:30)
+	at packaged.verifyproduct.invokeMethod(verifyproduct.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	... 14 more
+
+
+2024-09-15 15:47:15 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Product_Page/AddToCart_Products' .
+
+2024-09-15 15:47:15 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Product_Page/AddToCart_Products' .]]></system-out>
+         <system-err><![CDATA[2024-09-15 15:47:13 - [TEST_CASE][ERROR] - Test Cases/Product_Page/AddToCart_Products: Test Cases/Product_Page/AddToCart_Products FAILED.
+Reason:
+java.lang.ClassCastException: com.kms.katalon.core.testdata.reader.SheetPOI cannot be cast to java.lang.Integer
+	at packaged.verifyproduct.verifyProductName(verifyproduct.groovy:30)
+	at packaged.verifyproduct.invokeMethod(verifyproduct.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at AddToCart_Products.run(AddToCart_Products:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726390005989.run(TempTestSuite1726390005989.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Product_Page/AddToCart_Products" time="2.042" classname="Test Cases/Product_Page/AddToCart_Products" status="ERROR">
+         <error type="ERROR" message="Test Cases/Product_Page/AddToCart_Products FAILED.
+Reason:
+java.lang.ClassCastException: com.kms.katalon.core.testdata.reader.SheetPOI cannot be cast to java.lang.Integer
+	at packaged.verifyproduct.verifyProductName(verifyproduct.groovy:30)
+	at packaged.verifyproduct.invokeMethod(verifyproduct.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at AddToCart_Products.run(AddToCart_Products:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726390005989.run(TempTestSuite1726390005989.groovy:35)
+"/>
+         <system-out><![CDATA[2024-09-15 15:47:15 - [TEST_CASE][ERROR] - Test Cases/Product_Page/AddToCart_Products: Test Cases/Product_Page/AddToCart_Products FAILED.
+Reason:
+java.lang.ClassCastException: com.kms.katalon.core.testdata.reader.SheetPOI cannot be cast to java.lang.Integer
+	at packaged.verifyproduct.verifyProductName(verifyproduct.groovy:30)
+	at packaged.verifyproduct.invokeMethod(verifyproduct.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at AddToCart_Products.run(AddToCart_Products:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726390005989.run(TempTestSuite1726390005989.groovy:35)
+
+
+2024-09-15 15:47:15 - [TEST_STEP][ERROR] - packaged.verifyproduct.verifyProductName(): Test Cases/Product_Page/AddToCart_Products FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: java.lang.ClassCastException: com.kms.katalon.core.testdata.reader.SheetPOI cannot be cast to java.lang.Integer
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at AddToCart_Products.run(AddToCart_Products:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726390005989.run(TempTestSuite1726390005989.groovy:35)
+Caused by: java.lang.ClassCastException: com.kms.katalon.core.testdata.reader.SheetPOI cannot be cast to java.lang.Integer
+	at packaged.verifyproduct.verifyProductName(verifyproduct.groovy:30)
+	at packaged.verifyproduct.invokeMethod(verifyproduct.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	... 14 more
+
+
+2024-09-15 15:47:15 - [MESSAGE][ERROR] - com.kms.katalon.core.testdata.reader.SheetPOI cannot be cast to java.lang.Integer
+
+2024-09-15 15:47:15 - [MESSAGE][ERROR] - Test Cases/Product_Page/AddToCart_Products FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: java.lang.ClassCastException: com.kms.katalon.core.testdata.reader.SheetPOI cannot be cast to java.lang.Integer
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at AddToCart_Products.run(AddToCart_Products:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726390005989.run(TempTestSuite1726390005989.groovy:35)
+Caused by: java.lang.ClassCastException: com.kms.katalon.core.testdata.reader.SheetPOI cannot be cast to java.lang.Integer
+	at packaged.verifyproduct.verifyProductName(verifyproduct.groovy:30)
+	at packaged.verifyproduct.invokeMethod(verifyproduct.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	... 14 more
+
+
+2024-09-15 15:47:17 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Product_Page/AddToCart_Products' .
+
+2024-09-15 15:47:17 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Product_Page/AddToCart_Products' .]]></system-out>
+         <system-err><![CDATA[2024-09-15 15:47:15 - [TEST_CASE][ERROR] - Test Cases/Product_Page/AddToCart_Products: Test Cases/Product_Page/AddToCart_Products FAILED.
+Reason:
+java.lang.ClassCastException: com.kms.katalon.core.testdata.reader.SheetPOI cannot be cast to java.lang.Integer
+	at packaged.verifyproduct.verifyProductName(verifyproduct.groovy:30)
+	at packaged.verifyproduct.invokeMethod(verifyproduct.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at AddToCart_Products.run(AddToCart_Products:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726390005989.run(TempTestSuite1726390005989.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Product_Page/AddToCart_Products" time="2.102" classname="Test Cases/Product_Page/AddToCart_Products" status="ERROR">
+         <error type="ERROR" message="Test Cases/Product_Page/AddToCart_Products FAILED.
+Reason:
+java.lang.ClassCastException: com.kms.katalon.core.testdata.reader.SheetPOI cannot be cast to java.lang.Integer
+	at packaged.verifyproduct.verifyProductName(verifyproduct.groovy:30)
+	at packaged.verifyproduct.invokeMethod(verifyproduct.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at AddToCart_Products.run(AddToCart_Products:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726390005989.run(TempTestSuite1726390005989.groovy:35)
+"/>
+         <system-out><![CDATA[2024-09-15 15:47:17 - [TEST_CASE][ERROR] - Test Cases/Product_Page/AddToCart_Products: Test Cases/Product_Page/AddToCart_Products FAILED.
+Reason:
+java.lang.ClassCastException: com.kms.katalon.core.testdata.reader.SheetPOI cannot be cast to java.lang.Integer
+	at packaged.verifyproduct.verifyProductName(verifyproduct.groovy:30)
+	at packaged.verifyproduct.invokeMethod(verifyproduct.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at AddToCart_Products.run(AddToCart_Products:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726390005989.run(TempTestSuite1726390005989.groovy:35)
+
+
+2024-09-15 15:47:17 - [TEST_STEP][ERROR] - packaged.verifyproduct.verifyProductName(): Test Cases/Product_Page/AddToCart_Products FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: java.lang.ClassCastException: com.kms.katalon.core.testdata.reader.SheetPOI cannot be cast to java.lang.Integer
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at AddToCart_Products.run(AddToCart_Products:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726390005989.run(TempTestSuite1726390005989.groovy:35)
+Caused by: java.lang.ClassCastException: com.kms.katalon.core.testdata.reader.SheetPOI cannot be cast to java.lang.Integer
+	at packaged.verifyproduct.verifyProductName(verifyproduct.groovy:30)
+	at packaged.verifyproduct.invokeMethod(verifyproduct.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	... 14 more
+
+
+2024-09-15 15:47:17 - [MESSAGE][ERROR] - com.kms.katalon.core.testdata.reader.SheetPOI cannot be cast to java.lang.Integer
+
+2024-09-15 15:47:17 - [MESSAGE][ERROR] - Test Cases/Product_Page/AddToCart_Products FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: java.lang.ClassCastException: com.kms.katalon.core.testdata.reader.SheetPOI cannot be cast to java.lang.Integer
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at AddToCart_Products.run(AddToCart_Products:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726390005989.run(TempTestSuite1726390005989.groovy:35)
+Caused by: java.lang.ClassCastException: com.kms.katalon.core.testdata.reader.SheetPOI cannot be cast to java.lang.Integer
+	at packaged.verifyproduct.verifyProductName(verifyproduct.groovy:30)
+	at packaged.verifyproduct.invokeMethod(verifyproduct.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	... 14 more
+
+
+2024-09-15 15:47:19 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Product_Page/AddToCart_Products' .
+
+2024-09-15 15:47:19 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Product_Page/AddToCart_Products' .]]></system-out>
+         <system-err><![CDATA[2024-09-15 15:47:17 - [TEST_CASE][ERROR] - Test Cases/Product_Page/AddToCart_Products: Test Cases/Product_Page/AddToCart_Products FAILED.
+Reason:
+java.lang.ClassCastException: com.kms.katalon.core.testdata.reader.SheetPOI cannot be cast to java.lang.Integer
+	at packaged.verifyproduct.verifyProductName(verifyproduct.groovy:30)
+	at packaged.verifyproduct.invokeMethod(verifyproduct.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at AddToCart_Products.run(AddToCart_Products:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726390005989.run(TempTestSuite1726390005989.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Product_Page/AddToCart_Products" time="2.042" classname="Test Cases/Product_Page/AddToCart_Products" status="ERROR">
+         <error type="ERROR" message="Test Cases/Product_Page/AddToCart_Products FAILED.
+Reason:
+java.lang.ClassCastException: com.kms.katalon.core.testdata.reader.SheetPOI cannot be cast to java.lang.Integer
+	at packaged.verifyproduct.verifyProductName(verifyproduct.groovy:30)
+	at packaged.verifyproduct.invokeMethod(verifyproduct.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at AddToCart_Products.run(AddToCart_Products:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726390005989.run(TempTestSuite1726390005989.groovy:35)
+"/>
+         <system-out><![CDATA[2024-09-15 15:47:19 - [TEST_CASE][ERROR] - Test Cases/Product_Page/AddToCart_Products: Test Cases/Product_Page/AddToCart_Products FAILED.
+Reason:
+java.lang.ClassCastException: com.kms.katalon.core.testdata.reader.SheetPOI cannot be cast to java.lang.Integer
+	at packaged.verifyproduct.verifyProductName(verifyproduct.groovy:30)
+	at packaged.verifyproduct.invokeMethod(verifyproduct.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at AddToCart_Products.run(AddToCart_Products:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726390005989.run(TempTestSuite1726390005989.groovy:35)
+
+
+2024-09-15 15:47:19 - [TEST_STEP][ERROR] - packaged.verifyproduct.verifyProductName(): Test Cases/Product_Page/AddToCart_Products FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: java.lang.ClassCastException: com.kms.katalon.core.testdata.reader.SheetPOI cannot be cast to java.lang.Integer
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at AddToCart_Products.run(AddToCart_Products:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726390005989.run(TempTestSuite1726390005989.groovy:35)
+Caused by: java.lang.ClassCastException: com.kms.katalon.core.testdata.reader.SheetPOI cannot be cast to java.lang.Integer
+	at packaged.verifyproduct.verifyProductName(verifyproduct.groovy:30)
+	at packaged.verifyproduct.invokeMethod(verifyproduct.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	... 14 more
+
+
+2024-09-15 15:47:19 - [MESSAGE][ERROR] - com.kms.katalon.core.testdata.reader.SheetPOI cannot be cast to java.lang.Integer
+
+2024-09-15 15:47:19 - [MESSAGE][ERROR] - Test Cases/Product_Page/AddToCart_Products FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: java.lang.ClassCastException: com.kms.katalon.core.testdata.reader.SheetPOI cannot be cast to java.lang.Integer
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at AddToCart_Products.run(AddToCart_Products:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726390005989.run(TempTestSuite1726390005989.groovy:35)
+Caused by: java.lang.ClassCastException: com.kms.katalon.core.testdata.reader.SheetPOI cannot be cast to java.lang.Integer
+	at packaged.verifyproduct.verifyProductName(verifyproduct.groovy:30)
+	at packaged.verifyproduct.invokeMethod(verifyproduct.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	... 14 more
+
+
+2024-09-15 15:47:21 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Product_Page/AddToCart_Products' .
+
+2024-09-15 15:47:21 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Product_Page/AddToCart_Products' .]]></system-out>
+         <system-err><![CDATA[2024-09-15 15:47:19 - [TEST_CASE][ERROR] - Test Cases/Product_Page/AddToCart_Products: Test Cases/Product_Page/AddToCart_Products FAILED.
+Reason:
+java.lang.ClassCastException: com.kms.katalon.core.testdata.reader.SheetPOI cannot be cast to java.lang.Integer
+	at packaged.verifyproduct.verifyProductName(verifyproduct.groovy:30)
+	at packaged.verifyproduct.invokeMethod(verifyproduct.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at AddToCart_Products.run(AddToCart_Products:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726390005989.run(TempTestSuite1726390005989.groovy:35)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-09-15 15:46:55 - [TEST_SUITE][ERROR] - AddToCart: Test Cases/Product_Page/AddToCart_Products FAILED.
+Reason:
+java.lang.ClassCastException: com.kms.katalon.core.testdata.reader.SheetPOI cannot be cast to java.lang.Integer
+	at packaged.verifyproduct.verifyProductName(verifyproduct.groovy:30)
+	at packaged.verifyproduct.invokeMethod(verifyproduct.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at AddToCart_Products.run(AddToCart_Products:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726390005989.run(TempTestSuite1726390005989.groovy:35)]]></system-out>
+      <system-err><![CDATA[2024-09-15 15:46:55 - [TEST_SUITE][ERROR] - AddToCart: Test Cases/Product_Page/AddToCart_Products FAILED.
+Reason:
+java.lang.ClassCastException: com.kms.katalon.core.testdata.reader.SheetPOI cannot be cast to java.lang.Integer
+	at packaged.verifyproduct.verifyProductName(verifyproduct.groovy:30)
+	at packaged.verifyproduct.invokeMethod(verifyproduct.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at AddToCart_Products.run(AddToCart_Products:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1726390005989.run(TempTestSuite1726390005989.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>
